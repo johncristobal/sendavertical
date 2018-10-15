@@ -1,0 +1,35 @@
+footer {
+	width:1400px;
+	margin:auto;
+	background:#fff;
+	border-top:1px solid #e6e6e6;
+	padding: 60px 0 0 0;
+	margin-top:45px;
+}
+footer .form-bg-1, footer .form-bg-2 {
+	padding:5px 10px ;
+}
+footer h5 {
+    color: #555;
+}
+.modal-footer {
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #ddd;
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+
+header, footer {max-width:100%;}
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+header, footer {max-width:100%;}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
