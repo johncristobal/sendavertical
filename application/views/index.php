@@ -9,7 +9,10 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
                 <link rel="shortcut icon" href="<?= base_url() ?>img/favicon.png" type="image/x-icon" />
-		
+                <meta name="description" content="Es la ciencia que comprende la selección, propagación, cuidado y tala selectiva de plantas perennes y leñosas, como árboles y arbustos, el estudio de su crecimiento y que incluye a las prácticas tradicionales." />
+                <meta name="author" content="senda vertical" />
+                <meta name="keywords" content="arboricultura, arbo, poda, servicios, senda, vertical" />
+                      
 		<title>Senda vertical</title>
 		
 		<link rel='stylesheet' href='LayerSlider/css/layerslider.css' type='text/css' media='all' />
