@@ -3,7 +3,7 @@
 <html class="ie ie8" lang="en-US">
 <![endif]-->
 <!--[if !(IE 8)]><!-->
-<html lang="en-US" class="cmsms_html">
+<html lang="es" class="cmsms_html">
 <!--<![endif]-->
 	<head>
 		<meta charset="UTF-8" />
@@ -11,7 +11,7 @@
                 <link rel="shortcut icon" href="<?= base_url() ?>img/favicon.png" type="image/x-icon" />
                 <meta name="description" content="Es la ciencia que comprende la selección, propagación, cuidado y tala selectiva de plantas perennes y leñosas, como árboles y arbustos, el estudio de su crecimiento y que incluye a las prácticas tradicionales." />
                 <meta name="author" content="senda vertical" />
-                <meta name="keywords" content="arboricultura, arbo, poda, servicios, senda, vertical" />
+                <meta name="keywords" content="arboricultura, arbol, poda, servicios, senda, vertical" />
                       
 		<title>Senda vertical</title>
 		
@@ -477,6 +477,7 @@
                         }
                         #cmsms_row_7 a{
                             font-weight: 500;
+                            
                         }
                         #cmsms_heading_555454fe0be2c, #cmsms_heading_555454fe0be2c a {
                             color: #ffffff;
@@ -557,6 +558,20 @@
                             border: 0px solid #000000; 
                             -webkit-border-radius: 3px;
                             border-radius: 20px;
+                        }
+                        
+                        .cmsms_valid_title a, .cmsms_valid_title {
+                            font-size: 22px;
+                            text-align: center;
+                            color: rgba(88, 207, 144, 1);
+                            
+                        }
+                        .post.cmsms_timeline_type .cmsms_post_cont_info a {
+                            font-size: 13px;
+                            line-height: 19px;
+                        }
+                        .blog.timeline .post {
+                            width: 35%;
                         }
 		</style>
                 
@@ -764,7 +779,7 @@
 									<div class="cmsms_row_inner">
 										<div class="cmsms_row_margin cmsms_11">
 											<div class="cmsms_column one_first">
-                                                                                            <h3 class="cmsms_heading align_left cmsms_valid_title">Acerca de la <span style="color:rgba(88, 207, 144, 1);">Arboricultura...</span></h3>
+                                                                                            <h3 class="cmsms_heading align_left cmsms_valid_title" style="font-size:30px; font-weight: 500;">Acerca de la <span style="color:rgba(88, 207, 144, 1);">Arboricultura...</span></h3>
 												<script type="text/javascript">
 													jQuery(document).ready(function (){ 
 														jQuery("#cmsms_clients_55544abfb8253").owlCarousel({ 
@@ -878,7 +893,7 @@
 																	</h3>
 																</header>
 																<div class="cmsms_post_cont_info entry-meta">
-																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/Poda" rel="category">Existen diversos tipos de poda...</a></span>
+                                                                                                                                    <span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/Poda" rel="category" style="color: rgb(153, 165, 159);">Existen diversos tipos de poda...</a></span>
 																</div>
 																<div class="cmsms_post_content entry-content"></div>
 																<footer class="cmsms_post_footer entry-meta">
@@ -909,7 +924,7 @@
 																	</h3>
 																</header>
 																<div class="cmsms_post_cont_info entry-meta">
-																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/remociones" rel="category">...las condiciones de salud estructural del árbol nos ...</a></span>
+																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/remociones" rel="category"  style="color: rgb(153, 165, 159);">...las condiciones de salud estructural del árbol nos ...</a></span>
 																</div>
 																<div class="cmsms_post_content entry-content"></div>
 																<footer class="cmsms_post_footer entry-meta">
@@ -940,7 +955,7 @@
 																	</h3>
 																</header>
 																<div class="cmsms_post_cont_info entry-meta">
-																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/trasplantes" rel="category">...buscaremos la opción más viable a...</a></span>
+																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/trasplantes" rel="category"  style="color: rgb(153, 165, 159);">...buscaremos la opción más viable a...</a></span>
 																</div>
 																<div class="cmsms_post_content entry-content"></div>
 																<footer class="cmsms_post_footer entry-meta">
@@ -973,7 +988,7 @@
 																	</h3>
 																</header>
 																<div class="cmsms_post_cont_info entry-meta">
-																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/plagas" rel="category">El ambiente urbano puede crear mucho estrés para los arboles...</a></span>
+																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/plagas" rel="category" style="color: rgb(153, 165, 159);">El ambiente urbano puede crear mucho estrés para los arboles...</a></span>
 																</div>
 																<div class="cmsms_post_content entry-content"></div>
 																<footer class="cmsms_post_footer entry-meta">
@@ -1002,7 +1017,7 @@
 																	</h3>
 																</header>
 																<div class="cmsms_post_cont_info entry-meta">
-																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/suelo" rel="category">...el tratamiento de una plaga siempre será reforzado con......</a></span>
+																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/suelo" rel="category" style="color: rgb(153, 165, 159);">...el tratamiento de una plaga siempre será reforzado con......</a></span>
 																</div>
 																<div class="cmsms_post_content entry-content"></div>
 																<footer class="cmsms_post_footer entry-meta">
@@ -1033,7 +1048,7 @@
 																	</h3>
 																</header>
 																<div class="cmsms_post_cont_info entry-meta">
-																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/riesgo" rel="category">Documentamos y categorizamos el nivel de riesgo...</a></span>
+																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/riesgo" rel="category" style="color: rgb(153, 165, 159);">Documentamos y categorizamos el nivel de riesgo...</a></span>
 																</div>
 																<div class="cmsms_post_content entry-content"></div>
 																<footer class="cmsms_post_footer entry-meta">
@@ -1064,7 +1079,7 @@
 																	</h3>
 																</header>
 																<div class="cmsms_post_cont_info entry-meta">
-																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/capacitacion" rel="category">...áreas de oportunidad tanto en la trepa de arboles como integrantes...</a></span>
+																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/capacitacion" rel="category" style="color: rgb(153, 165, 159);">...áreas de oportunidad tanto en la trepa de arboles como integrantes...</a></span>
 																</div>
 																<div class="cmsms_post_content entry-content"></div>
 																<footer class="cmsms_post_footer entry-meta">
@@ -1097,7 +1112,7 @@
 																	</h3>
 																</header>
 																<div class="cmsms_post_cont_info entry-meta">
-																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/trepa" rel="category">...hemos creado un programa de...</a></span>
+																	<span class="cmsms_post_user_name"><a href="<?= base_url();?>Servicios/trepa" rel="category" style="color: rgb(153, 165, 159);">...hemos creado un programa de...</a></span>
 																</div>
 																<div class="cmsms_post_content entry-content"></div>
 																<footer class="cmsms_post_footer entry-meta">
@@ -1193,7 +1208,7 @@
 								</div>
 							</div>
 						</div>
-						<div id="cmsms_row_10" class="cmsms_row cmsms_color_scheme_default">
+						<!--div id="cmsms_row_10" class="cmsms_row cmsms_color_scheme_default">
 							<div class="cmsms_row_outer_parent">
 								<div class="cmsms_row_outer">
 									<div class="cmsms_row_inner">
@@ -1234,7 +1249,7 @@
 													</script>
 													<div id="cmsms_owl_carousel_553e49e81fd81" class="cmsms_owl_slider cmsms_slider_553e49e81fd81">
 														<div>
-	<!--_________________________ Start Standard Article _________________________ -->
+	
 															<article class="post">
 																<span class="cmsms_slider_post_format_img"></span>
 																<div class="cmsms_slider_post_cont">
@@ -1268,10 +1283,8 @@
 																	</footer>	
 																</div>
 															</article>
-	<!--_________________________ Finish Standard Article _________________________ -->
 														</div>
 														<div>
-	<!--_________________________ Start Standard Article _________________________ -->
 															<article class="post">
 																<span class="cmsms_slider_post_format_img"></span>
 																<div class="cmsms_slider_post_cont">
@@ -1306,10 +1319,8 @@
 																	</footer>
 																</div>
 															</article>
-	<!--_________________________ Finish Standard Article _________________________ -->
 														</div>
 														<div>
-	<!--_________________________ Start Standard Article _________________________ -->
 															<article class="post">
 																<span class="cmsms_slider_post_format_img cmsms-icon-desktop-3"></span>
 																<div class="cmsms_slider_post_cont">
@@ -1344,10 +1355,8 @@
 																	</footer>
 																</div>
 															</article>
-	<!--_________________________ Finish Standard Article _________________________ -->
 														</div>
 														<div>
-	<!--_________________________ Start Standard Article _________________________ -->
 															<article class="post">
 																<span class="cmsms_slider_post_format_img cmsms-icon-desktop-3"></span>
 																<div class="cmsms_slider_post_cont">
@@ -1382,10 +1391,8 @@
 																	</footer>
 																</div>
 															</article>
-	<!--_________________________ Finish Standard Article _________________________ -->
 														</div>
 														<div>
-	<!--_________________________ Start Standard Article _________________________ -->
 															<article class="post">
 																<span class="cmsms_slider_post_format_img cmsms-icon-desktop-3"></span>
 																<div class="cmsms_slider_post_cont">
@@ -1420,7 +1427,6 @@
 																	</footer>
 																</div>
 															</article>
-	<!--_________________________ Finish Standard Article _________________________ -->
 														</div>
 													</div>
 												</div>
@@ -1429,7 +1435,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div-->
 						<!--div id="cmsms_row_11" class="cmsms_row cmsms_color_scheme_default">
 							<div class="cmsms_row_outer_parent">
 								<div class="cmsms_row_outer">

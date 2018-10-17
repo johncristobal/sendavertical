@@ -3,14 +3,17 @@
 <html class="ie ie8" lang="en-US">
 <![endif]-->
 <!--[if !(IE 8)]><!-->
-<html lang="en-US" class="cmsms_html">
+<html lang="es" class="cmsms_html">
 <!--<![endif]-->
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
                 <link rel="shortcut icon" href="<?= base_url() ?>img/favicon.png" type="image/x-icon" />
+                <meta name="description" content="Documentamos y categorizamos el nivel de riesgo de los árboles cuando su integridad estructural está en duda" />
+                <meta name="author" content="senda vertical" />
+                <meta name="keywords" content="arboricultura, riesgo, arboles, integridad, senda, vertical" />
 
-		<title>Servicios | Senda Vertical </title>
+		<title>Servicios RIESGO | Senda Vertical </title>
 
 		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
 		<link rel='stylesheet' href='<?= base_url()?>css/style.css' type='text/css' media='screen, print' />
@@ -398,6 +401,16 @@
                         .headline_aligner {
                             min-height: 150px;
                         }
+                        h6{
+                            font-family: 'Oxygen', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+                            font-size: 20px;
+                            line-height: 30px;
+                            font-weight: 400;
+                            font-style: normal;
+                            text-transform: none;
+                            text-decoration: none;
+                        }
+                        
 		</style>
 	</head>
 	<body>
