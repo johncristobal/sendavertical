@@ -559,7 +559,7 @@
 							</div>
 						</div>
                                                 <div id="cmsms_divider_5552fa12ced0a" class="cmsms_divider solid"></div>
-						<div id="cmsms_row_55533402efcad" class="cmsms_row cmsms_color_scheme_default">
+						<!--div id="cmsms_row_55533402efcad" class="cmsms_row cmsms_color_scheme_default">
 							<div class="cmsms_row_outer_parent">
 								<div class="cmsms_row_outer">
 									<div class="cmsms_row_inner">
@@ -617,6 +617,127 @@
 															</figure>
 														</li>
                                                                                                                 
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div-->
+                                                <div id="cmsms_row_55533402e9ab5" class="cmsms_row cmsms_color_scheme_default">
+							<div class="cmsms_row_outer_parent">
+								<div class="cmsms_row_outer">
+									<div class="cmsms_row_inner">
+										<div class="cmsms_row_margin">
+											<div class="cmsms_column one_first">
+												<h2 id="cmsms_heading_55533402e9d9b" class="cmsms_heading"></h2>
+												<div class="cmsms_gallery">
+													<ul>
+                                                                                                            <li class="one_fourth">
+															<figure class="">
+                                                                                                                            <a href="<?= base_url();?>img/servicios/poda/IMG_1115.png" rel="ilightbox[55533402e9e65]">                                                                                                                            
+																<img width="" height="490" src="<?= base_url();?>img/servicios/poda/IMG_1115.png" class="attachment-post-thumbnail" alt="leaves" />
+                                                                                                                            </a></figure>
+														</li>
+														<li class="one_fourth">
+															<figure class="">
+                                                                                                                            <a href="<?= base_url();?>img/servicios/poda/IMG_1121.png" rel="ilightbox[55533402e9e65]">                                                                                                                            
+																<img width="" height="490" src="<?= base_url();?>img/servicios/poda/IMG_1121.png" class="attachment-post-thumbnail" alt="forest" />
+                                                                                                                            </a></figure>
+														</li>
+														<li class="one_fourth">
+															<figure class="">
+                                                                                                                            <a href="<?= base_url();?>img/servicios/poda/IMG_1307.png" rel="ilightbox[55533402e9e65]">                                                                                                                            
+																<img width="" height="490" src="<?= base_url();?>img/servicios/poda/IMG_1307.png" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                            </a>
+                                                                                                                        </figure>
+														</li>
+                                                                                                                <li class="one_fourth">
+															<figure class="">
+                                                                                                                            <a href="<?= base_url();?>img/servicios/poda/IMG_1427.png" rel="ilightbox[55533402e9e65]">                                                                                                                            
+																<img width="" height="490" src="<?= base_url();?>img/servicios/poda/IMG_1427.png" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                            </a>
+                                                                                                                        </figure>
+														</li>
+                                                                                                                <li class="one_fourth">
+															<figure class="">
+                                                                                                                            <a href="<?= base_url();?>img/servicios/poda/IMG_1498.png" rel="ilightbox[55533402e9e65]">
+																<img width="" height="490" src="<?= base_url();?>img/servicios/poda/IMG_1498.png" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                            </a>
+															</figure>
+														</li>
+                                                                                                                <li class="one_fourth">
+															<figure class="">
+                                                                                                                            <a href="<?= base_url();?>img/servicios/poda/IMG_9431.png" rel="ilightbox[55533402e9e65]">
+																<img width="" height="490" src="<?= base_url();?>img/servicios/poda/IMG_9431.png" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                            </a>
+															</figure>
+														</li>
+                                                                                                                <li  class="one_fourth">
+															<figure class="">
+                                                                                                                            <a href="<?= base_url();?>img/servicios/poda/IMG_9442.png" rel="ilightbox[55533402e9e65]">
+																<img width="" height="490" src="<?= base_url();?>img/servicios/poda/IMG_9442.png" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                            </a>
+															</figure>
+														</li>
+                                                                                                                
+														<!--li class="one_fourth">
+															<figure>
+																<a href="img/images/ocean-water-full.jpg" rel="ilightbox[55533402e9e65]">
+																	<img width="300" height="238" src="img/images/ocean-water-small.jpg" class="attachment-medium" alt="life" />
+																</a>
+															</figure>
+														</li>
+														<li class="one_fourth">
+															<figure>
+																<a href="img/images/loneliness-full.jpg" rel="ilightbox[55533402e9e65]">
+																	<img width="300" height="238" src="img/images/loneliness-small.jpg" class="attachment-medium" alt="loneliness" />
+																</a>
+															</figure>
+														</li>
+														<li class="one_fourth">
+															<figure>
+																<a href="img/images/white-tiger-full.jpg" rel="ilightbox[55533402e9e65]">
+																	<img width="300" height="238" src="img/images/white-tiger-small.jpg" class="attachment-medium" alt="white-tiger-1" />
+																</a>
+															</figure>
+														</li>
+														<li class="one_fourth">
+															<figure>
+																<a href="img/images/ocean-turtle-full.jpg" rel="ilightbox[55533402e9e65]">
+																	<img width="300" height="238" src="img/images/ocean-turtle-small.jpg" class="attachment-medium" alt="ocean-1" />
+																</a>
+															</figure>
+														</li>
+														<li class="one_fourth">
+															<figure>
+																<a href="img/images/panther-full.jpg" rel="ilightbox[55533402e9e65]">
+																	<img width="300" height="238" src="img/images/panther-small.jpg" class="attachment-medium" alt="Biodiversity" />
+																</a>
+															</figure>
+														</li>
+														<li class="one_fourth">
+															<figure>
+																<a href="img/images/Angry-Raccoon-gall-full.jpg" rel="ilightbox[55533402e9e65]">
+																	<img width="300" height="238" src="img/images/Angry-Raccoon-gall.jpg" class="attachment-medium" alt="Biodiversity-1" />
+																</a>
+															</figure>
+														</li>
+														<li class="one_fourth">
+															<figure>
+																<a href="img/images/Biodiversity-full.jpg" rel="ilightbox[55533402e9e65]">
+																	<img width="300" height="238" src="img/images/Biodiversity-small.jpg" class="attachment-medium" alt="Biodiversity-2" />
+																</a>
+															</figure>
+														</li>
+														<li class="one_fourth">
+															<figure>
+																<a href="img/images/ozon-full.jpg" rel="ilightbox[55533402e9e65]">
+																	<img width="300" height="238" src="img/images/ozon-small.jpg" class="attachment-medium" alt="Ozon" />
+																</a>
+															</figure>
+														</li-->
 													</ul>
 												</div>
 											</div>
