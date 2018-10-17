@@ -409,7 +409,7 @@
                             background-size: cover;
                         }
                         #cmsms_row_555343bed7ad3 .cmsms_row_outer_parent {
-                            padding-bottom: 90px;
+                            padding-bottom: 30px;
                         }
 
                         #cmsms_row_555343bed7ad3 .cmsms_row_outer_parent {
@@ -443,9 +443,10 @@
                         }
                         h6{
                             font-family: 'Oxygen', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
-                            font-size: 20px;
+                            font-size: 22px;
                             line-height: 30px;
                             font-weight: 400;
+                            color:white;
                             font-style: normal;
                             text-transform: none;
                             text-decoration: none;
@@ -504,72 +505,25 @@
 									</div>
 									<div class="cmsms_row_inner">
 										<div class="cmsms_row_margin cmsms_14141414">
-											<div class="cmsms_column one_fourth">
-												<div class="cmsms_img  cmsms_image_n with_caption">
-													<a href="../img/servicios/capacitacion/IMG_7065.jpg" rel="ilightbox">
-														<img src="../img/servicios/capacitacion/IMG_7065.jpg" alt=" Column One">
-													</a>
-													
-												</div>
-											</div>
-											<div class="cmsms_column one_fourth">
-												<div class="cmsms_img  cmsms_image_n with_caption">
-													<a href="../img/servicios/capacitacion/IMG_5652.png" rel="ilightbox">
-														<img src="../img/servicios/capacitacion/IMG_5652.png" alt=" Column Two">
-													</a>
-												
-												</div>
-											</div>
-											<div class="cmsms_column one_fourth">
-												<div class="cmsms_img  cmsms_image_n with_caption">
-													<a href="../img/servicios/capacitacion/IMG_7115.jpg" rel="ilightbox">
-														<img src="../img/servicios/capacitacion/IMG_7115.jpg" alt=" Column Three">
-													</a>
-													
-												</div>
-											</div>
-											<div class="cmsms_column one_fourth">
-												<div class="cmsms_img  cmsms_image_n with_caption">
-													<a href="../img/servicios/capacitacion/IMG_7063.jpg" rel="ilightbox">
-														<img src="../img/servicios/capacitacion/IMG_7063.jpg" alt=" Column Four">
-													</a>
-													
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-                                                <div id="cmsms_divider_5552fa12ced0a" class="cmsms_divider solid"></div>
-						<div id="cmsms_row_55533402ef970" class="cmsms_row cmsms_color_scheme_default">
-							<div class="cmsms_row_outer_parent">
-								<div class="cmsms_row_outer">
-									<div class="cmsms_row_inner">
-										<div class="cmsms_row_margin">
-											<div class="cmsms_column one_first">
-												<div id="cmsms_divider_55533402efbb2" class="cmsms_divider"></div>
-                                                                                                <!--h3 id="cmsms_heading_55544abfb9eef" class="cmsms_heading cmsms_valid_title">Capacitación del personal</h3-->
-                                                                                              
-												<h6 id="cmsms_heading_5554579e9193d" class="cmsms_heading">Hemos identificado áreas de oportunidad tanto en la trepa de arboles
+											<h6 id="cmsms_heading_5554579e9193d" class="cmsms_heading">Hemos identificado áreas de oportunidad tanto en la trepa de arboles
                                                                                                     como en los trabajos verticales industriales, es por ello que los integrantes de SENDA VERTICAL cuentan
                                                                                                     con certificaciones que nos permiten orientar, enfocar y capacitar a las personas que día con día se
                                                                                                     enfrentan a estos retos, ofrecerles las mejores herramientas para desempeñar sus labores pero con el
                                                                                                     objetivo de orientarlos hacia su propia seguridad como regla básica de vida y minimizar los riesgos de
                                                                                                     accidentes.</h6>
-											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
                                                 <div id="cmsms_divider_5552fa12ced0a" class="cmsms_divider solid"></div>
+						
 						<div id="cmsms_row_55533402efcad" class="cmsms_row cmsms_color_scheme_default">
 							<div class="cmsms_row_outer_parent">
 								<div class="cmsms_row_outer">
 									<div class="cmsms_row_inner">
 										<div class="cmsms_row_margin">
-											<div class="cmsms_column one_seventh">
+											<div class="cmsms_column">
 												<h2 id="cmsms_heading_55533402efefb" class="cmsms_heading"></h2>
 												<script type="text/javascript">
 													jQuery(document).ready(function (){ 
@@ -584,60 +538,74 @@
 														});
 													});
 												</script>
-												<div id="cmsms_hover_slider_55533402effa4" class="cmsms_hover_slider">
-													<ul class="cmsms_hover_slider_items">
-														<!--li>
-															<figure class="cmsms_hover_slider_full_img">
-																<img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/IMG_7065.jpg" class="attachment-post-thumbnail" alt="leaves" />
-															</figure>
-														</li-->
-														<li>
-															<figure class="cmsms_hover_slider_full_img">
-																<img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/IMG_5625.png" class="attachment-post-thumbnail" alt="forest" />
-															</figure>
-														</li>
-														<li>
-															<figure class="cmsms_hover_slider_full_img">
-																<img width="820" height="490" src="<?= base_url();?>img/servicios/capacitacion/IMG_5626.png" class="attachment-post-thumbnail" alt="ozon" />
-															</figure>
-														</li>
-                                                                                                                <!--li>
-															<figure class="cmsms_hover_slider_full_img">
-																<img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/IMG_5652.png" class="attachment-post-thumbnail" alt="ozon" />
-															</figure>
-														</li-->
-                                                                                                                <!--li>
-															<figure class="cmsms_hover_slider_full_img">
-																<img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/IMG_7054.jpg" class="attachment-post-thumbnail" alt="ozon" />
-															</figure>
-														</li-->
-                                                                                                                <!--li>
-															<figure class="cmsms_hover_slider_full_img">
-																<img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/IMG_7063.jpg" class="attachment-post-thumbnail" alt="ozon" />
-															</figure>
-														</li-->
-                                                                                                                <!--li>
-															<figure class="cmsms_hover_slider_full_img">
-																<img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/IMG_7115.jpg" class="attachment-post-thumbnail" alt="ozon" />
-															</figure>
-														</li-->
-                                                                                                                <li>
-															<figure class="cmsms_hover_slider_full_img">
-																<img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/pasto.jpg" class="attachment-post-thumbnail" alt="ozon" />
-															</figure>
-														</li>
-                                                                                                                <li>
-															<figure class="cmsms_hover_slider_full_img">
-																<img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/pasto2.jpg" class="attachment-post-thumbnail" alt="ozon" />
-															</figure>
-														</li>
-                                                                                                                <li>
-															<figure class="cmsms_hover_slider_full_img">
-																<img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/pasto3.jpg" class="attachment-post-thumbnail" alt="ozon" />
-															</figure>
-														</li>
-													</ul>
-												</div>
+                                                                                                <div id="cmsms_row_55533402e9ab5" class="cmsms_row cmsms_color_scheme_default">
+                                                                                                    <div class="cmsms_row_outer_parent">
+                                                                                                            <div class="cmsms_row_outer">
+                                                                                                                    <div class="cmsms_row_inner">
+                                                                                                                            <div class="cmsms_row_margin">
+                                                                                                                                    <div class="cmsms_column one_first">
+                                                                                                                                            <h2 id="cmsms_heading_55533402e9d9b" class="cmsms_heading"></h2>
+                                                                                                                                            <div class="cmsms_gallery">
+                                                                                                                                                    <ul>
+                                                                                                                                                        
+                                                                                                                                                            <li class="one_fourth">
+                                                                                                                                                                    <figure class="">
+                                                                                                                                                                        <a href="<?= base_url();?>img/servicios/capacitacion/pasto3.jpg" rel="ilightbox[55533402e9e65]">
+                                                                                                                                                                            <img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/pasto3.jpg" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                                                                        </a>
+                                                                                                                                                                    </figure>
+                                                                                                                                                            </li>
+                                                                                                                                                            <li class="one_fourth">
+                                                                                                                                                                    <figure class="">
+                                                                                                                                                                        <a href="<?= base_url();?>img/servicios/capacitacion/pasto2.jpg" rel="ilightbox[55533402e9e65]">
+                                                                                                                                                                            <img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/pasto2.jpg" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                                                                        </a>
+                                                                                                                                                                    </figure>
+                                                                                                                                                            </li>
+                                                                                                                                                            <li  class="one_fourth">
+                                                                                                                                                                    <figure class="">
+                                                                                                                                                                        <a href="<?= base_url();?>img/servicios/capacitacion/pasto.jpg" rel="ilightbox[55533402e9e65]">
+                                                                                                                                                                            <img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/pasto.jpg" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                                                                        </a>
+                                                                                                                                                                    </figure>
+                                                                                                                                                            </li>
+                                                                                                                                                             <li  class="one_fourth">
+                                                                                                                                                                    <figure class="">
+                                                                                                                                                                        <a href="<?= base_url();?>img/servicios/capacitacion/IMG_5626.png" rel="ilightbox[55533402e9e65]">
+                                                                                                                                                                            <img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/IMG_5626.png" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                                                                        </a>
+                                                                                                                                                                    </figure>
+                                                                                                                                                            </li>
+                                                                                                                                                             <li  class="one_fourth">
+                                                                                                                                                                    <figure class="">
+                                                                                                                                                                        <a href="<?= base_url();?>img/servicios/capacitacion/IMG_5625.png" rel="ilightbox[55533402e9e65]">
+                                                                                                                                                                            <img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/IMG_5625.png" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                                                                        </a>
+                                                                                                                                                                    </figure>
+                                                                                                                                                            </li>
+                                                                                                                                                            <li  class="one_fourth">
+                                                                                                                                                                    <figure class="">
+                                                                                                                                                                        <a href="<?= base_url();?>img/servicios/capacitacion/IMG_7065.jpg" rel="ilightbox[55533402e9e65]">
+                                                                                                                                                                            <img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/IMG_7065.jpg" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                                                                        </a>
+                                                                                                                                                                    </figure>
+                                                                                                                                                            </li>
+                                                                                                                                                            <li  class="one_fourth">
+                                                                                                                                                                    <figure class="">
+                                                                                                                                                                        <a href="<?= base_url();?>img/servicios/capacitacion/IMG_5652.png" rel="ilightbox[55533402e9e65]">
+                                                                                                                                                                            <img width="" height="490" src="<?= base_url();?>img/servicios/capacitacion/IMG_5652.png" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                                                                        </a>
+                                                                                                                                                                    </figure>
+                                                                                                                                                            </li>
+                                                                                                                                                    </ul>
+                                                                                                                                            </div>
+                                                                                                                                    </div>
+                                                                                                                            </div>
+                                                                                                                    </div>
+                                                                                                            </div>
+                                                                                                    </div>
+                                                                                            </div>
+												
 											</div>
 										</div>
 									</div>

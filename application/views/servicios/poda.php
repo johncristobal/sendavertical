@@ -409,7 +409,7 @@
                             background-size: cover;
                         }
                         #cmsms_row_555343bed7ad3 .cmsms_row_outer_parent {
-                            padding-bottom: 90px;
+                            padding-bottom: 30px;
                         }
 
                         #cmsms_row_555343bed7ad3 .cmsms_row_outer_parent {
@@ -420,7 +420,7 @@
                             color: rgba(255, 255, 255, 1);
                             text-align: center;
                             font-weight: 400;
-                            font-size: 40px;
+                            font-size: 55px;
                             font-style: normal;
                             margin-top: 0px;
                             margin-bottom: 20px;
@@ -443,7 +443,8 @@
                         }
                         h6{
                             font-family: 'Oxygen', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
-                            font-size: 20px;
+                            font-size: 22px;
+                            color: white;
                             line-height: 30px;
                             font-weight: 400;
                             font-style: normal;
@@ -505,59 +506,27 @@
 									</div>
 									<div class="cmsms_row_inner">
 										<div class="cmsms_row_margin cmsms_14141414">
-											<div class="cmsms_column one_fourth">
-												<div class="cmsms_img  cmsms_image_n with_caption">
-													<a href="../img/servicios/poda/IMG_1121.png" rel="ilightbox">
-														<img src="../img/servicios/poda/IMG_1121.png" alt=" Column One">
-													</a>
-													
-												</div>
-											</div>
-											<div class="cmsms_column one_fourth">
-												<div class="cmsms_img  cmsms_image_n with_caption">
-													<a href="../img/servicios/poda/IMG_1307.png" rel="ilightbox">
-														<img src="../img/servicios/poda/IMG_1307.png" alt=" Column Two">
-													</a>
-												
-												</div>
-											</div>
-											<div class="cmsms_column one_fourth">
-												<div class="cmsms_img  cmsms_image_n with_caption">
-													<a href="../img/servicios/poda/IMG_1427.png" rel="ilightbox">
-														<img src="../img/servicios/poda/IMG_1427.png" alt=" Column Three">
-													</a>
-													
-												</div>
-											</div>
-											<div class="cmsms_column one_fourth">
-												<div class="cmsms_img  cmsms_image_n with_caption">
-													<a href="../img/servicios/poda/IMG_9431.png" rel="ilightbox">
-														<img src="../img/servicios/poda/IMG_9431.png" alt=" Column Four">
-													</a>
-													
-												</div>
-											</div>
+											<div id="cmsms_row_55533402ef970" class="cmsms_row cmsms_color_scheme_default">
+                                                                                            <div class="cmsms_row_outer_parent">
+                                                                                                    <div class="cmsms_row_outer">
+                                                                                                            <div class="cmsms_row_inner">
+                                                                                                                    <div class="cmsms_row_margin">
+                                                                                                                            <div class="cmsms_column one_first">
+                                                                                                                                    <div id="cmsms_divider_55533402efbb2" class="cmsms_divider"></div>												
+                                                                                                                                    <!--h3 id="cmsms_heading_55544abfb9eef" class="cmsms_heading cmsms_valid_title">Poda</h3-->
+                                                                                                                                    <h6 id="cmsms_heading_5554579e9193d" class="cmsms_heading">Existen diversos tipos de poda, por tal razón realizaremos un diagnóstico previo buscando satisfacer las necesidades de nuestros clientes sin afectar la estructura o bienestar del árbol.</h6>
+                                                                                                                            </div>
+                                                                                                                    </div>
+                                                                                                            </div>
+                                                                                                    </div>
+                                                                                            </div>
+                                                                                    </div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-                                                <div id="cmsms_divider_5552fa12ced0a" class="cmsms_divider solid"></div>
-                                                <div id="cmsms_row_55533402ef970" class="cmsms_row cmsms_color_scheme_default">
-							<div class="cmsms_row_outer_parent">
-								<div class="cmsms_row_outer">
-									<div class="cmsms_row_inner">
-										<div class="cmsms_row_margin">
-											<div class="cmsms_column one_first">
-												<div id="cmsms_divider_55533402efbb2" class="cmsms_divider"></div>												
-												<!--h3 id="cmsms_heading_55544abfb9eef" class="cmsms_heading cmsms_valid_title">Poda</h3-->
-                                                                                                <h6 id="cmsms_heading_5554579e9193d" class="cmsms_heading">Existen diversos tipos de poda, por tal razón realizaremos un diagnóstico previo buscando satisfacer las necesidades de nuestros clientes sin afectar la estructura o bienestar del árbol.</h6>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                                                
                                                 <div id="cmsms_divider_5552fa12ced0a" class="cmsms_divider solid"></div>
 						<!--div id="cmsms_row_55533402efcad" class="cmsms_row cmsms_color_scheme_default">
 							<div class="cmsms_row_outer_parent">

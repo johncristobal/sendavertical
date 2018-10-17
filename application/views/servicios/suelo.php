@@ -410,7 +410,7 @@
                             background-size: cover;
                         }
                         #cmsms_row_555343bed7ad3 .cmsms_row_outer_parent {
-                            padding-bottom: 90px;
+                            padding-bottom: 30px;
                         }
 
                         #cmsms_row_555343bed7ad3 .cmsms_row_outer_parent {
@@ -450,6 +450,7 @@
                             font-size: 20px;
                             line-height: 30px;
                             font-weight: 400;
+                            color:white;
                             font-style: normal;
                             text-transform: none;
                             text-decoration: none;
@@ -508,69 +509,23 @@
 									</div>
 									<div class="cmsms_row_inner">
 										<div class="cmsms_row_margin cmsms_14141414">
-											<div class="cmsms_column one_fourth">
-												<div class="cmsms_img  cmsms_image_n with_caption">
-													<a href="../img/servicios/suelo/IMG_6651.png" rel="ilightbox">
-														<img src="../img/servicios/suelo/IMG_6651.png" alt=" Column One">
-													</a>
-													
-												</div>
-											</div>
-											<div class="cmsms_column one_fourth">
-												<div class="cmsms_img  cmsms_image_n with_caption">
-													<a href="../img/servicios/suelo/IMG_6656.png" rel="ilightbox">
-														<img src="../img/servicios/suelo/IMG_6656.png" alt=" Column Two">
-													</a>
-												
-												</div>
-											</div>
-											<div class="cmsms_column one_fourth">
-												<div class="cmsms_img  cmsms_image_n with_caption">
-													<a href="../img/servicios/suelo/IMG_6658.png" rel="ilightbox">
-														<img src="../img/servicios/suelo/IMG_6658.png" alt=" Column Three">
-													</a>
-													
-												</div>
-											</div>
-											<div class="cmsms_column one_fourth">
-												<div class="cmsms_img  cmsms_image_n with_caption">
-													<a href="../img/servicios/suelo/IMG_6660.png" rel="ilightbox">
-														<img src="../img/servicios/suelo/IMG_6660.png" alt=" Column Four">
-													</a>
-													
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-                                                <div id="cmsms_divider_5552fa12ced0a" class="cmsms_divider solid"></div>
-						<div id="cmsms_row_55533402ef970" class="cmsms_row cmsms_color_scheme_default">
-							<div class="cmsms_row_outer_parent">
-								<div class="cmsms_row_outer">
-									<div class="cmsms_row_inner">
-										<div class="cmsms_row_margin">
-											<div class="cmsms_column one_first">
-												<div id="cmsms_divider_55533402efbb2" class="cmsms_divider"></div>
-                                                                                                <!--h3 id="cmsms_heading_55544abfb9eef" class="cmsms_heading cmsms_valid_title">Descompactación y mejoramiento de suelo</h3-->
-												<h6 id="cmsms_heading_5554579e9193d" class="cmsms_heading">En la mayoría de las ocasiones, el tratamiento de
+																					<h6 id="cmsms_heading_5554579e9193d" class="cmsms_heading">En la mayoría de las ocasiones, el tratamiento de
 una plaga siempre será reforzado con el mejoramiento del área vital del árbol, para promover una salud
 integral del individuo se analizara la estructura física y química del suelo para determinar las mejoras a
 realizar.</h6>
-											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
                                                 <div id="cmsms_divider_5552fa12ced0a" class="cmsms_divider solid"></div>
+						
 						<div id="cmsms_row_55533402efcad" class="cmsms_row cmsms_color_scheme_default">
 							<div class="cmsms_row_outer_parent">
 								<div class="cmsms_row_outer">
 									<div class="cmsms_row_inner">
 										<div class="cmsms_row_margin">
-											<div class="cmsms_column one_seventh">
+											<div class="cmsms_column">
 												<h2 id="cmsms_heading_55533402efefb" class="cmsms_heading"></h2>
 												<script type="text/javascript">
 													jQuery(document).ready(function (){ 
@@ -585,7 +540,60 @@ realizar.</h6>
 														});
 													});
 												</script>
-												<div id="cmsms_hover_slider_55533402effa4" class="cmsms_hover_slider">
+                                                                                                <div id="cmsms_row_55533402e9ab5" class="cmsms_row cmsms_color_scheme_default">
+                                                                                                    <div class="cmsms_row_outer_parent">
+                                                                                                            <div class="cmsms_row_outer">
+                                                                                                                    <div class="cmsms_row_inner">
+                                                                                                                            <div class="cmsms_row_margin">
+                                                                                                                                    <div class="cmsms_column one_first">
+                                                                                                                                            <h2 id="cmsms_heading_55533402e9d9b" class="cmsms_heading"></h2>
+                                                                                                                                            <div class="cmsms_gallery">
+                                                                                                                                                    <ul>
+                                                                                                                                                        
+                                                                                                                                                            <li class="one_fourth">
+                                                                                                                                                                    <figure class="">
+                                                                                                                                                                        <a href="<?= base_url();?>img/servicios/suelo/suelo2.jpg" rel="ilightbox[55533402e9e65]">
+                                                                                                                                                                            <img width="" height="490" src="<?= base_url();?>img/servicios/suelo/suelo2.jpg" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                                                                        </a>
+                                                                                                                                                                    </figure>
+                                                                                                                                                            </li>
+                                                                                                                                                            <li class="one_fourth">
+                                                                                                                                                                    <figure class="">
+                                                                                                                                                                        <a href="<?= base_url();?>img/servicios/suelo/suelo.jpg" rel="ilightbox[55533402e9e65]">
+                                                                                                                                                                            <img width="" height="490" src="<?= base_url();?>img/servicios/suelo/suelo.jpg" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                                                                        </a>
+                                                                                                                                                                    </figure>
+                                                                                                                                                            </li>
+                                                                                                                                                            <li  class="one_fourth">
+                                                                                                                                                                    <figure class="">
+                                                                                                                                                                        <a href="<?= base_url();?>img/servicios/suelo/IMG_6656.png" rel="ilightbox[55533402e9e65]">
+                                                                                                                                                                            <img width="" height="490" src="<?= base_url();?>img/servicios/suelo/IMG_6656.png" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                                                                        </a>
+                                                                                                                                                                    </figure>
+                                                                                                                                                            </li>
+                                                                                                                                                             <li  class="one_fourth">
+                                                                                                                                                                    <figure class="">
+                                                                                                                                                                        <a href="<?= base_url();?>img/servicios/suelo/IMG_6651.png" rel="ilightbox[55533402e9e65]">
+                                                                                                                                                                            <img width="" height="490" src="<?= base_url();?>img/servicios/suelo/IMG_6651.png" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                                                                        </a>
+                                                                                                                                                                    </figure>
+                                                                                                                                                            </li>
+                                                                                                                                                             <li  class="one_fourth">
+                                                                                                                                                                    <figure class="">
+                                                                                                                                                                        <a href="<?= base_url();?>img/servicios/suelo/IMG_6661.png" rel="ilightbox[55533402e9e65]">
+                                                                                                                                                                            <img width="" height="490" src="<?= base_url();?>img/servicios/suelo/IMG_6661.png" class="attachment-post-thumbnail" alt="ozon" />
+                                                                                                                                                                        </a>
+                                                                                                                                                                    </figure>
+                                                                                                                                                            </li>
+                                                                                                                                                    </ul>
+                                                                                                                                            </div>
+                                                                                                                                    </div>
+                                                                                                                            </div>
+                                                                                                                    </div>
+                                                                                                            </div>
+                                                                                                    </div>
+                                                                                            </div>
+												<!--div id="cmsms_hover_slider_55533402effa4" class="cmsms_hover_slider">
 													<ul class="cmsms_hover_slider_items">
 														<li>
 															<figure class="cmsms_hover_slider_full_img">
@@ -613,7 +621,7 @@ realizar.</h6>
 															</figure>
 														</li>
 													</ul>
-												</div>
+												</div-->
 											</div>
 										</div>
 									</div>
