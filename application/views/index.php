@@ -611,6 +611,15 @@
 													</script>
 													
 													<div id="layerslider_1" class="ls-wp-container" style="width:1920px;height:670px;margin:0 auto;">
+                                                                                                            <div class="ls-slide" data-ls="slidedelay:3800; transition2d: all;">
+															<img src="LayerSlider/img/logosenda.png" data-src="LayerSlider/img/logosenda.png" class="ls-bg" alt="bg-blur-3" />
+															<!--img class="ls-l" style="top:0px;left:1px;white-space: nowrap;" data-ls="offsetxin:0;durationin:800;delayin:200;offsetxout:0;durationout:1000;parallaxlevel:1;" src="LayerSlider/img/blank.gif" data-src="LayerSlider/img/bg-3.jpg" alt=""-->
+															<!--p class="ls-l" style="top:125px;left:373px;font-weight:300;font-family:open sans;font-size:240px;color:#ffffff;white-space: nowrap;background-color:rgba(0,0,0,0.7); padding: 20px; border-radius: 20px;" data-ls="offsetxin:0;durationin:800;delayin:200;offsetxout:0;durationout:0;"></p>
+															<!--img class="ls-l" style="top:153px;left:791px;font-weight:300;font-family:open sans;font-size:44px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:-160;offsetyin:250;durationin:1500;delayin:800;rotatein:60;rotatexin:60;rotateyin:60;offsetxout:160;offsetyout:-250;durationout:600;" src="LayerSlider/img/blank.gif" data-src="LayerSlider/img/plan.png" alt="">
+															<p class="ls-l" style="top:407px;left:382px;font-weight:300;font-family:open sans;font-size:36px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:800;offsetxout:0;">Gives us clean energy</p>
+															<p class="ls-l" style="top:456px;left:381px;font-weight:300;font-family:open sans;font-size:36px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:800;offsetxout:0;">Every day</p>
+															<p class="ls-l" style="top:508px;left:380px;font-weight:300;font-family:open sans;font-size:36px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:800;offsetxout:0;">100% Free</p-->
+														</div>
                                                                                                             <div class="ls-slide" data-ls="slidedelay:3500; transition2d: all;">
                                                                                                                     <img src="LayerSlider/img/imagen1.jpg" data-src="LayerSlider/img/imagen1.jpg" class="ls-bg" alt="bg-blur" />
                                                                                                                     <!--img class="ls-l" style="top:0px;left:0px;white-space: nowrap;" data-ls="offsetxin:0;delayin:400;offsetxout:0;durationout:1000;parallaxlevel:1;" src="LayerSlider/img/blank.gif" data-src="LayerSlider/img/bg.jpg" alt=""-->
@@ -630,12 +639,13 @@
 														<div class="ls-slide" data-ls="slidedelay:3800; transition2d: all;">
 															<img src="LayerSlider/img/imagen2.jpg" data-src="LayerSlider/img/imagen2.jpg" class="ls-bg" alt="bg-blur-3" />
 															<!--img class="ls-l" style="top:0px;left:1px;white-space: nowrap;" data-ls="offsetxin:0;durationin:800;delayin:200;offsetxout:0;durationout:1000;parallaxlevel:1;" src="LayerSlider/img/blank.gif" data-src="LayerSlider/img/bg-3.jpg" alt=""-->
-															<p class="ls-l" style="top:125px;left:373px;font-weight:300;font-family:open sans;font-size:240px;color:#ffffff;white-space: nowrap;background-color:rgba(0,0,0,0.7); padding: 20px; border-radius: 20px;" data-ls="offsetxin:0;durationin:800;delayin:200;offsetxout:0;durationout:0;"></p>
+															<p class="ls-l" style="top:125px;left:373px;font-weight:300;font-family:open sans;font-size:50px;color:#ffffff;white-space: nowrap;background-color:rgba(0,0,0,0.7); padding: 20px; border-radius: 20px;" data-ls="offsetxin:0;durationin:800;delayin:200;offsetxout:0;durationout:0;">Tratamiento de suelo adecuado</p>
 															<!--img class="ls-l" style="top:153px;left:791px;font-weight:300;font-family:open sans;font-size:44px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:-160;offsetyin:250;durationin:1500;delayin:800;rotatein:60;rotatexin:60;rotateyin:60;offsetxout:160;offsetyout:-250;durationout:600;" src="LayerSlider/img/blank.gif" data-src="LayerSlider/img/plan.png" alt="">
 															<p class="ls-l" style="top:407px;left:382px;font-weight:300;font-family:open sans;font-size:36px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:800;offsetxout:0;">Gives us clean energy</p>
 															<p class="ls-l" style="top:456px;left:381px;font-weight:300;font-family:open sans;font-size:36px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:800;offsetxout:0;">Every day</p>
 															<p class="ls-l" style="top:508px;left:380px;font-weight:300;font-family:open sans;font-size:36px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:800;offsetxout:0;">100% Free</p-->
 														</div>
+                                                                                                            
 													</div>
 												</div>
 											</div>
