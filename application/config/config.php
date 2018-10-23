@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //<<<<<<< HEAD
-//$config['base_url'] = 'http://localhost/sendavertical';   //mac   
-$config['base_url'] = 'http://localhost:8080/sendavertical';    //pc
+$config['base_url'] = 'http://localhost/sendavertical';   //mac   
+//$config['base_url'] = 'http://localhost:8080/sendavertical';    //pc
 //=======
 //$config['base_url'] = 'http://localhost/sendavertical';   //mac   
 //$config['base_url'] = 'http://localhost:8080/sendavertical';    //pc

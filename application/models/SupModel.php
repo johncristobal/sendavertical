@@ -24,6 +24,20 @@ class SupModel extends CI_Model{
         return  $insert_id;
     }
      
+    public function saveReporteContacto($datos){
+        $this->db->insert('reportes_contacto', $datos);
+        
+        $insert_id = $this->db->insert_id();
+        return  $insert_id;
+    }
+    
+    public function saveData($datos,$tabla){
+        $this->db->insert($tabla, $datos);
+        
+        $insert_id = $this->db->insert_id();
+        return  $insert_id;
+    }
+    
     public function deleteReporte($id){
         $this->db->where('id', $id);
         $this->db->delete('reportes_principal');
@@ -138,8 +152,69 @@ class SupModel extends CI_Model{
             $datos["otro2"] = '';
         }        
         
+//***************************** hoja 2 *****************************************                
+        //reporte _ contacto
+        $this->db->select("*");
+        $this->db->from("reportes_contacto rp");
+        $this->db->where("rp.id_reporte",$id);
+        $data = $this->db->get();
+        if($data->num_rows() > 0){
+            $datos["reportes_contacto"] = $data->result();            
+        }else{
+            $datos["reportes_contacto"] = ''; 
+        }
+        
+        $this->db->select("*");
+        $this->db->from("reporte_direccion ro");
+        $this->db->where("ro.id_reporte",$id);
+        $dataotros = $this->db->get();
+        if($dataotros->num_rows() > 0){
+            $datos["reportes_direccion"] = $dataotros->result();            
+        }else{
+            $datos["reportes_direccion"] = '';  
+        }    
+                
+        $this->db->select("*");
+        $this->db->from("reporte_trabajo rp");
+        $this->db->where("rp.id_reporte",$id);
+        $data = $this->db->get();
+        if($data->num_rows() > 0){
+            $datos["reportes_trabajo"] = $data->result();            
+        }else{
+            $datos["reportes_trabajo"] = ''; 
+        }
+        
+        $this->db->select("*");
+        $this->db->from("reporte_peligros ro");
+        $this->db->where("ro.id_reporte",$id);
+        $dataotros = $this->db->get();
+        if($dataotros->num_rows() > 0){
+            $datos["reportes_peligros"] = $dataotros->result();            
+        }else{
+            $datos["reportes_peligros"] = '';  
+        }  
+        
+        $this->db->select("*");
+        $this->db->from("reporte_mitigacion rp");
+        $this->db->where("rp.id_reporte",$id);
+        $data = $this->db->get();
+        if($data->num_rows() > 0){
+            $datos["reporte_mitigacion"] = $data->result();            
+        }else{
+            $datos["reporte_mitigacion"] = ''; 
+        }
+        
+        $this->db->select("*");
+        $this->db->from("reporte_proteccion ro");
+        $this->db->where("ro.id_reporte",$id);
+        $dataotros = $this->db->get();
+        if($dataotros->num_rows() > 0){
+            $datos["reporte_proteccion"] = $dataotros->result();            
+        }else{
+            $datos["reporte_proteccion"] = '';  
+        }  
+        
         return $datos;
-
     }
 }
 

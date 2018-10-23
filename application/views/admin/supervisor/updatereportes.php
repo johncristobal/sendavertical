@@ -33,7 +33,7 @@
 			<link rel='stylesheet' href='css/econature_colors_primary.css' type='text/css' media='screen' />
 			<link rel='stylesheet' href='css/econature_colors_secondary.css' type='text/css' media='screen' />
 		<![endif]-->
-				<link rel='stylesheet' href='<?= base_url(); ?>css/econature.css' />
+                <link rel='stylesheet' href='<?= base_url(); ?>css/econature.css' />
 		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oxygen%3A300%2C400%2C700&#038;ver=4.2' type='text/css' media='all' />
 		 <link rel='stylesheet' href='<?= base_url(); ?>css/jquery.isotope.css' type='text/css' media='screen' />
 		
@@ -475,6 +475,20 @@
                                                                                             <input type="hidden" name="tipo" id="tipo" value="desktop">
                                                                                             <input type="hidden" name="idreporte" id="idreporte" value="<?= $reportes[0]->id; ?>">
                                                                                             <div class="cmsms-form-builder">
+                                                                                                <div class="cmsms_tabs tabs_mode_tab">
+                                                                                                <ul class="cmsms_tabs_list">
+                                                                                                    <li id="cmsms_tabs_list_item_555469b2e5f20" class="cmsms_tabs_list_item current_tab">
+                                                                                                        <a href="#"><span>Reporte inicio</span></a>
+                                                                                                    </li>
+                                                                                                    <li id="cmsms_tabs_list_item_555469b2e612c" class="cmsms_tabs_list_item">
+                                                                                                        <a href="#"><span>Información de contacto</span></a>
+                                                                                                    </li>                                                
+                                                                                                </ul>
+                                                                                                <div class="cmsms_tabs_wrap">
+                                                                                                <!--Inicia hoja uno-->
+                                                                                                <div id="cmsms_tab_555469b2e5f20" class="cmsms_tab active_tab">
+                                                                                                <div class="cmsms_tab_inner">
+                                                                                                <!--hoja uino data-->
                                                                                                 <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Reportes</h3>
                                                                                                 <div class="form_info cmsms_input one_half">
                                                                                                         <label for="numcotizacion">Número de cotizaciòn</label>
@@ -775,20 +789,450 @@
                                                                                                                     }
                                                                                                                 ?>
                                                                                                             </div>
+                                                                                                            
                                                                                                         </div>
+                                                                                                    </div>
+                                                                                                    <!--fin uno data-->
+                                                                                                </div>                                                                                                    
                                                                                                 </div>
+                                                                                                <!--****************************fin hoja uno****************************-->
+                                            
+                                                                                                <!--****************************Inicia hoja dos****************************-->
+                                                                                                <div id="cmsms_tab_555469b2e612c" class="cmsms_tab">
+                                                                                                    <div class="cmsms_tab_inner">
+                                                                                                        <!--Emepioza hja dos...-->
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Información Contacto</h3>
+                                                                                                    <div class="form_info cmsms_input one_third">  
+                                                                                                        <!--label for="cmsms_your_phone_number_is">Proyecto</label-->
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <label for="">Lugar</label>
+                                                                                                            <input type="text" name="lugardesktop" id="lugardesktop" value="<?= $reportes_contacto[0]->lugar; ?>" size="35"/>																		
+                                                                                                        </div>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <label for="cmsms_your_phone_number_is">Supervisor</label>
+                                                                                                            <input type="text" name="supervisordesktop" id="supervisordesktop" value="<?= $reportes_contacto[0]->supervisor; ?>" size="35" />																		
+                                                                                                        </div>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <label for="cmsms_your_phone_number_is">Teléfono</label>
+                                                                                                            <input type="text" name="telefonodesktop" id="telefonodesktop" value="<?= $reportes_contacto[0]->telefono; ?>" size="35" />																		
+                                                                                                        </div>																
+                                                                                                    </div>	
+                                                                                                    <div class="form_info cmsms_input one_third">  
+                                                                                                        <!--label for="cmsms_your_phone_number_is">Cliente</label-->
+                                                                                                        <div class="form_field_wrap">   
+                                                                                                            <label for="cmsms_your_phone_number_is">Fecha</label>
+                                                                                                            <input type="date" name="fechadesktop" id="fechadesktop" value="<?= $reportes_contacto[0]->fecha; ?>" size="35" />																		
+                                                                                                        </div>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <label for="cmsms_your_phone_number_is">Nombre cliente</label>
+                                                                                                            <input type="text" name="nombreclientedesktop" id="nombreclientedesktop" value="<?= $reportes_contacto[0]->nombre_cliente; ?>" size="35" />																		
+                                                                                                        </div>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <label for="cmsms_your_phone_number_is">Email cliente</label>
+                                                                                                            <input type="text" name="emailclientedesktop" id="emailclientedesktop" value="<?= $reportes_contacto[0]->email_cliente; ?>" size="35"  />																		
+                                                                                                        </div>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <label for="cmsms_your_phone_number_is">Teléfono cliente</label>
+                                                                                                            <input type="text" name="telefonoclientedesktop" id="telefonoclientedesktop" value="<?= $reportes_contacto[0]->telefono_cliente; ?>" size="35" />																		
+                                                                                                        </div>																
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third">  
+                                                                                                        <!--label for="cmsms_your_phone_number_is">Hospital</label-->
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <label for="cmsms_your_phone_number_is">Hospital más cercano</label>
+                                                                                                            <input type="text" name="hospitaldesktop" id="hospitaldesktop" value="<?= $reportes_contacto[0]->hospital; ?>" size="35" placeholder="" />																		
+                                                                                                        </div>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <label for="cmsms_your_phone_number_is">Teléfono hospital</label>
+                                                                                                            <input type="text" name="telefonohospitaldesktop" id="telefonohospitaldesktop" value="<?= $reportes_contacto[0]->telefono_hospital; ?>" size="35" placeholder="" />																		
+                                                                                                        </div>	
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <label for="cmsms_your_phone_number_is">Teléfono de emergencia</label>
+                                                                                                            <input type="text" name="telefonoemerdesktop" id="telefonoemerdesktop" value="<?= $reportes_contacto[0]->emergencia_hospital; ?>" size="35" placeholder="" />																		
+                                                                                                        </div>				
+                                                                                                    </div>																
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Dirección</h3>
+                                                                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                                                                        <div class="form_info cmsms_checkboxes">
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="aguaPotabledesktop" id="aguaPotabledesktop" value="Agua potable,direccion" />
+                                                                                                                    <label for="aguaPotabledesktop">Agua potable</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="extinguidordesktop" id="extinguidordesktop" value="Extinguidor,direccion" />
+                                                                                                                    <label for="extinguidordesktop">Extinguidor</label>
+                                                                                                            </div>
+                                                                                                            <div class="form_field_wrap">
+                                                                                                                <div class="check_parent">
+                                                                                                                        <input type="checkbox" name="sisComdesktop" id="sisComdesktop" value="Sistema de Comunicación,direccion" />
+                                                                                                                        <label for="sisComdesktop">Sistema de Comunicación</label>
+                                                                                                                </div>																					
 
+                                                                                                                <input type="text" name="sisComtextdesktop" id="sisComtextdesktop" value="" size="35" placeholder="especificar" />
+                                                                                                            </div>																																														
 
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                                                                        <div class="form_info cmsms_checkboxes">															
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="botiquindesktop" id="botiquindesktop" value="Botiquín de primeros auxilios,direccion" />
+                                                                                                                    <label for="botiquindesktop">Botiquín de primeros auxilios</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="smadesktop" id="smadesktop" value="Permiso SMA,direccion" />
+                                                                                                                    <label for="smadesktop">Permiso SMA</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="inspecciondesktop" id="inspecciondesktop" value="Inspección de equipo,direccion" />
+                                                                                                                    <label for="inspecciondesktop">Inspección de equipo</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="emergencia1desktop" id="emergencia1desktop" value="Plan de acción en caso de emergencia,direccion" />
+                                                                                                                    <label for="emergencia1desktop">Plan de acción en caso de emergencia</label>
+                                                                                                            </div>																	
+                                                                                                        </div>
 
-                                                                                                <div class="cl"></div>
-                                                                                                <div class="loading"></div>
-                                                                                                <div class="form_info submit_wrap">
-                                                                                                    <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Actualizar informaciòn">
+                                                                                                    </div>		
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Descripción del trabajo a desarrollar</h3>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                    <div class="form_info cmsms_checkboxes">
+
+                                                                                                        <div class="check_parent">
+                                                                                                                <input type="checkbox" name="podadesktop" id="podadesktop" value="Poda,trabajo" />
+                                                                                                                <label for="podadesktop">Poda</label>
+                                                                                                        </div>
+                                                                                                        <div class="check_parent">
+                                                                                                                <input type="checkbox" name="remociondesktop" id="remociondesktop" value="Remoción,trabajo" />
+                                                                                                                <label for="remociondesktop">Remoción</label>
+                                                                                                        </div>
+                                                                                                        <div class="check_parent">
+                                                                                                                <input type="checkbox" name="manicordajedesktop" id="manicordajedesktop" value="Maniobras de cordaje,trabajo" />
+                                                                                                                <label for="manicordajedesktop">Maniobras de cordaje</label>
+                                                                                                        </div>																																													
+                                                                                                        <div class="check_parent">
+                                                                                                                <input type="checkbox" name="ctrlPeatonaldesktop" id="ctrlPeatonaldesktop" value="Control peatonal,trabajo" />
+                                                                                                                <label for="ctrlPeatonaldesktop">Control peatonal</label>
+                                                                                                        </div>	
+                                                                                                        <div class="check_parent">
+                                                                                                                <input type="checkbox" name="ctrlTransitodesktop" id="ctrlTransitodesktop" value="Control de tránsito temporal,trabajo" />
+                                                                                                                <label for="ctrlTransitodesktop">Control de tránsito temporal</label>
+                                                                                                        </div>																		
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                        <div class="form_info cmsms_checkboxes">															
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="caidalibredesktop" id="caidalibredesktop" value="Caída libre,trabajo" />
+                                                                                                                    <label for="caidalibredesktop">Caída libre</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="desramedesktop" id="desramedesktop" value="Desrame/ Troceado,trabajo" />
+                                                                                                                    <label for="desramedesktop">Desrame/ Troceado</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="destoconadodesktop" id="destoconadodesktop" value="Destoconado,trabajo" />
+                                                                                                                    <label for="destoconadodesktop">Destoconado</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="remocionArbdesktop" id="remocionArbdesktop" value="Remoción de arbustos,trabajo" />
+                                                                                                                    <label for="remocionArbdesktop">Remoción de arbustos</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="astilladodesktop" id="astilladodesktop" value="Astillado/Triturado,trabajo" />
+                                                                                                                    <label for="astilladodesktop">Astillado/Triturado</label>
+                                                                                                            </div>																		
+                                                                                                        </div>
+                                                                                                    </div>	
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                                                                        <div class="form_info cmsms_checkboxes">
+
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="plagasdesktop" id="plagasdesktop" value="Tratamiento de plagas o suelo,trabajo" />
+                                                                                                                    <label for="plagasdesktop">Tratamiento de plagas o suelo</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="dostrepadesktop" id="dostrepadesktop" value="Trepa,trabajo" />
+                                                                                                                    <label for="dostrepadesktop">Trepa</label>
+                                                                                                            </div>																																													
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="materialCortadodesktop" id="materialCortadodesktop" value="Retiro de material cortado,trabajo" />
+                                                                                                                    <label for="materialCortadodesktop">Retiro de material cortado</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="equipoEspdesktop" id="equipoEspdesktop" value="Equipo especializado,trabajo" />
+                                                                                                                    <label for="equipoEspdesktop">Equipo especializado</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="otrosDescripdesktop" id="otrosDescripdesktop" value="Otros,trabajo" />
+                                                                                                                    <label for="otrosDescripdesktop">Otros</label>
+                                                                                                            </div>																	
+                                                                                                        </div>
+                                                                                                    </div>	
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Peligros específicos del área de trabajo</h3>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                        <div class="form_info cmsms_checkboxes">
+
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="arbolContactodesktop" id="arbolContactodesktop" value="Árbol en contacto,peligros" />
+                                                                                                                    <label for="arbolContactodesktop">Árbol en contacto</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="dmadesktop" id="dmadesktop" value="Árbol/Rama en DMA,peligros" />
+                                                                                                                    <label for="dmadesktop">Árbol/Rama en DMA</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="defEstructdesktop" id="defEstructdesktop" value="Defecto estructural,peligros" />
+                                                                                                                    <label for="defEstructdesktop">Defecto estructural</label>
+                                                                                                            </div>																																													
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="climadesktop" id="climadesktop" value="Clima,peligros" />
+                                                                                                                    <label for="climadesktop">Clima</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="quimicosdesktop" id="quimicosdesktop" value="Manejo de químicos,peligros" />
+                                                                                                                    <label for="quimicosdesktop">Manejo de químicos</label>
+                                                                                                            </div>	
+                                                                                                            <div class="form_field_wrap">
+                                                                                                                <div class="check_parent">
+                                                                                                                        <input type="checkbox" name="electricidaddesktop" id="electricidaddesktop" value="Electricidad,peligros" />
+                                                                                                                        <label for="electricidaddesktop">Electricidad</label>
+                                                                                                                </div>																					
+
+                                                                                                                <input type="text" name="electricidadfielddesktop" id="electricidadfielddesktop" value="" size="35" placeholder="especificar" />
+                                                                                                            </div>																		
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                        <div class="form_info cmsms_checkboxes">	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="arbolSecodesktop" id="arbolSecodesktop" value="Árbol seco,peligros" />
+                                                                                                                    <label for="arbolSecodesktop">Árbol seco</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="ramasMuertasdesktop" id="ramasMuertasdesktop" value="Ramas muertas o colgantes,peligros" />
+                                                                                                                    <label for="ramasMuertasdesktop">Ramas muertas o colgantes</label>
+                                                                                                            </div>																	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="arbolDescortezadodesktop" id="arbolDescortezadodesktop" value="Árbol descortezado,peligros" />
+                                                                                                                    <label for="arbolDescortezadodesktop">Árbol descortezado</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="maderaBajodesktop" id="maderaBajodesktop" value="Madera bajo tensión,peligros" />
+                                                                                                                    <label for="maderaBajodesktop">Madera bajo tensión</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="silvestredesktop" id="silvestredesktop" value="Vida silvestre,peligros" />
+                                                                                                                    <label for="silvestredesktop">Vida silvestre</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="pudriciondesktop" id="pudriciondesktop" value="Pudrición,peligros" />
+                                                                                                                    <label for="pudriciondesktop">Pudrición</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="cavidadesdesktop" id="cavidadesdesktop" value="Cavidades,peligros" />
+                                                                                                                    <label for="cavidadesdesktop">Cavidades</label>
+                                                                                                            </div>	
+
+                                                                                                        </div>																		
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                                                                        <div class="form_info cmsms_checkboxes">
+
+                                                                                                            <div class="check_parent">																		
+                                                                                                                    <label for="plagas">Obstaculos</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="bardasdesktop" id="bardasdesktop" value="Cercas o bardas,peligros" />
+                                                                                                                    <label for="bardasdesktop">Cercas o bardas</label>
+                                                                                                            </div>																																													
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="peatonesdesktop" id="peatonesdesktop" value="Peatones,peligros" />
+                                                                                                                    <label for="peatonesdesktop">Peatones</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="mascotasdesktop" id="mascotasdesktop" value="Perros/Mascotas,peligros" />
+                                                                                                                    <label for="mascotasdesktop">Perros/Mascotas</label>
+                                                                                                            </div>		
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="jardineriadesktop" id="jardineriadesktop" value="Jardinería,peligros" />
+                                                                                                                    <label for="jardineriadesktop">Jardinería</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="estructurasdesktop" id="estructurasdesktop" value="Estructuras,peligros" />
+                                                                                                                    <label for="estructurasdesktop">Estructuras</label>
+                                                                                                            </div>
+                                                                                                            <div class="form_field_wrap">
+                                                                                                                <div class="check_parent">
+                                                                                                                        <input type="checkbox" name="otrosPeligrosdesktop" id="otrosPeligrosdesktop" value="Otro,peligros" />
+                                                                                                                        <label for="otrosPeligrosdesktop">Otro</label>
+                                                                                                                </div>																																									
+                                                                                                                <input type="text" name="otrospeligrosfielddesktop" id="otrospeligrosfielddesktop" value="" size="35" placeholder="especificar" />
+                                                                                                            </div>																		
+                                                                                                        </div>
+                                                                                                    </div>	
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Plan de mitigación de peligros</h3>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                            <div class="form_info cmsms_checkboxes">
+
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="equipProtdesktop" id="equipProtdesktop" value="Equipo de protección personal,mitigacion" />
+                                                                                                                            <label for="equipProtdesktop">Equipo de protección personal</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="rcpdesktop" id="rcpdesktop" value="Primeros auxilios/RCP,mitigacion" />
+                                                                                                                            <label for="rcpdesktop">Primeros auxilios/RCP</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="supFuegodesktop" id="supFuegodesktop" value="Plan de supresión de fuego,mitigacion" />
+                                                                                                                            <label for="supFuegodesktop">Plan de supresión de fuego</label>
+                                                                                                                    </div>																																													
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="juntaTrabdesktop" id="juntaTrabdesktop" value="Junta de trabajo,mitigacion" />
+                                                                                                                            <label for="juntaTrabdesktop">Junta de trabajo</label>
+                                                                                                                    </div>	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="inspArboldesktop" id="inspArboldesktop" value="Inspección de árbol(es),mitigacion" />
+                                                                                                                            <label for="inspArboldesktop">Inspección de árbol(es)</label>
+                                                                                                                    </div>					
+                                                                                                            </div>
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                            <div class="form_info cmsms_checkboxes">	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="inspEquipodesktop" id="inspEquipodesktop" value="Inspección equipo de protección contra caídas,mitigacion" />
+                                                                                                                            <label for="inspEquipodesktop">Inspección equipo de protección contra caídas</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="inspMotosierrasdesktop" id="inspMotosierrasdesktop" value="Inspección de motosierras y herramientas,mitigacion" />
+                                                                                                                            <label for="inspMotosierrasdesktop">Inspección de motosierras y herramientas</label>
+                                                                                                                    </div>																	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="equipoCordajedesktop" id="equipoCordajedesktop" value="Uso de equipo de cordaje,mitigacion" />
+                                                                                                                            <label for="equipoCordajedesktop">Uso de equipo de cordaje</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="acordonamientodesktop" id="acordonamientodesktop" value="Acordonamiento del área,mitigacion" />
+                                                                                                                            <label for="acordonamientodesktop">Acordonamiento del área</label>
+                                                                                                                    </div>	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="comunicaciondesktop" id="comunicaciondesktop" value="Comunicación,mitigacion" />
+                                                                                                                            <label for="comunicaciondesktop">Comunicación</label>
+                                                                                                                    </div>
+
+                                                                                                            </div>																		
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                                                                            <div class="form_info cmsms_checkboxes">
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="supSitiodesktop" id="supSitiodesktop" value="Supervisión en sitio,mitigacion" />
+                                                                                                                            <label for="supSitiodesktop">Supervisión en sitio</label>
+                                                                                                                    </div>																																													
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="caidadesktop" id="caidadesktop" value="Zona de caída,mitigacion" />
+                                                                                                                            <label for="caidadesktop">Zona de caída</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="prevClimadesktop" id="prevClimadesktop" value="Prevención climática,mitigacion" />
+                                                                                                                            <label for="prevClimadesktop">Prevención climática</label>
+                                                                                                                    </div>		
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="dañoExisdesktop" id="dañoExisdesktop" value="Daño existente (documentar),mitigacion" />
+                                                                                                                            <label for="dañoExisdesktop">Daño existente (documentar)</label>
+                                                                                                                    </div>	
+                                                                                                                    <div class="form_field_wrap">
+                                                                                                                        <div class="check_parent">
+                                                                                                                                <input type="checkbox" name="otrosPlandesktop" id="otrosPlandesktop" value="Otro,mitigacion" />
+                                                                                                                                <label for="otrosPlandesktop">Otro</label>
+                                                                                                                        </div>																																									
+                                                                                                                        <input type="text" name="otrosplanfielddesktop" id="otrosplanfielddesktop" value="" size="35" placeholder="especificar" />
+                                                                                                                    </div>																		
+                                                                                                            </div>
+                                                                                                    </div>	
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Equipo de Protección Personal</h3>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                            <div class="form_info cmsms_checkboxes">
+
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="cascodesktop" id="cascodesktop" value="Casco,proteccion" />
+                                                                                                                            <label for="cascodesktop">Casco</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="gafasdesktop" id="gafasdesktop" value="Gafas de seguridad,proteccion" />
+                                                                                                                            <label for="gafasdesktop">Gafas de seguridad</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="chalecodesktop" id="chalecodesktop" value="Chaleco/camiseta reflejante,proteccion" />
+                                                                                                                            <label for="chalecodesktop">Chaleco/camiseta reflejante</label>
+                                                                                                                    </div>																																																		
+                                                                                                            </div>
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                        <div class="form_info cmsms_checkboxes">	
+                                                                                                        <div class="check_parent">
+                                                                                                                <input type="checkbox" name="auditivadesktop" id="auditivadesktop" value="Protección auditiva,proteccion" />
+                                                                                                                <label for="auditivadesktop">Protección auditiva</label>
+                                                                                                        </div>
+                                                                                                        <div class="check_parent">
+                                                                                                                <input type="checkbox" name="mascaradesktop" id="mascaradesktop" value="Máscara/Protección facial,proteccion" />
+                                                                                                                <label for="mascaradesktop">Máscara/Protección facial</label>
+                                                                                                        </div>
+                                                                                                        <div class="check_parent">
+                                                                                                                <input type="checkbox" name="botasdesktop" id="botasdesktop" value="Botas de trabajo,proteccion" />
+                                                                                                                <label for="botasdesktop">Botas de trabajo</label>
+                                                                                                        </div>																																												
+                                                                                                    </div>																		
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                                                                        <div class="form_info cmsms_checkboxes">
+                                                                                                                <div class="check_parent">
+                                                                                                                        <input type="checkbox" name="chaparrerasdesktop" id="chaparrerasdesktop" value="Chaparreras,proteccion" />
+                                                                                                                        <label for="chaparrerasdesktop">Chaparreras</label>
+                                                                                                                </div>																																													
+                                                                                                                <div class="check_parent">
+                                                                                                                        <input type="checkbox" name="guantesdesktop" id="guantesdesktop" value="Guantes,proteccion" />
+                                                                                                                        <label for="guantesdesktop">Guantes</label>
+                                                                                                                </div>
+                                                                                                                <div class="form_field_wrap">
+                                                                                                                <div class="check_parent">
+                                                                                                                        <input type="checkbox" name="otrosEquiposdesktop" id="otrosEquiposdesktop" value="Otro,proteccion" />
+                                                                                                                        <label for="otrosEquiposdesktop">Otro</label>
+                                                                                                                </div>																																									
+                                                                                                                <input type="text" name="otrosequiposfielddesktop" id="otrosequiposfielddesktop" value="" size="35" placeholder="especificar" />
+                                                                                                                </div>																		
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third"></div>
+                                                                                                    <div class="form_info cmsms_input one_third"></div>
+                                                                                                    <div class="form_info cmsms_input one_third">  
+                                                                                                    <div id="cmsms_button_555444cd12761" class="button_wrap">
+                                                                                                        <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn"/>
+                                                                                                        <!--a href="#" class="cmsms_button">Click Me</a-->
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <!--    <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn"/>
+                                                                                                    </div-->
+                                                                                                    <!--fin hoja dos-->
+                                                                                                    </div>
+                                                                                                </div>                                                
+                                                                                                <!--fin hoja dos-->
+
                                                                                                 </div>
-                                                                                                <div class="cl"></div>
-
-                                                                                            </div>
-                                                                                        </div>
+                                                                                                </div>
+                                                                                                </div>
+                                                                                                </div>
                                                                                     </form>
 
                                                                                 </div>

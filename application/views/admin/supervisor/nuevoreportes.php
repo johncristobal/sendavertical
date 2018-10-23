@@ -167,907 +167,940 @@
 						</div>
 					</div>
 					
-					<div class="middle_inner">                                            
-						<div id="cmsms_row_5550b989a6296" class="cmsms_row cmsms_color_scheme_default">
-							<div class="cmsms_row_outer_parent">
-								<div class="cmsms_row_outer">
-									<div class="cmsms_row_inner">
-										<div class="cmsms_row_margin">
-			<div class="cmsms_column one_first">																								
+                    <div class="middle_inner">                                            
+                        <div id="cmsms_row_5550b989a6296" class="cmsms_row cmsms_color_scheme_default">
+                            <div class="cmsms_row_outer_parent">
+                                <div class="cmsms_row_outer">
+                                    <div class="cmsms_row_inner">
+                                        <div class="cmsms_row_margin">
+                                        <div class="cmsms_column one_first">																								
 					<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
 					<!--mobile-->
-							<form id="formMobile">
-							<div class="cmsms_contact_form mobile">
-											<input type="hidden" name="tipo" id="tipo" value="mobile">
-											<div class="cmsms-form-builder">
-													<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Reportes</h3>
-													<div class="form_info cmsms_input one_half">
-																	<label for="numcotizacion">Número de cotizaciòn</label>
-																	<div class="form_field_wrap">
-																			<input type="text" name="numcotizacionmobile" id="numcotizacionmobile" value="" size="35" />
-																	</div>
-													</div>
-													<div class="form_info cmsms_input one_half">
-																	<label for="cmsms_your_phone_number_is">Cliente</label>
-																	<div class="form_field_wrap">
-																					<input type="text" name="clientemobile" id="clientemobile" value="" size="35" />
-																	</div>
-													</div>
-													<div class="form_info cmsms_input one_third">
-																	<label for="contact_email">Nombre del proyecto</label>
-																	<div class="form_field_wrap">
-																			<input type="text" name="proyectomobile" id="proyectomobile" value="" size="35" />
-																	</div>
-													</div>
-													<div class="form_info cmsms_input one_third">
-																	<label for="cmsms_your_phone_number_is">Ingresos</label>
-																	<div class="form_field_wrap">
-																					<input type="number" name="ingresosmobile" id="ingresosmobile" value="" size="35"/>
-																	</div>
-													</div>
-													<div class="form_info cmsms_input one_third">
-																	<label for="cmsms_your_phone_number_is">Forma de pago</label>
-																	<div class="form_field_wrap">
-																			<input type="text" name="formapagomobile" id="formapagomobile" value="" size="35" />
-																	</div>
-													</div>
+                                        <form id="formMobile">
+                                        <div class="cmsms_contact_form mobile">
+                                    <input type="hidden" name="tipo" id="tipo" value="mobile">
+                                    <div class="cmsms-form-builder">
+                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Reportes</h3>
+                                                    <div class="form_info cmsms_input one_half">
+                                                                                    <label for="numcotizacion">Número de cotizaciòn</label>
+                                                                                    <div class="form_field_wrap">
+                                                                                                    <input type="text" name="numcotizacionmobile" id="numcotizacionmobile" value="" size="35" />
+                                                                                    </div>
+                                                    </div>
+                                                    <div class="form_info cmsms_input one_half">
+                                                                                    <label for="cmsms_your_phone_number_is">Cliente</label>
+                                                                                    <div class="form_field_wrap">
+                                                                                                                    <input type="text" name="clientemobile" id="clientemobile" value="" size="35" />
+                                                                                    </div>
+                                                    </div>
+                                                    <div class="form_info cmsms_input one_third">
+                                                                                    <label for="contact_email">Nombre del proyecto</label>
+                                                                                    <div class="form_field_wrap">
+                                                                                                    <input type="text" name="proyectomobile" id="proyectomobile" value="" size="35" />
+                                                                                    </div>
+                                                    </div>
+                                                    <div class="form_info cmsms_input one_third">
+                                                                                    <label for="cmsms_your_phone_number_is">Ingresos</label>
+                                                                                    <div class="form_field_wrap">
+                                                                                                                    <input type="number" name="ingresosmobile" id="ingresosmobile" value="" size="35"/>
+                                                                                    </div>
+                                                    </div>
+                                                    <div class="form_info cmsms_input one_third">
+                                                                                    <label for="cmsms_your_phone_number_is">Forma de pago</label>
+                                                                                    <div class="form_field_wrap">
+                                                                                                    <input type="text" name="formapagomobile" id="formapagomobile" value="" size="35" />
+                                                                                    </div>
+                                                    </div>
 
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<br>
-													<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Gastos Nónima</h3>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <br>
+                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Gastos Nónima</h3>
 
-													<div class="ancho60">
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">Nombre</label>
-															<input type="text" name="gastos1mobile" id="gastos1mobile" value="" size="35"/>
-													</div>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">Posiciòn</label>
-															<input type="text" name="posicion1mobile" id="posicion1mobile" value="" size="35" />
-													</div>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">$</label>
-															<input type="text" name="ingreso1mobile" id="ingreso1mobile" value="" size="35" class="validate[custom[number]]" />
-													</div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<br>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">Nombre</label>
-															<input type="text" name="gastos2mobile" id="gastos2mobile" value="" size="35"/>
-													</div>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">Posiciòn</label>
-															<input type="text" name="posicion2mobile" id="posicion2mobile" value="" size="35" />
-													</div>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">$</label>
-															<input type="text" name="ingreso2mobile" id="ingreso2mobile" value="" size="35" class="validate[custom[number]]" />
-													</div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<br>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">Nombre</label>
-															<input type="text" name="gastos3mobile" id="gastos3mobile" value="" size="35"/>
-													</div>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">Posiciòn</label>
-															<input type="text" name="posicion3mobile" id="posicion3mobile" value="" size="35" />
-													</div>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">$</label>
-															<input type="text" name="ingreso3mobile" id="ingreso3mobile" value="" size="35" class="validate[custom[number]]" />
-													</div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<br>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">Nombre</label>
-															<input type="text" name="gastos4mobile" id="gastos4mobile" value="" size="35"/>
-													</div>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">Posiciòn</label>
-															<input type="text" name="posicion4mobile" id="posicion4mobile" value="" size="35" />
-													</div>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">$</label>
-															<input type="text" name="ingreso4mobile" id="ingreso4mobile" value="" size="35" class="validate[custom[number]]" />
-													</div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<br>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">Nombre</label>
-															<input type="text" name="gastos5mobile" id="gastos5mobile" value="" size="35"/>
-													</div>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">Posiciòn</label>
-															<input type="text" name="posicion5mobile" id="posicion5mobile" value="" size="35" />
-													</div>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">$</label>
-															<input type="text" name="ingreso5mobile" id="ingreso5mobile" value="" size="35" class="validate[custom[number]]" />
-													</div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<br>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">Nombre</label>
-															<input type="text" name="gastos6mobile" id="gastos6mobile" value="" size="35"/>
-													</div>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">Posiciòn</label>
-															<input type="text" name="posicion6mobile" id="posicion6mobile" value="" size="35" />
-													</div>
-													<div class="form_info cmsms_input">
-															<label for="cmsms_your_phone_number_is">$</label>
-															<input type="text" name="ingreso6mobile" id="ingreso6mobile" value="" size="35" class="validate[custom[number]]" />
-													</div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													</div>                                                                                                                                                                                                                          
-													
-													<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Gastos Otros</h3>
-													<div class="ancho80">
-															<div class="form_info cmsms_input">
-																	<label for="cmsms_your_phone_number_is">Descripción</label>
-																	<input type="text" name="descripcion1mobile" id="descripcion1mobile" value="" size="35" />
-																	<label for="cmsms_your_phone_number_is">$</label>
-																	<input type="text" name="gastodescripcion1mobile" id="gastodescripcion1mobile" value="" size="35" class="validate[custom[number]]" />
-															</div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<br>
-													
-															<div class="form_info cmsms_input">
-																	<label for="cmsms_your_phone_number_is">Descripción</label>
-																	<input type="text" name="descripcion2mobile" id="descripcion2mobile" value="" size="35" />
-																	<label for="cmsms_your_phone_number_is">$</label>
-																	<input type="text" name="gastodescripcion2mobile" id="gastodescripcion2mobile" value="" size="35" class="validate[custom[number]]" />                                                                                                        
-															</div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<br>
-															
-															<div class="form_info cmsms_input">
-																	<label for="cmsms_your_phone_number_is">Descripción</label>
-																	<input type="text" name="descripcion3mobile" id="descripcion3mobile" value="" size="35" />
-																	<label for="cmsms_your_phone_number_is">$</label>
-																	<input type="text" name="gastodescripcion3mobile" id="gastodescripcion3mobile" value="" size="35" class="validate[custom[number]]" />                                                                                                        
-															</div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<br>
-															
-															<div class="form_info cmsms_input">
-																	<label for="cmsms_your_phone_number_is">Descripción</label>
-																	<input type="text" name="descripcion4mobile" id="descripcion4mobile" value="" size="35" />
-																	<label for="cmsms_your_phone_number_is">$</label>
-																	<input type="text" name="gastodescripcion4mobile" id="gastodescripcion4mobile" value="" size="35" class="validate[custom[number]]" />                                                                                                        
-															</div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<br>
-															
-															<div class="form_info cmsms_input">
-																	<label for="cmsms_your_phone_number_is">Descripción</label>
-																	<input type="text" name="descripcion5mobile" id="descripcion5mobile" value="" size="35" />
-																	<label for="cmsms_your_phone_number_is">$</label>
-																	<input type="text" name="gastodescripcion5mobile" id="gastodescripcion5mobile" value="" size="35" class="validate[custom[number]]" />                                                                                                        
-															</div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<br>
-															
-															<div class="form_info cmsms_input">
-																	<label for="cmsms_your_phone_number_is">Descripción</label>
-																	<input type="text" name="descripcion6mobile" id="descripcion6mobile" value="" size="35" />
-																	<label for="cmsms_your_phone_number_is">$</label>
-																	<input type="text" name="gastodescripcion6mobile" id="gastodescripcion6mobile" value="" size="35" class="validate[custom[number]]" />                                                                                                        
-															</div>
-													</div>
-													
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-													<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Equipo utilizado</h3>
-													<div class="form_info cmsms_input one_half">
-																	<div class="form_field_wrap">
-																			<label for="cmsms_your_phone_number_is">Camión</label>
-																			<div class="form_field_wrap">
-																					<input type="text" name="camionmobile" id="camionmobile" value="" size="35" class="validate[custom[number]]" />
-																			</div>
-																	</div>
-																	<div class="form_field_wrap">
-																			<label for="cmsms_your_phone_number_is">Equipo de trepa</label>
-																			<div class="form_field_wrap">
-																			<input type="text" name="trepamobile" id="trepamobile" value="" size="35" class="validate[custom[number]]" />
-																			</div>
-																	</div>
-																	<div class="form_field_wrap">
-																			<label for="cmsms_your_phone_number_is">Motosierras</label>
-																			<div class="form_field_wrap">
-																					<input type="text" name="motosierramobile" id="motosierramobile" value="" size="35" class="validate[custom[number]]" />
-																			</div>
-																	</div>
-																	 <div class="form_field_wrap">
-																			<label for="cmsms_your_phone_number_is">Equipo de cordaje</label>
-																			<div class="form_field_wrap">
-																					<input type="text" name="cordajemobile" id="cordajemobile" value="" size="35" class="validate[custom[number]]" />
-																			</div>
-																	</div>
+                                                    <div class="ancho60">
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">Nombre</label>
+                                                                    <input type="text" name="gastos1mobile" id="gastos1mobile" value="" size="35"/>
+                                                    </div>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">Posiciòn</label>
+                                                                    <input type="text" name="posicion1mobile" id="posicion1mobile" value="" size="35" />
+                                                    </div>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                                    <input type="text" name="ingreso1mobile" id="ingreso1mobile" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <br>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">Nombre</label>
+                                                                    <input type="text" name="gastos2mobile" id="gastos2mobile" value="" size="35"/>
+                                                    </div>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">Posiciòn</label>
+                                                                    <input type="text" name="posicion2mobile" id="posicion2mobile" value="" size="35" />
+                                                    </div>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                                    <input type="text" name="ingreso2mobile" id="ingreso2mobile" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <br>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">Nombre</label>
+                                                                    <input type="text" name="gastos3mobile" id="gastos3mobile" value="" size="35"/>
+                                                    </div>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">Posiciòn</label>
+                                                                    <input type="text" name="posicion3mobile" id="posicion3mobile" value="" size="35" />
+                                                    </div>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                                    <input type="text" name="ingreso3mobile" id="ingreso3mobile" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <br>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">Nombre</label>
+                                                                    <input type="text" name="gastos4mobile" id="gastos4mobile" value="" size="35"/>
+                                                    </div>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">Posiciòn</label>
+                                                                    <input type="text" name="posicion4mobile" id="posicion4mobile" value="" size="35" />
+                                                    </div>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                                    <input type="text" name="ingreso4mobile" id="ingreso4mobile" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <br>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">Nombre</label>
+                                                                    <input type="text" name="gastos5mobile" id="gastos5mobile" value="" size="35"/>
+                                                    </div>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">Posiciòn</label>
+                                                                    <input type="text" name="posicion5mobile" id="posicion5mobile" value="" size="35" />
+                                                    </div>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                                    <input type="text" name="ingreso5mobile" id="ingreso5mobile" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <br>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">Nombre</label>
+                                                                    <input type="text" name="gastos6mobile" id="gastos6mobile" value="" size="35"/>
+                                                    </div>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">Posiciòn</label>
+                                                                    <input type="text" name="posicion6mobile" id="posicion6mobile" value="" size="35" />
+                                                    </div>
+                                                    <div class="form_info cmsms_input">
+                                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                                    <input type="text" name="ingreso6mobile" id="ingreso6mobile" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    </div>                                                                                                                                                                                                                          
 
-													</div>
-													<div class="form_info cmsms_input one_half">                                                                                                                                   
-																	<div class="form_field_wrap">
-																			<label for="cmsms_your_phone_number_is">Equipo de asperjado</label>
-																			<div class="form_field_wrap">
-																					<input type="text" name="asperjadomobile" id="asperjadomobile" value="" size="35" class="validate[custom[number]]" />
-																			</div>
-																	</div>
-																	<div class="form_field_wrap">
-																			<label for="cmsms_your_phone_number_is">Equipo de limpieza</label>
-																			<div class="form_field_wrap">
-																					<input type="text" name="limpiezamobile" id="limpiezamobile" value="" size="35" class="validate[custom[number]]" />
-																			</div>
-																	</div>
-																	<div class="form_field_wrap">
-																			<label for="cmsms_your_phone_number_is">Otro</label>
-																			<input type="text" name="otrodetail1mobile" id="otrodetail1mobile" value="" size="35" placeholder="especificar" />
-																			<div class="form_field_wrap">
-																					<input type="text" name="otro1mobile" id="otro1mobile" value="" size="35" class="validate[custom[number]]" />
-																			</div>
-																	</div>
-																	<div class="form_field_wrap">
-																			<label for="cmsms_your_phone_number_is">Otro</label>
-																			<input type="text" name="otrodetail2mobile" id="otrodetail2mobile" value="" size="35" placeholder="especificar" />
-																			<div class="form_field_wrap">
-																					<input type="text" name="otro2mobile" id="otro2mobile" value="" size="35" class="validate[custom[number]]" />
-																			</div>
-																	</div>
-													</div>
+                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Gastos Otros</h3>
+                                                    <div class="ancho80">
+                                                                    <div class="form_info cmsms_input">
+                                                                                    <label for="cmsms_your_phone_number_is">Descripción</label>
+                                                                                    <input type="text" name="descripcion1mobile" id="descripcion1mobile" value="" size="35" />
+                                                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                                                    <input type="text" name="gastodescripcion1mobile" id="gastodescripcion1mobile" value="" size="35" class="validate[custom[number]]" />
+                                                                    </div>
+                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                    <br>
 
+                                                                    <div class="form_info cmsms_input">
+                                                                                    <label for="cmsms_your_phone_number_is">Descripción</label>
+                                                                                    <input type="text" name="descripcion2mobile" id="descripcion2mobile" value="" size="35" />
+                                                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                                                    <input type="text" name="gastodescripcion2mobile" id="gastodescripcion2mobile" value="" size="35" class="validate[custom[number]]" />                                                                                                        
+                                                                    </div>
+                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                    <br>
 
+                                                                    <div class="form_info cmsms_input">
+                                                                                    <label for="cmsms_your_phone_number_is">Descripción</label>
+                                                                                    <input type="text" name="descripcion3mobile" id="descripcion3mobile" value="" size="35" />
+                                                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                                                    <input type="text" name="gastodescripcion3mobile" id="gastodescripcion3mobile" value="" size="35" class="validate[custom[number]]" />                                                                                                        
+                                                                    </div>
+                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                    <br>
 
-													<div class="cl"></div>
-													<div class="loading"></div>
-													
-													<!-- Here you need to set the path to the sendmail file -->
-													<div class="form_info submit_wrap">
-															<input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn"/>
-													</div>
-													<div class="cl"></div>
+                                                                    <div class="form_info cmsms_input">
+                                                                                    <label for="cmsms_your_phone_number_is">Descripción</label>
+                                                                                    <input type="text" name="descripcion4mobile" id="descripcion4mobile" value="" size="35" />
+                                                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                                                    <input type="text" name="gastodescripcion4mobile" id="gastodescripcion4mobile" value="" size="35" class="validate[custom[number]]" />                                                                                                        
+                                                                    </div>
+                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                    <br>
 
-											</div>
-									</div>
-							</form>
-                                                                                    
-									<!--ESCRITORIO-->
-									<form id="formDesktop">
-											<div class="cmsms_contact_form desktop">
-													<input type="hidden" name="tipo" id="tipo" value="desktop">
-													<div class="cmsms-form-builder">
-															<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Reportes</h3>
-															<div class="form_info cmsms_input one_half">
-																			<label for="numcotizacion">Número de cotizaciòn</label>
-																			<div class="form_field_wrap">
-																					<input type="text" name="numcotizaciondesktop" id="numcotizaciondesktop" value="" size="35" />
-																			</div>
-															</div>
-															<div class="form_info cmsms_input one_half">
-																			<label for="cmsms_your_phone_number_is">Cliente</label>
-																			<div class="form_field_wrap">
-																							<input type="text" name="clientedesktop" id="clientedesktop" value="" size="35" />
-																			</div>
-															</div>
-															<div class="form_info cmsms_input one_third">
-																			<label for="contact_email">Nombre del proyecto</label>
-																			<div class="form_field_wrap">
-																					<input type="text" name="proyectodesktop" id="proyectodesktop" value="" size="35" />
-																			</div>
-															</div>
-															<div class="form_info cmsms_input one_third">
-																			<label for="cmsms_your_phone_number_is">Ingresos</label>
-																			<div class="form_field_wrap">
-																							<input type="number" name="ingresosdesktop" id="ingresosdesktop" value="" size="35"/>
-																			</div>
-															</div>
-															<div class="form_info cmsms_input one_third">
-																			<label for="cmsms_your_phone_number_is">Forma de pago</label>
-																			<div class="form_field_wrap">
-																					<input type="text" name="formapagodesktop" id="formapagodesktop" value="" size="35" />
-																			</div>
-															</div>
+                                                                    <div class="form_info cmsms_input">
+                                                                                    <label for="cmsms_your_phone_number_is">Descripción</label>
+                                                                                    <input type="text" name="descripcion5mobile" id="descripcion5mobile" value="" size="35" />
+                                                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                                                    <input type="text" name="gastodescripcion5mobile" id="gastodescripcion5mobile" value="" size="35" class="validate[custom[number]]" />                                                                                                        
+                                                                    </div>
+                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                    <br>
 
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Gastos Nónima</h3>
+                                                                    <div class="form_info cmsms_input">
+                                                                                    <label for="cmsms_your_phone_number_is">Descripción</label>
+                                                                                    <input type="text" name="descripcion6mobile" id="descripcion6mobile" value="" size="35" />
+                                                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                                                    <input type="text" name="gastodescripcion6mobile" id="gastodescripcion6mobile" value="" size="35" class="validate[custom[number]]" />                                                                                                        
+                                                                    </div>
+                                                    </div>
 
-															<div class="form_info cmsms_input one_third">
-																	<label for="cmsms_your_phone_number_is">Nombre</label>
-															</div>
-															<div class="form_info cmsms_input one_third">
-																	<label for="cmsms_your_phone_number_is">Posiciòn</label>
-															</div>
-															<div class="form_info cmsms_input one_third">
-																	<label for="cmsms_your_phone_number_is">$</label>
-															</div>
-															<div class="form_info cmsms_input one_third">
-																	<div class="form_field_wrap">
-																			<input type="text" name="gastos1desktop" id="gastos1desktop" value="" size="35"/>
-																			<input type="text" name="gastos2desktop" id="gastos2desktop" value="" size="35"/>
-																			<input type="text" name="gastos3desktop" id="gastos3desktop" value="" size="35"/>
-																			<input type="text" name="gastos4desktop" id="gastos4desktop" value="" size="35"/>
-																			<input type="text" name="gastos5desktop" id="gastos5desktop" value="" size="35"/>
-																			<input type="text" name="gastos6desktop" id="gastos6desktop" value="" size="35"/>
-																	</div>
-															</div>
-															<div class="form_info cmsms_input one_third">
-																	<div class="form_field_wrap">
-																			<input type="text" name="posicion1desktop" id="posicion1desktop" value="" size="35" />
-																			<input type="text" name="posicion2desktop" id="posicion2desktop" value="" size="35" />
-																			<input type="text" name="posicion3desktop" id="posicion3desktop" value="" size="35" />
-																			<input type="text" name="posicion4desktop" id="posicion4desktop" value="" size="35" />
-																			<input type="text" name="posicion5desktop" id="posicion5desktop" value="" size="35" />
-																			<input type="text" name="posicion6desktop" id="posicion6desktop" value="" size="35" />
-																	</div>
-															</div>
-															<div class="form_info cmsms_input one_third">
-																	<div class="form_field_wrap">
-																			<input type="text" name="ingreso1desktop" id="ingreso1desktop" value="" size="35" class="validate[custom[number]]" />
-																			<input type="text" name="ingreso2desktop" id="ingreso2desktop" value="" size="35" class="validate[custom[number]]" />
-																			<input type="text" name="ingreso3desktop" id="ingreso3desktop" value="" size="35" class="validate[custom[number]]" />
-																			<input type="text" name="ingreso4desktop" id="ingreso4desktop" value="" size="35" class="validate[custom[number]]" />
-																			<input type="text" name="ingreso5desktop" id="ingreso5desktop" value="" size="35" class="validate[custom[number]]" />
-																			<input type="text" name="ingreso6desktop" id="ingreso6desktop" value="" size="35" class="validate[custom[number]]" />
-																	</div>
-															</div>                                                                                                                            
-															
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Gastos Otros</h3>
-															<div class="form_info cmsms_input one_half">
-																	<label for="cmsms_your_phone_number_is">Descripción</label>
-																	<div class="form_field_wrap">
-																					<input type="text" name="descripcion1desktop" id="descripcion1desktop" value="" size="35" />
-																	</div>
-																	<div class="form_field_wrap">
-																					<input type="text" name="descripcion2desktop" id="descripcion2desktop" value="" size="35" />
-																	</div>
-																	<div class="form_field_wrap">
-																					<input type="text" name="descripcion3desktop" id="descripcion3desktop" value="" size="35" />
-																	</div>
-																	<div class="form_field_wrap">
-																					<input type="text" name="descripcion4desktop" id="descripcion4desktop" value="" size="35" />
-																	</div>
-																	<div class="form_field_wrap">
-																					<input type="text" name="descripcion5desktop" id="descripcion5desktop" value="" size="35" />
-																	</div>
-																	<div class="form_field_wrap">
-																					<input type="text" name="descripcion6desktop" id="descripcion6desktop" value="" size="35"/>
-																	</div>
-															</div>
-															<div class="form_info cmsms_input one_half">
-																	<label for="cmsms_your_phone_number_is">$</label>
-																	<div class="form_field_wrap">
-																					<input type="text" name="gastodescripcion1desktop" id="gastodescripcion1desktop" value="" size="35" class="validate[custom[number]]" />
-																	</div>
-																	<div class="form_field_wrap">
-																					<input type="text" name="gastodescripcion2desktop" id="gastodescripcion2desktop" value="" size="35" class="validate[custom[number]]" />
-																	</div>
-																	<div class="form_field_wrap">
-																					<input type="text" name="gastodescripcion3desktop" id="gastodescripcion3desktop" value="" size="35" class="validate[custom[number]]" />
-																	</div>
-																	<div class="form_field_wrap">
-																					<input type="text" name="gastodescripcion4desktop" id="gastodescripcion4desktop" value="" size="35" class="validate[custom[number]]" />
-																	</div>
-																	<div class="form_field_wrap">
-																					<input type="text" name="gastodescripcion5desktop" id="gastodescripcion5desktop" value="" size="35" class="validate[custom[number]]" />
-																	</div>
-																	<div class="form_field_wrap">
-																					<input type="text" name="gastodescripcion6desktop" id="gastodescripcion6desktop" value="" size="35" class="validate[custom[number]]" />
-																	</div>
-															</div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Equipo utilizado</h3>
-															<div class="form_info cmsms_input one_half">
-																			<div class="form_field_wrap">
-																					<label for="cmsms_your_phone_number_is">Camión</label>
-																					<div class="form_field_wrap">
-																							<input type="text" name="camiondesktop" id="camiondesktop" value="" size="35" class="validate[custom[number]]" />
-																					</div>
-																			</div>
-																			<div class="form_field_wrap">
-																					<label for="cmsms_your_phone_number_is">Equipo de trepa</label>
-																					<div class="form_field_wrap">
-																					<input type="text" name="trepadesktop" id="trepadesktop" value="" size="35" class="validate[custom[number]]" />
-																					</div>
-																			</div>
-																			<div class="form_field_wrap">
-																					<label for="cmsms_your_phone_number_is">Motosierras</label>
-																					<div class="form_field_wrap">
-																							<input type="text" name="motosierradesktop" id="motosierradesktop" value="" size="35" class="validate[custom[number]]" />
-																					</div>
-																			</div>
-																			 <div class="form_field_wrap">
-																					<label for="cmsms_your_phone_number_is">Equipo de cordaje</label>
-																					<div class="form_field_wrap">
-																							<input type="text" name="cordajedesktop" id="cordajedesktop" value="" size="35" class="validate[custom[number]]" />
-																					</div>
-																			</div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Equipo utilizado</h3>
+                                                    <div class="form_info cmsms_input one_half">
+                                                                                    <div class="form_field_wrap">
+                                                                                                    <label for="cmsms_your_phone_number_is">Camión</label>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                                    <input type="text" name="camionmobile" id="camionmobile" value="" size="35" class="validate[custom[number]]" />
+                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="form_field_wrap">
+                                                                                                    <label for="cmsms_your_phone_number_is">Equipo de trepa</label>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                    <input type="text" name="trepamobile" id="trepamobile" value="" size="35" class="validate[custom[number]]" />
+                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="form_field_wrap">
+                                                                                                    <label for="cmsms_your_phone_number_is">Motosierras</label>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                                    <input type="text" name="motosierramobile" id="motosierramobile" value="" size="35" class="validate[custom[number]]" />
+                                                                                                    </div>
+                                                                                    </div>
+                                                                                     <div class="form_field_wrap">
+                                                                                                    <label for="cmsms_your_phone_number_is">Equipo de cordaje</label>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                                    <input type="text" name="cordajemobile" id="cordajemobile" value="" size="35" class="validate[custom[number]]" />
+                                                                                                    </div>
+                                                                                    </div>
 
-															</div>
-															<div class="form_info cmsms_input one_half">                                                                                                                                   
-																			<div class="form_field_wrap">
-																					<label for="cmsms_your_phone_number_is">Equipo de asperjado</label>
-																					<div class="form_field_wrap">
-																							<input type="text" name="asperjadodesktop" id="asperjadodesktop" value="" size="35" class="validate[custom[number]]" />
-																					</div>
-																			</div>
-																			<div class="form_field_wrap">
-																					<label for="cmsms_your_phone_number_is">Equipo de limpieza</label>
-																					<div class="form_field_wrap">
-																							<input type="text" name="limpiezadesktop" id="limpiezadesktop" value="" size="35" class="validate[custom[number]]" />
-																					</div>
-																			</div>
-																			<div class="form_field_wrap">
-																					<label for="cmsms_your_phone_number_is">Otro</label>
-																					<input type="text" name="otrodetail1desktop" id="otrodetail1desktop" value="" size="35" placeholder="especificar" />
-																					<div class="form_field_wrap">
-																							<input type="text" name="otro1desktop" id="otro1desktop" value="" size="35" class="validate[custom[number]]" />
-																					</div>
-																			</div>
-																			<div class="form_field_wrap">
-																					<label for="cmsms_your_phone_number_is">Otro</label>
-																					<input type="text" name="otrodetail2desktop" id="otrodetail2desktop" value="" size="35" placeholder="especificar" />
-																					<div class="form_field_wrap">
-																							<input type="text" name="otro2desktop" id="otro2desktop" value="" size="35" class="validate[custom[number]]" />
-																					</div>
-																			</div>
-															</div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Información Contacto</h3>
-															<div class="form_info cmsms_input one_third">  
-																<label for="cmsms_your_phone_number_is">Proyecto</label>
-														  	<div class="form_field_wrap">
-																		<label for="cmsms_your_phone_number_is">Lugar</label>
-																		<input type="text" name="otrodetail1desktop" id="otrodetail1desktop" value="" size="35" placeholder="Lugar" />																		
-																</div>,
-														  	<div class="form_field_wrap">
-																		<label for="cmsms_your_phone_number_is">Supervisor</label>
-																		<input type="text" name="otrodetail1desktop" id="otrodetail1desktop" value="" size="35" placeholder="Supervisor" />																		
-																</div>
-														  	<div class="form_field_wrap">
-																		<label for="cmsms_your_phone_number_is">Teléfono</label>
-																		<input type="text" name="otrodetail1desktop" id="otrodetail1desktop" value="" size="35" placeholder="Teléfono" />																		
-																</div>																
-															</div>	
-															<div class="form_info cmsms_input one_third">  
-																<label for="cmsms_your_phone_number_is">Cliente</label>
-														  	<div class="form_field_wrap">
-																		<label for="cmsms_your_phone_number_is">Nombre</label>
-																		<input type="text" name="otrodetail1desktop" id="otrodetail1desktop" value="" size="35" placeholder="Nombre del cliente" />																		
-																</div>
-														  	<div class="form_field_wrap">
-																		<label for="cmsms_your_phone_number_is">Email</label>
-																		<input type="text" name="otrodetail1desktop" id="otrodetail1desktop" value="" size="35" placeholder="Email" />																		
-																</div>
-														  	<div class="form_field_wrap">
-																		<label for="cmsms_your_phone_number_is">Teléfono</label>
-																		<input type="text" name="otrodetail1desktop" id="otrodetail1desktop" value="" size="35" placeholder="Teléfono de cliente" />																		
-																</div>																
-															</div>
-															<div class="form_info cmsms_input one_third">  
-																<label for="cmsms_your_phone_number_is">Hospital</label>
-														  	<div class="form_field_wrap">
-																		<label for="cmsms_your_phone_number_is">Nombre</label>
-																		<input type="text" name="otrodetail1desktop" id="otrodetail1desktop" value="" size="35" placeholder="Nombre del hospital" />																		
-																</div>
-														  	<div class="form_field_wrap">
-																		<label for="cmsms_your_phone_number_is">Teléfono</label>
-																		<input type="text" name="otrodetail1desktop" id="otrodetail1desktop" value="" size="35" placeholder="Teléfono del hospital" />																		
-																</div>	
-														  	<div class="form_field_wrap">
-																		<label for="cmsms_your_phone_number_is">Teléfono de emergencia</label>
-																		<input type="text" name="otrodetail1desktop" id="otrodetail1desktop" value="" size="35" placeholder="Teléfono de emergencia" />																		
-																</div>																
-															</div>																
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Dirección</h3>
-														  <div class="form_info cmsms_input one_half">                                                                                                                                   
-																<div class="form_info cmsms_checkboxes">
-																
-																	<div class="check_parent">
-																		<input type="checkbox" name="aguaPotable" id="aguaPotable" value="aguaPotable" />
-																		<label for="aguaPotable">Agua potable</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="extinguidor" id="extinguidor" value="extinguidor" />
-																		<label for="extinguidor">Extinguidor</label>
-																	</div>
-																	<div class="form_field_wrap">
-																					<div class="check_parent">
-																						<input type="checkbox" name="sisCom" id="sisCom" value="sisCom" />
-																						<label for="sisCom">Sistema de Comunicación</label>
-																					</div>																					
-																					
-																					<input type="text" name="sisComdesktop" id="sisComdesktop" value="" size="35" placeholder="especificar" />
-																	</div>																																														
-																	
-																</div>
-															</div>
-														  <div class="form_info cmsms_input one_half">                                                                                                                                   
-																<div class="form_info cmsms_checkboxes">															
-																	<div class="check_parent">
-																		<input type="checkbox" name="botiquin" id="botiquin" value="" />
-																		<label for="botiquin">Botiquín de primeros auxilios</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="sma" id="sma" value="" />
-																		<label for="sma">Permiso SMA</label>
-																	</div>	
-																	<div class="check_parent">
-																		<input type="checkbox" name="inspeccion" id="inspeccion" value="" />
-																		<label for="inspeccion">Inspección de equipo</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="emergencia1" id="emergencia1" value="em1" />
-																		<label for="emergencia1">Plan de acción en caso de emergencia</label>
-																	</div>																	
-																</div>
-																																																														
-																</div>		
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Descripción del trabajo a desarrollar</h3>
-														  <div class="form_info cmsms_input one_third">                                                                                                                                   
-																<div class="form_info cmsms_checkboxes">
-																
-																	<div class="check_parent">
-																		<input type="checkbox" name="poda" id="poda" value="" />
-																		<label for="poda">Poda</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="remocion" id="remocion" value="" />
-																		<label for="remocion">Remoción</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="cordaje" id="cordaje" value="" />
-																		<label for="cordaje">Maniobras de cordaje</label>
-																	</div>																																													
-																	<div class="check_parent">
-																		<input type="checkbox" name="ctrlPeatonal" id="ctrlPeatonal" value="" />
-																		<label for="ctrlPeatonal">Control peatonal</label>
-																	</div>	
-																	<div class="check_parent">
-																		<input type="checkbox" name="ctrlTransito" id="ctrlTransito" value="" />
-																		<label for="ctrlTransito">Control de tránsito temporal</label>
-																	</div>																		
-																</div>
-															</div>
-														  <div class="form_info cmsms_input one_third">                                                                                                                                   
-																<div class="form_info cmsms_checkboxes">															
-																	<div class="check_parent">
-																		<input type="checkbox" name="caidalibre" id="caidalibre" value="" />
-																		<label for="caidalibre">Caída libre</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="desrame" id="desrame" value="" />
-																		<label for="desrame">Desrame/ Troceado</label>
-																	</div>	
-																	<div class="check_parent">
-																		<input type="checkbox" name="destoconado" id="destoconado" value="" />
-																		<label for="destoconado">Destoconado</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="remocionArb" id="remocionArb" value="em1" />
-																		<label for="remocionArb">Remoción de arbustos</label>
-																	</div>	
-																	<div class="check_parent">
-																		<input type="checkbox" name="astillado" id="astillado" value="" />
-																		<label for="astillado">Astillado/Triturado</label>
-																	</div>																		
-																</div>
-																																																														
-																</div>	
-
-														  <div class="form_info cmsms_input one_third">                                                                                                                                 
-																<div class="form_info cmsms_checkboxes">
-																
-																	<div class="check_parent">
-																		<input type="checkbox" name="plagas" id="plagas" value="" />
-																		<label for="plagas">Tratamiento de plagas o suelo</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="trepa" id="trepa" value="" />
-																		<label for="trepa">Trepa</label>
-																	</div>																																													
-																	<div class="check_parent">
-																		<input type="checkbox" name="materialCortado" id="materialCortado" value="" />
-																		<label for="materialCortado">Retiro de material cortado</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="equipoEsp" id="equipoEsp" value="" />
-																		<label for="equipoEsp">Equipo especializado</label>
-																	</div>	
-																	<div class="check_parent">
-																		<input type="checkbox" name="otrosDescrip" id="otrosDescrip" value="" />
-																		<label for="otrosDescrip">Otros</label>
-																	</div>																	
-																</div>
-															</div>	
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Peligros específicos del área de trabajo</h3>
-														  <div class="form_info cmsms_input one_third">                                                                                                                                   
-																<div class="form_info cmsms_checkboxes">
-																
-																	<div class="check_parent">
-																		<input type="checkbox" name="arbolContacto" id="arbolContacto" value="" />
-																		<label for="arbolContacto">Árbol en contacto</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="dma" id="dma" value="" />
-																		<label for="dma">Árbol/Rama en DMA</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="defEstruct" id="defEstruct" value="" />
-																		<label for="defEstruct">Defecto estructural</label>
-																	</div>																																													
-																	<div class="check_parent">
-																		<input type="checkbox" name="clima" id="clima" value="" />
-																		<label for="clima">Clima</label>
-																	</div>	
-																	<div class="check_parent">
-																		<input type="checkbox" name="quimicos" id="quimicos" value="" />
-																		<label for="quimicos">Manejo de químicos</label>
-																	</div>	
-																	<div class="form_field_wrap">
-																					<div class="check_parent">
-																						<input type="checkbox" name="electricidad" id="electricidad" value="" />
-																						<label for="electricidad">Electricidad</label>
-																					</div>																					
-																					
-																					<input type="text" name="sisComdesktop" id="sisComdesktop" value="" size="35" placeholder="especificar" />
-																	</div>																		
-		
-																		
-																</div>
-															</div>
-														  <div class="form_info cmsms_input one_third">                                                                                                                                   
-																<div class="form_info cmsms_checkboxes">	
-																	<div class="check_parent">
-																		<input type="checkbox" name="arbolSeco" id="arbolSeco" value="" />
-																		<label for="arbolSeco">Árbol seco</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="ramasMuertas" id="ramasMuertas" value="" />
-																		<label for="ramasMuertas">Ramas muertas o colgantes</label>
-																	</div>																	
-																	<div class="check_parent">
-																		<input type="checkbox" name="arbolDescortezado" id="arbolDescortezado" value="" />
-																		<label for="arbolDescortezado">Árbol descortezado</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="maderaBajo" id="maderaBajo" value="" />
-																		<label for="maderaBajo">Madera bajo tensión</label>
-																	</div>	
-																	<div class="check_parent">
-																		<input type="checkbox" name="silvestre" id="silvestre" value="" />
-																		<label for="silvestre">Vida silvestre</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="pudricion" id="pudricion" value="em1" />
-																		<label for="pudricion">Pudrición</label>
-																	</div>	
-																	<div class="check_parent">
-																		<input type="checkbox" name="cavidades" id="cavidades" value="" />
-																		<label for="cavidades">Cavidades</label>
-																	</div>	
-																																																														
-																</div>																		
-																</div>
+                                                    </div>
+                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                                                    <div class="form_field_wrap">
+                                                                                                    <label for="cmsms_your_phone_number_is">Equipo de asperjado</label>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                                    <input type="text" name="asperjadomobile" id="asperjadomobile" value="" size="35" class="validate[custom[number]]" />
+                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="form_field_wrap">
+                                                                                                    <label for="cmsms_your_phone_number_is">Equipo de limpieza</label>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                                    <input type="text" name="limpiezamobile" id="limpiezamobile" value="" size="35" class="validate[custom[number]]" />
+                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="form_field_wrap">
+                                                                                                    <label for="cmsms_your_phone_number_is">Otro</label>
+                                                                                                    <input type="text" name="otrodetail1mobile" id="otrodetail1mobile" value="" size="35" placeholder="especificar" />
+                                                                                                    <div class="form_field_wrap">
+                                                                                                                    <input type="text" name="otro1mobile" id="otro1mobile" value="" size="35" class="validate[custom[number]]" />
+                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="form_field_wrap">
+                                                                                                    <label for="cmsms_your_phone_number_is">Otro</label>
+                                                                                                    <input type="text" name="otrodetail2mobile" id="otrodetail2mobile" value="" size="35" placeholder="especificar" />
+                                                                                                    <div class="form_field_wrap">
+                                                                                                                    <input type="text" name="otro2mobile" id="otro2mobile" value="" size="35" class="validate[custom[number]]" />
+                                                                                                    </div>
+                                                                                    </div>
+                                                    </div>
 
 
-														  <div class="form_info cmsms_input one_third">                                                                                                                                 
-																<div class="form_info cmsms_checkboxes">
-																
-																	<div class="check_parent">																		
-																		<label for="plagas">Obstaculos</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="bardas" id="bardas" value="" />
-																		<label for="bardas">Cercas o bardas</label>
-																	</div>																																													
-																	<div class="check_parent">
-																		<input type="checkbox" name="peatones" id="peatones" value="" />
-																		<label for="peatones">Peatones</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="mascotas" id="mascotas" value="" />
-																		<label for="mascotas">Perros/Mascotas</label>
-																	</div>		
-																	<div class="check_parent">
-																		<input type="checkbox" name="jardineria" id="jardineria" value="" />
-																		<label for="jardineria">Jardinería</label>
-																	</div>	
-																	<div class="check_parent">
-																		<input type="checkbox" name="estructuras" id="estructuras" value="" />
-																		<label for="estructuras">Estructuras<label>
-																	</div>
-																	<div class="form_field_wrap">
-																					<div class="check_parent">
-																						<input type="checkbox" name="otrosPeligros" id="otrosPeligros" value="" />
-																						<label for="otrosPeligros">Otro</label>
-																					</div>																																									
-																					<input type="text" name="sisComdesktop" id="sisComdesktop" value="" size="35" placeholder="especificar" />
-																	</div>																		
-																</div>
-															</div>	
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Plan de mitigación de peligros</h3>
-														  <div class="form_info cmsms_input one_third">                                                                                                                                   
-																<div class="form_info cmsms_checkboxes">
-																
-																	<div class="check_parent">
-																		<input type="checkbox" name="equipProt" id="equipProt" value="" />
-																		<label for="equipProt">Equipo de protección personal</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="rcp" id="rcp" value="" />
-																		<label for="rcp">Primeros auxilios/RCP</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="supFuego" id="supFuego" value="" />
-																		<label for="supFuego">Plan de supresión de fuego</label>
-																	</div>																																													
-																	<div class="check_parent">
-																		<input type="checkbox" name="juntaTrab" id="juntaTrab" value="" />
-																		<label for="juntaTrab">Junta de trabajo</label>
-																	</div>	
-																	<div class="check_parent">
-																		<input type="checkbox" name="inspArbol" id="inspArbol" value="" />
-																		<label for="inspArbol">Inspección de árbol(es)</label>
-																	</div>					
-																</div>
-															</div>
-														  <div class="form_info cmsms_input one_third">                                                                                                                                   
-																<div class="form_info cmsms_checkboxes">	
-																	<div class="check_parent">
-																		<input type="checkbox" name="inspEquipo" id="inspEquipo" value="" />
-																		<label for="inspEquipo">Inspección equipo de protección contra caídas</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="inspMotosierras" id="inspMotosierras" value="" />
-																		<label for="inspMotosierras">Inspección de motosierras y herramientas</label>
-																	</div>																	
-																	<div class="check_parent">
-																		<input type="checkbox" name="equipoCordaje" id="equipoCordaje" value="" />
-																		<label for="equipoCordaje">Uso de equipo de cordaje</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="acordonamiento" id="acordonamiento" value="" />
-																		<label for="acordonamiento">Acordonamiento del área</label>
-																	</div>	
-																	<div class="check_parent">
-																		<input type="checkbox" name="comunicacion" id="comunicacion" value="" />
-																		<label for="comunicacion">Comunicación</label>
-																	</div>
-																																											
-																</div>																		
-																</div>
 
+                                                    <div class="cl"></div>
+                                                    <div class="loading"></div>
 
-														  <div class="form_info cmsms_input one_third">                                                                                                                                 
-																<div class="form_info cmsms_checkboxes">
-																	<div class="check_parent">
-																		<input type="checkbox" name="supSitio" id="supSitio" value="" />
-																		<label for="supSitio">Supervisión en sitio</label>
-																	</div>																																													
-																	<div class="check_parent">
-																		<input type="checkbox" name="caida" id="caida" value="" />
-																		<label for="caida">Zona de caída</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="prevClima" id="prevClima" value="" />
-																		<label for="prevClima">Prevención climática</label>
-																	</div>		
-																	<div class="check_parent">
-																		<input type="checkbox" name="dañoExis" id="dañoExis" value="" />
-																		<label for="dañoExis">Daño existente (documentar)</label>
-																	</div>	
-																	<div class="form_field_wrap">
-																					<div class="check_parent">
-																						<input type="checkbox" name="otrosPlan" id="otrosPlan" value="" />
-																						<label for="otrosPlan">Otro</label>
-																					</div>																																									
-																					<input type="text" name="sisComdesktop" id="sisComdesktop" value="" size="35" placeholder="especificar" />
-																	</div>																		
-																</div>
-															</div>	
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
-															<h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Equipo de Protección Personal</h3>
-														  <div class="form_info cmsms_input one_third">                                                                                                                                   
-																<div class="form_info cmsms_checkboxes">
-																
-																	<div class="check_parent">
-																		<input type="checkbox" name="casco" id="casco" value="" />
-																		<label for="casco">Casco</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="gafas" id="gafas" value="" />
-																		<label for="gafas">Gafas de seguridad</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="chaleco" id="chaleco" value="" />
-																		<label for="chaleco">Chaleco/camiseta reflejante</label>
-																	</div>																																																		
-																</div>
-															</div>
-														  <div class="form_info cmsms_input one_third">                                                                                                                                   
-																<div class="form_info cmsms_checkboxes">	
-																	<div class="check_parent">
-																		<input type="checkbox" name="auditiva" id="auditiva" value="" />
-																		<label for="auditiva">Protección auditiva</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="mascara" id="mascara" value="" />
-																		<label for="mascara">Máscara/Protección facial</label>
-																	</div>
-																	<div class="check_parent">
-																		<input type="checkbox" name="botas" id="botas" value="" />
-																		<label for="botas">Botas de trabajo</label>
-																	</div>																																												
-																</div>																		
-																</div>
+                                                    <!-- Here you need to set the path to the sendmail file -->
+                                                    <div class="form_info submit_wrap">
+                                                                    <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn"/>
+                                                    </div>
+                                                    <div class="cl"></div>
 
+                                            </div>
+                                        </div>
+                                        </form>
 
-														  <div class="form_info cmsms_input one_third">                                                                                                                                 
-																<div class="form_info cmsms_checkboxes">
-																	<div class="check_parent">
-																		<input type="checkbox" name="chaparreras" id="chaparreras" value="" />
-																		<label for="chaparreras">Chaparreras</label>
-																	</div>																																													
-																	<div class="check_parent">
-																		<input type="checkbox" name="guantes" id="guantes" value="" />
-																		<label for="guantes">Guantes</label>
-																	</div>
-																	<div class="form_field_wrap">
-																					<div class="check_parent">
-																						<input type="checkbox" name="otrosEquipos" id="otrosEquipos" value="" />
-																						<label for="otrosEquipos">Otro</label>
-																					</div>																																									
-																					<input type="text" name="sisComdesktop" id="sisComdesktop" value="" size="35" placeholder="especificar" />
-																	</div>																		
-																</div>
-																</div>																
-															</div>
-															<div class="cl"></div>
-															<div class="loading"></div>
-															<div class="form_info submit_wrap">
-																	<input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn">
-															</div>
-															<div class="cl"></div>
+                                        <!--ESCRITORIO-->
+                                        <form id="formDesktop">
+                                        <div class="cmsms_contact_form desktop">
+                                        <input type="hidden" name="tipo" id="tipo" value="desktop">
+                                        <div class="cmsms-form-builder">
+                                        <div class="cmsms_tabs tabs_mode_tab">
+                                        <ul class="cmsms_tabs_list">
+                                            <li id="cmsms_tabs_list_item_555469b2e5f20" class="cmsms_tabs_list_item current_tab">
+                                                <a href="#"><span>Reporte inicio</span></a>
+                                            </li>
+                                            <li id="cmsms_tabs_list_item_555469b2e612c" class="cmsms_tabs_list_item">
+                                                <a href="#"><span>Información de contacto</span></a>
+                                            </li>                                                
+                                        </ul>
+                                        <div class="cmsms_tabs_wrap">
+                                            <!--Inicia hoja uno-->
+                                            <div id="cmsms_tab_555469b2e5f20" class="cmsms_tab active_tab">
+                                                <div class="cmsms_tab_inner">
+                                                <!--hoja uino data-->
+                                                <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Reportes</h3>
+                                                <div class="form_info cmsms_input one_half">
+                                                    <label for="numcotizacion">Número de cotizaciòn</label>
+                                                    <div class="form_field_wrap">
+                                                        <input type="text" name="numcotizaciondesktop" id="numcotizaciondesktop" value="" size="35" />
+                                                    </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_half">
+                                                    <label for="cmsms_your_phone_number_is">Cliente</label>
+                                                    <div class="form_field_wrap">
+                                                        <input type="text" name="clientedesktop" id="clientedesktop" value="" size="35" />
+                                                    </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">
+                                                    <label for="contact_email">Nombre del proyecto</label>
+                                                    <div class="form_field_wrap">
+                                                        <input type="text" name="proyectodesktop" id="proyectodesktop" value="" size="35" />
+                                                    </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">
+                                                    <label for="cmsms_your_phone_number_is">Ingresos</label>
+                                                        <div class="form_field_wrap">
+                                                            <input type="number" name="ingresosdesktop" id="ingresosdesktop" value="" size="35"/>
+                                                        </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">
+                                                        <label for="cmsms_your_phone_number_is">Forma de pago</label>
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="formapagodesktop" id="formapagodesktop" value="" size="35" />
+                                                        </div>
+                                                </div>
 
-													</div>
-											</div>
-                                                                                    </form>
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Gastos Nónima</h3>
 
-                                                                                </div>
-                                                                            </div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="cl"></div>
-					</div>
-				</div>
+                                                <div class="form_info cmsms_input one_third">
+                                                    <label for="cmsms_your_phone_number_is">Nombre</label>
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">
+                                                    <label for="cmsms_your_phone_number_is">Posiciòn</label>
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">
+                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">
+                                                    <div class="form_field_wrap">
+                                                        <input type="text" name="gastos1desktop" id="gastos1desktop" value="" size="35"/>
+                                                        <input type="text" name="gastos2desktop" id="gastos2desktop" value="" size="35"/>
+                                                        <input type="text" name="gastos3desktop" id="gastos3desktop" value="" size="35"/>
+                                                        <input type="text" name="gastos4desktop" id="gastos4desktop" value="" size="35"/>
+                                                        <input type="text" name="gastos5desktop" id="gastos5desktop" value="" size="35"/>
+                                                        <input type="text" name="gastos6desktop" id="gastos6desktop" value="" size="35"/>
+                                                    </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">
+                                                    <div class="form_field_wrap">
+                                                        <input type="text" name="posicion1desktop" id="posicion1desktop" value="" size="35" />
+                                                        <input type="text" name="posicion2desktop" id="posicion2desktop" value="" size="35" />
+                                                        <input type="text" name="posicion3desktop" id="posicion3desktop" value="" size="35" />
+                                                        <input type="text" name="posicion4desktop" id="posicion4desktop" value="" size="35" />
+                                                        <input type="text" name="posicion5desktop" id="posicion5desktop" value="" size="35" />
+                                                        <input type="text" name="posicion6desktop" id="posicion6desktop" value="" size="35" />
+                                                    </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">
+                                                    <div class="form_field_wrap">
+                                                        <input type="text" name="ingreso1desktop" id="ingreso1desktop" value="" size="35" class="validate[custom[number]]" />
+                                                        <input type="text" name="ingreso2desktop" id="ingreso2desktop" value="" size="35" class="validate[custom[number]]" />
+                                                        <input type="text" name="ingreso3desktop" id="ingreso3desktop" value="" size="35" class="validate[custom[number]]" />
+                                                        <input type="text" name="ingreso4desktop" id="ingreso4desktop" value="" size="35" class="validate[custom[number]]" />
+                                                        <input type="text" name="ingreso5desktop" id="ingreso5desktop" value="" size="35" class="validate[custom[number]]" />
+                                                        <input type="text" name="ingreso6desktop" id="ingreso6desktop" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                </div>                                                                                                                            
+
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Gastos Otros</h3>
+                                                <div class="form_info cmsms_input one_half">
+                                                    <label for="cmsms_your_phone_number_is">Descripción</label>
+                                                    <div class="form_field_wrap">
+                                                                                    <input type="text" name="descripcion1desktop" id="descripcion1desktop" value="" size="35" />
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                                                    <input type="text" name="descripcion2desktop" id="descripcion2desktop" value="" size="35" />
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                                                    <input type="text" name="descripcion3desktop" id="descripcion3desktop" value="" size="35" />
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                                                    <input type="text" name="descripcion4desktop" id="descripcion4desktop" value="" size="35" />
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                                                    <input type="text" name="descripcion5desktop" id="descripcion5desktop" value="" size="35" />
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                                                    <input type="text" name="descripcion6desktop" id="descripcion6desktop" value="" size="35"/>
+                                                    </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_half">
+                                                    <label for="cmsms_your_phone_number_is">$</label>
+                                                    <div class="form_field_wrap">
+                                                            <input type="text" name="gastodescripcion1desktop" id="gastodescripcion1desktop" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                        <input type="text" name="gastodescripcion2desktop" id="gastodescripcion2desktop" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                        <input type="text" name="gastodescripcion3desktop" id="gastodescripcion3desktop" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                        <input type="text" name="gastodescripcion4desktop" id="gastodescripcion4desktop" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                        <input type="text" name="gastodescripcion5desktop" id="gastodescripcion5desktop" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                        <input type="text" name="gastodescripcion6desktop" id="gastodescripcion6desktop" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                </div>
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Equipo utilizado</h3>
+                                                <div class="form_info cmsms_input one_half">
+                                                <div class="form_field_wrap">
+                                                                <label for="cmsms_your_phone_number_is">Camión</label>
+                                                                <div class="form_field_wrap">
+                                                                                <input type="text" name="camiondesktop" id="camiondesktop" value="" size="35" class="validate[custom[number]]" />
+                                                                </div>
+                                                </div>
+                                                <div class="form_field_wrap">
+                                                                <label for="cmsms_your_phone_number_is">Equipo de trepa</label>
+                                                                <div class="form_field_wrap">
+                                                                <input type="text" name="trepadesktop" id="trepadesktop" value="" size="35" class="validate[custom[number]]" />
+                                                                </div>
+                                                </div>
+                                                <div class="form_field_wrap">
+                                                                <label for="cmsms_your_phone_number_is">Motosierras</label>
+                                                                <div class="form_field_wrap">
+                                                                                <input type="text" name="motosierradesktop" id="motosierradesktop" value="" size="35" class="validate[custom[number]]" />
+                                                                </div>
+                                                </div>
+                                                 <div class="form_field_wrap">
+                                                                <label for="cmsms_your_phone_number_is">Equipo de cordaje</label>
+                                                                <div class="form_field_wrap">
+                                                                                <input type="text" name="cordajedesktop" id="cordajedesktop" value="" size="35" class="validate[custom[number]]" />
+                                                                </div>
+                                                </div>
+
+                                                </div>
+                                                <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                <div class="form_field_wrap">
+                                                                <label for="cmsms_your_phone_number_is">Equipo de asperjado</label>
+                                                                <div class="form_field_wrap">
+                                                                                <input type="text" name="asperjadodesktop" id="asperjadodesktop" value="" size="35" class="validate[custom[number]]" />
+                                                                </div>
+                                                </div>
+                                                <div class="form_field_wrap">
+                                                                <label for="cmsms_your_phone_number_is">Equipo de limpieza</label>
+                                                                <div class="form_field_wrap">
+                                                                                <input type="text" name="limpiezadesktop" id="limpiezadesktop" value="" size="35" class="validate[custom[number]]" />
+                                                                </div>
+                                                </div>
+                                                <div class="form_field_wrap">
+                                                                <label for="cmsms_your_phone_number_is">Otro</label>
+                                                                <input type="text" name="otrodetail1desktop" id="otrodetail1desktop" value="" size="35" placeholder="especificar" />
+                                                                <div class="form_field_wrap">
+                                                                                <input type="text" name="otro1desktop" id="otro1desktop" value="" size="35" class="validate[custom[number]]" />
+                                                                </div>
+                                                </div>
+                                                <div class="form_field_wrap">
+                                                    <label for="cmsms_your_phone_number_is">Otro</label>
+                                                    <input type="text" name="otrodetail2desktop" id="otrodetail2desktop" value="" size="35" placeholder="especificar" />
+                                                    <div class="form_field_wrap">
+                                                        <input type="text" name="otro2desktop" id="otro2desktop" value="" size="35" class="validate[custom[number]]" />
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                <!--fin uno data-->
+                                                </div>
+                                            </div>
+                                            <!--****************************fin hoja uno****************************-->
+                                            
+                                            <!--****************************Inicia hoja dos****************************-->
+                                            <div id="cmsms_tab_555469b2e612c" class="cmsms_tab">
+                                                <div class="cmsms_tab_inner">
+                                                    <!--Emepioza hja dos...-->
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Información Contacto</h3>
+                                                <div class="form_info cmsms_input one_third">  
+                                                    <!--label for="cmsms_your_phone_number_is">Proyecto</label-->
+                                                    <div class="form_field_wrap">
+                                                        <label for="">Lugar</label>
+                                                        <input type="text" name="lugardesktop" id="lugardesktop" value="" size="35"/>																		
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                        <label for="cmsms_your_phone_number_is">Supervisor</label>
+                                                        <input type="text" name="supervisordesktop" id="supervisordesktop" value="" size="35" />																		
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                        <label for="cmsms_your_phone_number_is">Teléfono</label>
+                                                        <input type="text" name="telefonodesktop" id="telefonodesktop" value="" size="35" />																		
+                                                    </div>																
+                                                </div>	
+                                                <div class="form_info cmsms_input one_third">  
+                                                    <!--label for="cmsms_your_phone_number_is">Cliente</label-->
+                                                    <div class="form_field_wrap">   
+                                                        <label for="cmsms_your_phone_number_is">Fecha</label>
+                                                        <input type="date" name="fechadesktop" id="fechadesktop" value="" size="35" />																		
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                        <label for="cmsms_your_phone_number_is">Nombre cliente</label>
+                                                        <input type="text" name="nombreclientedesktop" id="nombreclientedesktop" value="" size="35" />																		
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                        <label for="cmsms_your_phone_number_is">Email cliente</label>
+                                                        <input type="text" name="emailclientedesktop" id="emailclientedesktop" value="" size="35"  />																		
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                        <label for="cmsms_your_phone_number_is">Teléfono cliente</label>
+                                                        <input type="text" name="telefonoclientedesktop" id="telefonoclientedesktop" value="" size="35" />																		
+                                                    </div>																
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">  
+                                                    <!--label for="cmsms_your_phone_number_is">Hospital</label-->
+                                                    <div class="form_field_wrap">
+                                                        <label for="cmsms_your_phone_number_is">Hospital más cercano</label>
+                                                        <input type="text" name="hospitaldesktop" id="hospitaldesktop" value="" size="35" placeholder="" />																		
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                        <label for="cmsms_your_phone_number_is">Teléfono hospital</label>
+                                                        <input type="text" name="telefonohospitaldesktop" id="telefonohospitaldesktop" value="" size="35" placeholder="" />																		
+                                                    </div>	
+                                                    <div class="form_field_wrap">
+                                                        <label for="cmsms_your_phone_number_is">Teléfono de emergencia</label>
+                                                        <input type="text" name="telefonoemerdesktop" id="telefonoemerdesktop" value="" size="35" placeholder="" />																		
+                                                    </div>				
+                                                </div>																
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Dirección</h3>
+                                                <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                    <div class="form_info cmsms_checkboxes">
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="aguaPotabledesktop" id="aguaPotabledesktop" value="Agua potable,direccion" />
+                                                                <label for="aguaPotabledesktop">Agua potable</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="extinguidordesktop" id="extinguidordesktop" value="Extinguidor,direccion" />
+                                                                <label for="extinguidordesktop">Extinguidor</label>
+                                                        </div>
+                                                        <div class="form_field_wrap">
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="sisComdesktop" id="sisComdesktop" value="Sistema de Comunicación,direccion" />
+                                                                    <label for="sisComdesktop">Sistema de Comunicación</label>
+                                                            </div>																					
+
+                                                            <input type="text" name="sisComtextdesktop" id="sisComtextdesktop" value="" size="35" placeholder="especificar" />
+                                                        </div>																																														
+
+                                                    </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                    <div class="form_info cmsms_checkboxes">															
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="botiquindesktop" id="botiquindesktop" value="Botiquín de primeros auxilios,direccion" />
+                                                                <label for="botiquindesktop">Botiquín de primeros auxilios</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="smadesktop" id="smadesktop" value="Permiso SMA,direccion" />
+                                                                <label for="smadesktop">Permiso SMA</label>
+                                                        </div>	
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="inspecciondesktop" id="inspecciondesktop" value="Inspección de equipo,direccion" />
+                                                                <label for="inspecciondesktop">Inspección de equipo</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="emergencia1desktop" id="emergencia1desktop" value="Plan de acción en caso de emergencia,direccion" />
+                                                                <label for="emergencia1desktop">Plan de acción en caso de emergencia</label>
+                                                        </div>																	
+                                                    </div>
+
+                                                </div>		
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Descripción del trabajo a desarrollar</h3>
+                                                <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                <div class="form_info cmsms_checkboxes">
+
+                                                    <div class="check_parent">
+                                                            <input type="checkbox" name="podadesktop" id="podadesktop" value="Poda,trabajo" />
+                                                            <label for="podadesktop">Poda</label>
+                                                    </div>
+                                                    <div class="check_parent">
+                                                            <input type="checkbox" name="remociondesktop" id="remociondesktop" value="Remoción,trabajo" />
+                                                            <label for="remociondesktop">Remoción</label>
+                                                    </div>
+                                                    <div class="check_parent">
+                                                            <input type="checkbox" name="manicordajedesktop" id="manicordajedesktop" value="Maniobras de cordaje,trabajo" />
+                                                            <label for="manicordajedesktop">Maniobras de cordaje</label>
+                                                    </div>																																													
+                                                    <div class="check_parent">
+                                                            <input type="checkbox" name="ctrlPeatonaldesktop" id="ctrlPeatonaldesktop" value="Control peatonal,trabajo" />
+                                                            <label for="ctrlPeatonaldesktop">Control peatonal</label>
+                                                    </div>	
+                                                    <div class="check_parent">
+                                                            <input type="checkbox" name="ctrlTransitodesktop" id="ctrlTransitodesktop" value="Control de tránsito temporal,trabajo" />
+                                                            <label for="ctrlTransitodesktop">Control de tránsito temporal</label>
+                                                    </div>																		
+                                                </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                    <div class="form_info cmsms_checkboxes">															
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="caidalibredesktop" id="caidalibredesktop" value="Caída libre,trabajo" />
+                                                                <label for="caidalibredesktop">Caída libre</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="desramedesktop" id="desramedesktop" value="Desrame/ Troceado,trabajo" />
+                                                                <label for="desramedesktop">Desrame/ Troceado</label>
+                                                        </div>	
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="destoconadodesktop" id="destoconadodesktop" value="Destoconado,trabajo" />
+                                                                <label for="destoconadodesktop">Destoconado</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="remocionArbdesktop" id="remocionArbdesktop" value="Remoción de arbustos,trabajo" />
+                                                                <label for="remocionArbdesktop">Remoción de arbustos</label>
+                                                        </div>	
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="astilladodesktop" id="astilladodesktop" value="Astillado/Triturado,trabajo" />
+                                                                <label for="astilladodesktop">Astillado/Triturado</label>
+                                                        </div>																		
+                                                    </div>
+                                                </div>	
+                                                <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                    <div class="form_info cmsms_checkboxes">
+
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="plagasdesktop" id="plagasdesktop" value="Tratamiento de plagas o suelo,trabajo" />
+                                                                <label for="plagasdesktop">Tratamiento de plagas o suelo</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="dostrepadesktop" id="dostrepadesktop" value="Trepa,trabajo" />
+                                                                <label for="dostrepadesktop">Trepa</label>
+                                                        </div>																																													
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="materialCortadodesktop" id="materialCortadodesktop" value="Retiro de material cortado,trabajo" />
+                                                                <label for="materialCortadodesktop">Retiro de material cortado</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="equipoEspdesktop" id="equipoEspdesktop" value="Equipo especializado,trabajo" />
+                                                                <label for="equipoEspdesktop">Equipo especializado</label>
+                                                        </div>	
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="otrosDescripdesktop" id="otrosDescripdesktop" value="Otros,trabajo" />
+                                                                <label for="otrosDescripdesktop">Otros</label>
+                                                        </div>																	
+                                                    </div>
+                                                </div>	
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Peligros específicos del área de trabajo</h3>
+                                                <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                    <div class="form_info cmsms_checkboxes">
+
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="arbolContactodesktop" id="arbolContactodesktop" value="Árbol en contacto,peligros" />
+                                                                <label for="arbolContactodesktop">Árbol en contacto</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="dmadesktop" id="dmadesktop" value="Árbol/Rama en DMA,peligros" />
+                                                                <label for="dmadesktop">Árbol/Rama en DMA</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="defEstructdesktop" id="defEstructdesktop" value="Defecto estructural,peligros" />
+                                                                <label for="defEstructdesktop">Defecto estructural</label>
+                                                        </div>																																													
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="climadesktop" id="climadesktop" value="Clima,peligros" />
+                                                                <label for="climadesktop">Clima</label>
+                                                        </div>	
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="quimicosdesktop" id="quimicosdesktop" value="Manejo de químicos,peligros" />
+                                                                <label for="quimicosdesktop">Manejo de químicos</label>
+                                                        </div>	
+                                                        <div class="form_field_wrap">
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="electricidaddesktop" id="electricidaddesktop" value="Electricidad,peligros" />
+                                                                    <label for="electricidaddesktop">Electricidad</label>
+                                                            </div>																					
+
+                                                            <input type="text" name="electricidadfielddesktop" id="electricidadfielddesktop" value="" size="35" placeholder="especificar" />
+                                                        </div>																		
+                                                    </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                    <div class="form_info cmsms_checkboxes">	
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="arbolSecodesktop" id="arbolSecodesktop" value="Árbol seco,peligros" />
+                                                                <label for="arbolSecodesktop">Árbol seco</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="ramasMuertasdesktop" id="ramasMuertasdesktop" value="Ramas muertas o colgantes,peligros" />
+                                                                <label for="ramasMuertasdesktop">Ramas muertas o colgantes</label>
+                                                        </div>																	
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="arbolDescortezadodesktop" id="arbolDescortezadodesktop" value="Árbol descortezado,peligros" />
+                                                                <label for="arbolDescortezadodesktop">Árbol descortezado</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="maderaBajodesktop" id="maderaBajodesktop" value="Madera bajo tensión,peligros" />
+                                                                <label for="maderaBajodesktop">Madera bajo tensión</label>
+                                                        </div>	
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="silvestredesktop" id="silvestredesktop" value="Vida silvestre,peligros" />
+                                                                <label for="silvestredesktop">Vida silvestre</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="pudriciondesktop" id="pudriciondesktop" value="Pudrición,peligros" />
+                                                                <label for="pudriciondesktop">Pudrición</label>
+                                                        </div>	
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="cavidadesdesktop" id="cavidadesdesktop" value="Cavidades,peligros" />
+                                                                <label for="cavidadesdesktop">Cavidades</label>
+                                                        </div>	
+
+                                                    </div>																		
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                    <div class="form_info cmsms_checkboxes">
+
+                                                        <div class="check_parent">																		
+                                                                <label for="plagas">Obstaculos</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="bardasdesktop" id="bardasdesktop" value="Cercas o bardas,peligros" />
+                                                                <label for="bardasdesktop">Cercas o bardas</label>
+                                                        </div>																																													
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="peatonesdesktop" id="peatonesdesktop" value="Peatones,peligros" />
+                                                                <label for="peatonesdesktop">Peatones</label>
+                                                        </div>
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="mascotasdesktop" id="mascotasdesktop" value="Perros/Mascotas,peligros" />
+                                                                <label for="mascotasdesktop">Perros/Mascotas</label>
+                                                        </div>		
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="jardineriadesktop" id="jardineriadesktop" value="Jardinería,peligros" />
+                                                                <label for="jardineriadesktop">Jardinería</label>
+                                                        </div>	
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="estructurasdesktop" id="estructurasdesktop" value="Estructuras,peligros" />
+                                                                <label for="estructurasdesktop">Estructuras</label>
+                                                        </div>
+                                                        <div class="form_field_wrap">
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="otrosPeligrosdesktop" id="otrosPeligrosdesktop" value="Otro,peligros" />
+                                                                    <label for="otrosPeligrosdesktop">Otro</label>
+                                                            </div>																																									
+                                                            <input type="text" name="otrospeligrosfielddesktop" id="otrospeligrosfielddesktop" value="" size="35" placeholder="especificar" />
+                                                        </div>																		
+                                                    </div>
+                                                </div>	
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Plan de mitigación de peligros</h3>
+                                                <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                        <div class="form_info cmsms_checkboxes">
+
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="equipProtdesktop" id="equipProtdesktop" value="Equipo de protección personal,mitigacion" />
+                                                                        <label for="equipProtdesktop">Equipo de protección personal</label>
+                                                                </div>
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="rcpdesktop" id="rcpdesktop" value="Primeros auxilios/RCP,mitigacion" />
+                                                                        <label for="rcpdesktop">Primeros auxilios/RCP</label>
+                                                                </div>
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="supFuegodesktop" id="supFuegodesktop" value="Plan de supresión de fuego,mitigacion" />
+                                                                        <label for="supFuegodesktop">Plan de supresión de fuego</label>
+                                                                </div>																																													
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="juntaTrabdesktop" id="juntaTrabdesktop" value="Junta de trabajo,mitigacion" />
+                                                                        <label for="juntaTrabdesktop">Junta de trabajo</label>
+                                                                </div>	
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="inspArboldesktop" id="inspArboldesktop" value="Inspección de árbol(es),mitigacion" />
+                                                                        <label for="inspArboldesktop">Inspección de árbol(es)</label>
+                                                                </div>					
+                                                        </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                        <div class="form_info cmsms_checkboxes">	
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="inspEquipodesktop" id="inspEquipodesktop" value="Inspección equipo de protección contra caídas,mitigacion" />
+                                                                        <label for="inspEquipodesktop">Inspección equipo de protección contra caídas</label>
+                                                                </div>
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="inspMotosierrasdesktop" id="inspMotosierrasdesktop" value="Inspección de motosierras y herramientas,mitigacion" />
+                                                                        <label for="inspMotosierrasdesktop">Inspección de motosierras y herramientas</label>
+                                                                </div>																	
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="equipoCordajedesktop" id="equipoCordajedesktop" value="Uso de equipo de cordaje,mitigacion" />
+                                                                        <label for="equipoCordajedesktop">Uso de equipo de cordaje</label>
+                                                                </div>
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="acordonamientodesktop" id="acordonamientodesktop" value="Acordonamiento del área,mitigacion" />
+                                                                        <label for="acordonamientodesktop">Acordonamiento del área</label>
+                                                                </div>	
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="comunicaciondesktop" id="comunicaciondesktop" value="Comunicación,mitigacion" />
+                                                                        <label for="comunicaciondesktop">Comunicación</label>
+                                                                </div>
+
+                                                        </div>																		
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                        <div class="form_info cmsms_checkboxes">
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="supSitiodesktop" id="supSitiodesktop" value="Supervisión en sitio,mitigacion" />
+                                                                        <label for="supSitiodesktop">Supervisión en sitio</label>
+                                                                </div>																																													
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="caidadesktop" id="caidadesktop" value="Zona de caída,mitigacion" />
+                                                                        <label for="caidadesktop">Zona de caída</label>
+                                                                </div>
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="prevClimadesktop" id="prevClimadesktop" value="Prevención climática,mitigacion" />
+                                                                        <label for="prevClimadesktop">Prevención climática</label>
+                                                                </div>		
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="dañoExisdesktop" id="dañoExisdesktop" value="Daño existente (documentar),mitigacion" />
+                                                                        <label for="dañoExisdesktop">Daño existente (documentar)</label>
+                                                                </div>	
+                                                                <div class="form_field_wrap">
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="otrosPlandesktop" id="otrosPlandesktop" value="Otro,mitigacion" />
+                                                                            <label for="otrosPlandesktop">Otro</label>
+                                                                    </div>																																									
+                                                                    <input type="text" name="otrosplanfielddesktop" id="otrosplanfielddesktop" value="" size="35" placeholder="especificar" />
+                                                                </div>																		
+                                                        </div>
+                                                </div>	
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Equipo de Protección Personal</h3>
+                                                <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                        <div class="form_info cmsms_checkboxes">
+
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="cascodesktop" id="cascodesktop" value="Casco,proteccion" />
+                                                                        <label for="cascodesktop">Casco</label>
+                                                                </div>
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="gafasdesktop" id="gafasdesktop" value="Gafas de seguridad,proteccion" />
+                                                                        <label for="gafasdesktop">Gafas de seguridad</label>
+                                                                </div>
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="chalecodesktop" id="chalecodesktop" value="Chaleco/camiseta reflejante,proteccion" />
+                                                                        <label for="chalecodesktop">Chaleco/camiseta reflejante</label>
+                                                                </div>																																																		
+                                                        </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                    <div class="form_info cmsms_checkboxes">	
+                                                    <div class="check_parent">
+                                                            <input type="checkbox" name="auditivadesktop" id="auditivadesktop" value="Protección auditiva,proteccion" />
+                                                            <label for="auditivadesktop">Protección auditiva</label>
+                                                    </div>
+                                                    <div class="check_parent">
+                                                            <input type="checkbox" name="mascaradesktop" id="mascaradesktop" value="Máscara/Protección facial,proteccion" />
+                                                            <label for="mascaradesktop">Máscara/Protección facial</label>
+                                                    </div>
+                                                    <div class="check_parent">
+                                                            <input type="checkbox" name="botasdesktop" id="botasdesktop" value="Botas de trabajo,proteccion" />
+                                                            <label for="botasdesktop">Botas de trabajo</label>
+                                                    </div>																																												
+                                                </div>																		
+                                                </div>
+                                                <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                    <div class="form_info cmsms_checkboxes">
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="chaparrerasdesktop" id="chaparrerasdesktop" value="Chaparreras,proteccion" />
+                                                                    <label for="chaparrerasdesktop">Chaparreras</label>
+                                                            </div>																																													
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="guantesdesktop" id="guantesdesktop" value="Guantes,proteccion" />
+                                                                    <label for="guantesdesktop">Guantes</label>
+                                                            </div>
+                                                            <div class="form_field_wrap">
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="otrosEquiposdesktop" id="otrosEquiposdesktop" value="Otro,proteccion" />
+                                                                    <label for="otrosEquiposdesktop">Otro</label>
+                                                            </div>																																									
+                                                            <input type="text" name="otrosequiposfielddesktop" id="otrosequiposfielddesktop" value="" size="35" placeholder="especificar" />
+                                                            </div>																		
+                                                    </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_third"></div>
+                                                <div class="form_info cmsms_input one_third"></div>
+                                                <div class="form_info cmsms_input one_third">  
+                                                <div id="cmsms_button_555444cd12761" class="button_wrap">
+                                                    <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn"/>
+                                                    <!--a href="#" class="cmsms_button">Click Me</a-->
+                                                </div>
+                                                </div>
+                                                <!--    <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn"/>
+                                                </div-->
+                                                <!--fin hoja dos-->
+                                                </div>
+                                            </div>                                                
+                                            <!--fin hoja dos-->
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                            
+                                        <!--div class="cmsms_contact_form desktop">
+                                            <input type="hidden" name="tipo" id="tipo" value="desktop">
+                                            <div class="cmsms-form-builder">
+                                                
+                                                
+                                            </div>
+                                            <div class="cl"></div>
+                                        </div-->
+                                        </form>
+
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="cl"></div>
+                            </div>
+                        </div>
 <!-- _________________________ Finish Middle _________________________ -->
 			<?php $this->load->view('admin/footerAdmin') ?>
 				<a href="javascript:void(0);" id="slide_top" class="cmsms-icon-up-open-mini"></a>
