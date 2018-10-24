@@ -171,6 +171,7 @@
                                                     <br	
 						</div>
 					</div>
+                                </div>
 					
                     <div class="middle_inner">                                            
                         <div id="cmsms_row_5550b989a6296" class="cmsms_row cmsms_color_scheme_default">
@@ -713,6 +714,29 @@
                                                 <div class="form_info cmsms_input one_half">                                                                                                                                   
                                                     <div class="form_info cmsms_checkboxes">
                                                         <div class="check_parent">
+                                                                <input type="checkbox" name="emergencia1desktop" id="emergencia1desktop" value="Plan de acción en caso de emergencia,direccion" />
+                                                                <label for="emergencia1desktop">Plan de acción en caso de emergencia</label>
+                                                        </div>  		
+                                                        <br><br>
+                                                        <label for="llamadaemerdesktop">Llamada de emergencia:</label>
+                                                        <input type="text" name="llamadaemerdesktop" id="llamadaemerdesktop" value="" size="35" placeholder="especificar" />
+
+                                                    </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                    <div class="form_info cmsms_checkboxes">															
+                                                        
+                                                        <label for="primerosauxdesktop">Primeros auxilios y RCP:</label>
+                                                        <input type="text" name="primerosauxdesktop" id="primerosauxdesktop" value="" size="35" placeholder="especificar" />
+
+                                                        <label for="rescatedesktop">Rescate aéreo:</label>
+                                                        <input type="text" name="rescatedesktop" id="rescatedesktop" value="" size="35" placeholder="especificar" />
+
+                                                    </div>
+                                                </div>	
+                                                <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                    <div class="form_info cmsms_checkboxes">
+                                                        <div class="check_parent">
                                                                 <input type="checkbox" name="aguaPotabledesktop" id="aguaPotabledesktop" value="Agua potable,direccion" />
                                                                 <label for="aguaPotabledesktop">Agua potable</label>
                                                         </div>
@@ -745,13 +769,12 @@
                                                                 <input type="checkbox" name="inspecciondesktop" id="inspecciondesktop" value="Inspección de equipo,direccion" />
                                                                 <label for="inspecciondesktop">Inspección de equipo</label>
                                                         </div>
-                                                        <div class="check_parent">
+                                                        <!--div class="check_parent">
                                                                 <input type="checkbox" name="emergencia1desktop" id="emergencia1desktop" value="Plan de acción en caso de emergencia,direccion" />
                                                                 <label for="emergencia1desktop">Plan de acción en caso de emergencia</label>
-                                                        </div>																	
+                                                        </div-->																	
                                                     </div>
-
-                                                </div>		
+                                                </div>	
                                                 <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
                                                 <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
                                                 <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Descripción del trabajo a desarrollar</h3>
@@ -826,7 +849,9 @@
                                                         <div class="check_parent">
                                                                 <input type="checkbox" name="otrosDescripdesktop" id="otrosDescripdesktop" value="Otros,trabajo" />
                                                                 <label for="otrosDescripdesktop">Otros</label>
-                                                        </div>																	
+                                                        </div>	
+                                                        <input type="text" name="otrosDescriptextdesktop" id="otrosDescriptextdesktop" size="35" placeholder="especificar" />
+                                                                                                        
                                                     </div>
                                                 </div>	
                                                 <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>

@@ -166,6 +166,159 @@ class Supervisor extends CI_Controller {
             $idtemp = $this->SupModel->saveReporteEquipo($savedatos);
         }
         
+//Ahora guaradmos hoja dos reporte......................................********
+        $arreglocontacto = array(
+            "lugar" => $datos["lugar".$tipo],//["idUser"],
+            "supervisor" => $datos["supervisor".$tipo],
+            "telefono" => $datos["telefono".$tipo],
+            "fecha" => $datos["fecha".$tipo],
+            "nombre_cliente" => $datos["nombrecliente".$tipo],
+            "email_cliente" => $datos["emailcliente".$tipo],
+            "telefono_cliente" => $datos["telefonocliente".$tipo],
+            "hospital" => $datos["hospital".$tipo],
+            "telefono_hospital" => $datos["telefonohospital".$tipo],
+            "emergencia_hospital" => $datos["telefonoemer".$tipo],
+        );
+        //save main data to get id to save other tables
+        //$this->SupModel->saveReporteContacto($arreglocontacto);
+        $this->SupModel->updateReporteContacto($arreglocontacto,$idreporte);
+                
+        $this->SupModel->borrarTablaConId("reporte_direccion",$idreporte);
+        $this->SupModel->borrarTablaConId("reporte_trabajo",$idreporte);
+        $this->SupModel->borrarTablaConId("reporte_peligros",$idreporte);
+        $this->SupModel->borrarTablaConId("reporte_mitigacion",$idreporte);
+        $this->SupModel->borrarTablaConId("reporte_proteccion",$idreporte);
+
+        foreach ($datos as $key => $value) {
+            if (strpos($value, ',direccion') !== false) {
+                $valor = split(",", $value)[0];
+                $arreglodireccion = array(
+                    "concepto" => $valor,
+                    "field" => $key,
+                    "value" => 1,
+                    "id_reporte" => $idreporte
+                );
+                $salver = $this->SupModel->saveData($arreglodireccion,"reporte_direccion");
+            }else if (strpos($value, ',trabajo') !== false) {
+                $valor = split(",", $value)[0];
+                $arreglodireccion = array(
+                    "concepto" => $valor,
+                    "field" => $key,
+                    "value" => 1,
+                    "id_reporte" => $idreporte
+                );
+                $salver = $this->SupModel->saveData($arreglodireccion,"reporte_trabajo");
+            }else if (strpos($value, ',peligros') !== false) {
+                $valor = split(",", $value)[0];
+                $arreglodireccion = array(
+                    "concepto" => $valor,
+                    "field" => $key,
+                    "value" => 1,
+                    "id_reporte" => $idreporte
+                );
+                $salver = $this->SupModel->saveData($arreglodireccion,"reporte_peligros");
+            }else if (strpos($value, ',mitigacion') !== false) {
+                $valor = split(",", $value)[0];
+                $arreglodireccion = array(
+                    "concepto" => $valor,
+                    "field" => $key,
+                    "value" => 1,
+                    "id_reporte" => $idreporte
+                );
+                $salver = $this->SupModel->saveData($arreglodireccion,"reporte_mitigacion");
+            }else if (strpos($value, ',proteccion') !== false) {
+                $valor = split(",", $value)[0];
+                $arreglodireccion = array(
+                    "concepto" => $valor,
+                    "field" => $key,
+                    "value" => 1,
+                    "id_reporte" => $idreporte
+                );
+                $salver = $this->SupModel->saveData($arreglodireccion,"reporte_proteccion");
+            }
+        }
+        
+    //ultimos campos para salvar...
+        if(isset($datos["llamadaemer".$tipo]) && $datos["llamadaemer".$tipo] != ''){
+            $valor = "Llamada de emeergencia";
+            $arreglodireccion = array(
+                "concepto" => $valor,
+                "field" => "llamadaemer".$tipo,
+                "value" => $datos["llamadaemer".$tipo],
+                "id_reporte" => $idreporte
+            );
+            $salver = $this->SupModel->saveData($arreglodireccion,"reporte_direccion");
+        }
+        if(isset($datos["primerosaux".$tipo]) && $datos["primerosaux".$tipo] != ''){
+            $valor = "Primeros auxilios y RCP";
+            $arreglodireccion = array(
+                "concepto" => $valor,
+                "field" => "primerosaux".$tipo,
+                "value" => $datos["primerosaux".$tipo],
+                "id_reporte" => $idreporte
+            );
+            $salver = $this->SupModel->saveData($arreglodireccion,"reporte_direccion");
+        }
+        if(isset($datos["rescate".$tipo]) && $datos["rescate".$tipo] != ''){
+            $valor = "Rescate aereo";
+            $arreglodireccion = array(
+                "concepto" => $valor,
+                "field" => "rescate".$tipo,
+                "value" => $datos["rescate".$tipo],
+                "id_reporte" => $idreporte
+            );
+            $salver = $this->SupModel->saveData($arreglodireccion,"reporte_direccion");
+        }
+        if(isset($datos["sisComtext".$tipo]) && $datos["sisComtext".$tipo] != ''){
+            $valor = "Sistema de Comunicación detalle";
+            $arreglodireccion = array(
+                "concepto" => $valor,
+                "field" => "sisComtext".$tipo,
+                "value" => $datos["sisComtext".$tipo],
+                "id_reporte" => $idreporte
+            );
+            $salver = $this->SupModel->saveData($arreglodireccion,"reporte_direccion");
+        }
+        if(isset($datos["otrosDescriptext".$tipo]) && $datos["otrosDescriptext".$tipo] != ''){
+            $valor = "Otro trabajo detalle";
+            $arreglod = array(
+                "concepto" => $valor,
+                "field" => "otrosDescriptext".$tipo,
+                "value" => $datos["otrosDescriptext".$tipo],
+                "id_reporte" => $idreporte
+            );
+            $salver = $this->SupModel->saveData($arreglod,"reporte_trabajo");
+        }
+        if(isset($datos["electricidadfield".$tipo]) && $datos["electricidadfield".$tipo] != ''){
+            $valor = "Electricidad detalle";
+            $arreglod = array(
+                "concepto" => $valor,
+                "field" => "electricidadfield".$tipo,
+                "value" => $datos["electricidadfield".$tipo],
+                "id_reporte" => $idreporte
+            );
+            $salver = $this->SupModel->saveData($arreglod,"reporte_peligros");
+        }
+        if(isset($datos["otrosplanfield".$tipo]) && $datos["otrosplanfield".$tipo] != ''){
+            $valor = "Mitigacion detalle";
+            $arreglod = array(
+                "concepto" => $valor,
+                "field" => "otrosplanfield".$tipo,
+                "value" => $datos["otrosplanfield".$tipo],
+                "id_reporte" => $idreporte
+            );
+            $salver = $this->SupModel->saveData($arreglod,"reporte_mitigacion");
+        }if(isset($datos["otrosequiposfield".$tipo]) && $datos["otrosequiposfield".$tipo] != ''){
+            $valor = "Proteccion detalle";
+            $arreglod = array(
+                "concepto" => $valor,
+                "field" => "otrosequiposfield".$tipo,
+                "value" => $datos["otrosequiposfield".$tipo],
+                "id_reporte" => $idreporte
+            );
+            $salver = $this->SupModel->saveData($arreglod,"reporte_proteccion");
+        }        
+        
         echo "1";
     }
     
@@ -367,6 +520,36 @@ class Supervisor extends CI_Controller {
         }
         
         //ultimos campos para salvar...
+        if(isset($datos["llamadaemer".$tipo]) && $datos["llamadaemer".$tipo] != ''){
+            $valor = "Llamada de emeergencia";
+            $arreglodireccion = array(
+                "concepto" => $valor,
+                "field" => "llamadaemer".$tipo,
+                "value" => $datos["llamadaemer".$tipo],
+                "id_reporte" => $idreporte
+            );
+            $salver = $this->SupModel->saveData($arreglodireccion,"reporte_direccion");
+        }
+        if(isset($datos["primerosaux".$tipo]) && $datos["primerosaux".$tipo] != ''){
+            $valor = "Primeros auxilios y RCP";
+            $arreglodireccion = array(
+                "concepto" => $valor,
+                "field" => "primerosaux".$tipo,
+                "value" => $datos["primerosaux".$tipo],
+                "id_reporte" => $idreporte
+            );
+            $salver = $this->SupModel->saveData($arreglodireccion,"reporte_direccion");
+        }
+        if(isset($datos["rescate".$tipo]) && $datos["rescate".$tipo] != ''){
+            $valor = "Rescate aereo";
+            $arreglodireccion = array(
+                "concepto" => $valor,
+                "field" => "rescate".$tipo,
+                "value" => $datos["rescate".$tipo],
+                "id_reporte" => $idreporte
+            );
+            $salver = $this->SupModel->saveData($arreglodireccion,"reporte_direccion");
+        }
         if(isset($datos["sisComtext".$tipo]) && $datos["sisComtext".$tipo] != ''){
             $valor = "Sistema de Comunicación detalle";
             $arreglodireccion = array(
@@ -376,6 +559,16 @@ class Supervisor extends CI_Controller {
                 "id_reporte" => $idreporte
             );
             $salver = $this->SupModel->saveData($arreglodireccion,"reporte_direccion");
+        }
+        if(isset($datos["otrosDescriptext".$tipo]) && $datos["otrosDescriptext".$tipo] != ''){
+            $valor = "Otro trabajo detalle";
+            $arreglod = array(
+                "concepto" => $valor,
+                "field" => "otrosDescriptext".$tipo,
+                "value" => $datos["otrosDescriptext".$tipo],
+                "id_reporte" => $idreporte
+            );
+            $salver = $this->SupModel->saveData($arreglod,"reporte_trabajo");
         }
         if(isset($datos["electricidadfield".$tipo]) && $datos["electricidadfield".$tipo] != ''){
             $valor = "Electricidad detalle";

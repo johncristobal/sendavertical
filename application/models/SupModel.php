@@ -49,6 +49,13 @@ class SupModel extends CI_Model{
         
         return  1;
     }
+
+    public function updateReporteContacto($datos,$id){
+        $this->db->where('id_reporte', $id);
+        $this->db->update('reportes_contacto', $datos);
+        
+        return  1;
+    }
     
     public function borrarTablaConId($tabla,$idreporet){
         $this->db->where('id_reporte', $idreporet);
@@ -164,12 +171,34 @@ class SupModel extends CI_Model{
             $datos["reportes_contacto"] = ''; 
         }
         
+        
         $this->db->select("*");
         $this->db->from("reporte_direccion ro");
         $this->db->where("ro.id_reporte",$id);
         $dataotros = $this->db->get();
         if($dataotros->num_rows() > 0){
-            $datos["reportes_direccion"] = $dataotros->result();            
+            $fill = [
+                "aguaPotabledesktop",
+                "extinguidordesktop",
+                "sisComdesktop",
+                "sisComtextdesktop",
+                "botiquindesktop",
+                "smadesktop",
+                "inspecciondesktop",
+                "emergencia1desktop",
+                "llamadaemerdesktop",
+                "primerosauxdesktop",
+                "rescatedesktop"
+            ];
+            
+            foreach ($dataotros->result() as $valueres) {
+                if(in_array($valueres->field, $fill)){
+                    $datos["reportes_direccion"][$valueres->field] = $valueres->value;
+                }else{
+                    $datos["reportes_direccion"][$valueres->field] = "0";
+                }
+            }
+            
         }else{
             $datos["reportes_direccion"] = '';  
         }    
@@ -179,7 +208,33 @@ class SupModel extends CI_Model{
         $this->db->where("rp.id_reporte",$id);
         $data = $this->db->get();
         if($data->num_rows() > 0){
-            $datos["reportes_trabajo"] = $data->result();            
+            $fill = [
+                "podadesktop",
+                "remociondesktop",
+                "manicordajedesktop",
+                "ctrlPeatonaldesktop",
+                "ctrlTransitodesktop",
+                "caidalibredesktop",
+                "desramedesktop",
+                "destoconadodesktop",
+                "remocionArbdesktop",
+                "astilladodesktop",
+                "plagasdesktop",
+                "dostrepadesktop",
+                "materialCortadodesktop",
+                "equipoEspdesktop",
+                "otrosDescripdesktop",
+                "otrosDescriptextdesktop"
+            ];
+            
+            foreach ($data->result() as $valueres) {
+                if(in_array($valueres->field, $fill)){
+                    $datos["reportes_trabajo"][$valueres->field] = $valueres->value;
+                }else{
+                    $datos["reportes_trabajo"][$valueres->field] = "0";
+                }
+            }
+            //$datos["reportes_trabajo"] = $data->result();            
         }else{
             $datos["reportes_trabajo"] = ''; 
         }
@@ -189,9 +244,40 @@ class SupModel extends CI_Model{
         $this->db->where("ro.id_reporte",$id);
         $dataotros = $this->db->get();
         if($dataotros->num_rows() > 0){
-            $datos["reportes_peligros"] = $dataotros->result();            
+            $fill = [
+                "arbolContactodesktop",
+                "dmadesktop",
+                "defEstructdesktop",
+                "climadesktop",
+                "quimicosdesktop",
+                "electricidaddesktop",
+                "electricidadfielddesktop",
+                "arbolSecodesktop",
+                "ramasMuertasdesktop",
+                "arbolDescortezadodesktop",
+                "maderaBajodesktop",
+                "silvestredesktop",
+                "pudriciondesktop",
+                "cavidadesdesktop",
+                "bardasdesktop",
+                "peatonesdesktop",
+                "mascotasdesktop",
+                "jardineriadesktop",
+                "estructurasdesktop",
+                "otrosPeligrosdesktop",
+                "otrospeligrosfielddesktop"                
+            ];
+            
+            foreach ($dataotros->result() as $valueres) {
+                if(in_array($valueres->field, $fill)){
+                    $datos["reporte_peligros"][$valueres->field] = $valueres->value;
+                }else{
+                    $datos["reporte_peligros"][$valueres->field] = "0";
+                }
+            }
+            //$datos["reportes_peligros"] = $dataotros->result();            
         }else{
-            $datos["reportes_peligros"] = '';  
+            $datos["reporte_peligros"] = '';  
         }  
         
         $this->db->select("*");
@@ -199,7 +285,33 @@ class SupModel extends CI_Model{
         $this->db->where("rp.id_reporte",$id);
         $data = $this->db->get();
         if($data->num_rows() > 0){
-            $datos["reporte_mitigacion"] = $data->result();            
+            $fill = [
+                "equipProtdesktop",
+                "rcpdesktop",
+                "supFuegodesktop",
+                "juntaTrabdesktop",
+                "inspArboldesktop",
+                "inspEquipodesktop",
+                "inspMotosierrasdesktop",
+                "equipoCordajedesktop",
+                "acordonamientodesktop",
+                "comunicaciondesktop",
+                "supSitiodesktop",
+                "caidadesktop",
+                "prevClimadesktop",
+                "dañoExisdesktop",
+                "otrosPlandesktop",
+                "otrosplanfielddesktop"
+            ];
+            
+            foreach ($data->result() as $valueres) {
+                if(in_array($valueres->field, $fill)){
+                    $datos["reporte_mitigacion"][$valueres->field] = $valueres->value;
+                }else{
+                    $datos["reporte_mitigacion"][$valueres->field] = "0";
+                }
+            }
+            //$datos["reporte_mitigacion"] = $data->result();            
         }else{
             $datos["reporte_mitigacion"] = ''; 
         }
@@ -209,7 +321,27 @@ class SupModel extends CI_Model{
         $this->db->where("ro.id_reporte",$id);
         $dataotros = $this->db->get();
         if($dataotros->num_rows() > 0){
-            $datos["reporte_proteccion"] = $dataotros->result();            
+            $fill = [
+                "cascodesktop",
+                "gafasdesktop",
+                "chalecodesktop",
+                "auditivadesktop",
+                "mascaradesktop",
+                "botasdesktop",
+                "chaparrerasdesktop",
+                "guantesdesktop",
+                "otrosEquiposdesktop",
+                "otrosequiposfielddesktop"
+            ];
+            
+            foreach ($dataotros->result() as $valueres) {
+                if(in_array($valueres->field, $fill)){
+                    $datos["reporte_proteccion"][$valueres->field] = $valueres->value;
+                }else{
+                    $datos["reporte_proteccion"][$valueres->field] = "0";
+                }
+            }
+            //$datos["reporte_proteccion"] = $dataotros->result();            
         }else{
             $datos["reporte_proteccion"] = '';  
         }  
