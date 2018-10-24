@@ -166,6 +166,11 @@
 							<span>Llena reporte nuevo</span>
 						</div>
 					</div>
+                                    <div class="">
+						<div class=" align_right">
+                                                    <br	
+						</div>
+					</div>
 					
                     <div class="middle_inner">                                            
                         <div id="cmsms_row_5550b989a6296" class="cmsms_row cmsms_color_scheme_default">
