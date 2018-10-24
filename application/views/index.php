@@ -477,7 +477,7 @@
                         }
                         #cmsms_row_7 a{
                             font-weight: 500;
-                            
+                            color: rgb(47, 49, 48) !important;
                         }
                         #cmsms_heading_555454fe0be2c, #cmsms_heading_555454fe0be2c a {
                             color: #ffffff;
@@ -557,13 +557,14 @@
                             position: relative;
                             border: 0px solid #000000; 
                             -webkit-border-radius: 3px;
+                            background-image: linear-gradient(to bottom right, #efedea, #11fb00);
                             border-radius: 20px;
                         }
                         
                         .cmsms_valid_title a, .cmsms_valid_title {
                             font-size: 22px;
                             text-align: center;
-                            color: rgba(88, 207, 144, 1);
+                            color: rgb(30, 109, 67);
                             
                         }
                         .post.cmsms_timeline_type .cmsms_post_cont_info a {
