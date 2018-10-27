@@ -184,8 +184,21 @@
 					<!--mobile-->
                                         <form id="formMobile">
                                         <div class="cmsms_contact_form mobile">
-                                    <input type="hidden" name="tipo" id="tipo" value="mobile">
-                                    <div class="cmsms-form-builder">
+                                        <input type="hidden" name="tipo" id="tipo" value="mobile">
+                                        <div class="cmsms-form-builder">
+                                        <div class="cmsms_tabs tabs_mode_tab">
+                                        <ul class="cmsms_tabs_list">
+                                            <li id="cmsms_tabs_list_item_555469b2e5f20" class="cmsms_tabs_list_item current_tab">
+                                                <a href="#"><span>Reporte inicio</span></a>
+                                            </li>
+                                            <li id="cmsms_tabs_list_item_555469b2e612c" class="cmsms_tabs_list_item">
+                                                <a href="#"><span>Información de contacto</span></a>
+                                            </li>                                                
+                                        </ul>
+                                        <div class="cmsms_tabs_wrap">    
+                                            <!--Inicia hoja uno-->
+                                            <div id="cmsms_tab_555469b2e5f20" class="cmsms_tab active_tab">
+                                                <div class="cmsms_tab_inner">
                                                     <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Reportes</h3>
                                                     <div class="form_info cmsms_input one_half">
                                                                                     <label for="numcotizacion">Número de cotizaciòn</label>
@@ -434,9 +447,468 @@
                                                                                     </div>
                                                     </div>
 
+                                                    <!--fin uno data-->
+                                                    </div>
+                                                </div>
+                                            <!--****************************fin hoja uno****************************-->
+                                            
+                                            <!--****************************Inicia hoja dos****************************-->
+                                            <div id="cmsms_tab_555469b2e612c" class="cmsms_tab">
+                                                <div class="cmsms_tab_inner">
+                                                <!--fin hoja dos-->
+                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Información Contacto</h3>
+                                                    <div class="form_info cmsms_input one_third">  
+                                                            <label for="cmsms_your_phone_number_is">Proyecto</label>
+                                                    <div class="form_field_wrap">
+                                                            <label for="cmsms_your_phone_number_is">Lugar</label>
+                                                            <input type="text" name="lugarmobile" id="lugarmobile" value="" size="35" placeholder="Lugar" />																		
+                                                            </div>
+                                                    <div class="form_field_wrap">
+                                                                            <label for="cmsms_your_phone_number_is">Supervisor</label>
+                                                                            <input type="text" name="supervisormobile" id="supervisormobile" value="" size="35" placeholder="Supervisor" />																		
+                                                            </div>
+                                                    <div class="form_field_wrap">
+                                                                            <label for="cmsms_your_phone_number_is">Teléfono</label>
+                                                                            <input type="text" name="telefonomobile" id="telefonomobile" value="" size="35" placeholder="Teléfono" />																		
+                                                            </div>																
+                                                    </div>	
+
+                                                    <div class="form_info cmsms_input one_third">  
+                                                    <label for="cmsms_your_phone_number_is">Cliente</label>
+                                                    <div class="form_field_wrap">   
+                                                        <label for="cmsms_your_phone_number_is">Fecha</label>
+                                                        <input type="date" name="fechamobile" id="fechamobile" value="" size="35" />																		
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                        <label for="cmsms_your_phone_number_is">Nombre</label>
+                                                        <input type="text" name="nombreclientemobile" id="nombreclientemobile" value="" size="35" placeholder="Nombre del cliente" />																		
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                            <label for="cmsms_your_phone_number_is">Email</label>
+                                                            <input type="text" name="emailclientemobile" id="emailclientemobile" value="" size="35" placeholder="Email" />																		
+                                                        </div>
+                                                    <div class="form_field_wrap">
+                                                            <label for="cmsms_your_phone_number_is">Teléfono</label>
+                                                            <input type="text" name="telefonoclientemobile" id="telefonoclientemobile" value="" size="35" placeholder="Teléfono de cliente" />																		
+                                                        </div>																
+                                                    </div>
+                                                    <div class="form_info cmsms_input one_third">  
+                                                    <label for="cmsms_your_phone_number_is">Hospital</label>
+                                                    <div class="form_field_wrap">
+                                                        <label for="cmsms_your_phone_number_is">Nombre</label>
+                                                        <input type="text" name="hospitalmobile" id="hospitalmobile" value="" size="35" placeholder="Nombre del hospital" />																		
+                                                    </div>
+                                                    <div class="form_field_wrap">
+                                                        <label for="cmsms_your_phone_number_is">Teléfono</label>
+                                                        <input type="text" name="telefonohospitalmobile" id="telefonohospitalmobile" value="" size="35" placeholder="Teléfono del hospital" />																		
+                                                    </div>	
+                                                    <div class="form_field_wrap">
+                                                        <label for="cmsms_your_phone_number_is">Teléfono de emergencia</label>
+                                                        <input type="text" name="telefonoemermobile" id="telefonoemermobile" value="" size="35" placeholder="Teléfono de emergencia" />																		
+                                                    </div>																
+                                                    </div>			
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Dirección</h3>
+                                                    
+                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                    <div class="form_info cmsms_checkboxes">
+                                                        <div class="check_parent">
+                                                                <input type="checkbox" name="emergencia1mobile" id="emergencia1mobile" value="Plan de acción en caso de emergencia,direccion" />
+                                                                <label for="emergencia1mobile">Plan de acción en caso de emergencia</label>
+                                                        </div>  		
+                                                        <br><br>
+                                                        <label for="llamadaemermobile">Llamada de emergencia:</label>
+                                                        <input type="text" name="llamadaemermobile" id="llamadaemermobile" value="" size="35" placeholder="especificar" />
+
+                                                    </div>
+                                                    </div>
+                                                    
+                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                    <div class="form_info cmsms_checkboxes">															
+                                                        
+                                                        <label for="primerosauxmobile">Primeros auxilios y RCP:</label>
+                                                        <input type="text" name="primerosauxmobile" id="primerosauxmobile" value="" size="35" placeholder="especificar" />
+
+                                                        <label for="rescatemobile">Rescate aéreo:</label>
+                                                        <input type="text" name="rescatemobile" id="rescatemobile" value="" size="35" placeholder="especificar" />
+
+                                                    </div>
+                                                    </div>	
+                                                    
+                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                        <div class="form_info cmsms_checkboxes">
+                                                            <div class="check_parent">
+                                                                <input type="checkbox" name="aguaPotablemobile" id="aguaPotablemobile" value="Agua potable,direccion" />
+                                                                <label for="aguaPotablemobile">Agua potable</label>
+                                                            </div>
+                                                            <div class="check_parent">
+                                                                <input type="checkbox" name="extinguidormobile" id="extinguidormobile" value="Extinguidor,direccion" />
+                                                                <label for="extinguidormobile">Extinguidor</label>
+                                                            </div>
+                                                            <div class="form_field_wrap">
+                                                                <div class="check_parent">
+                                                                        <input type="checkbox" name="sisCommobile" id="sisCommobile" value="Sistema de Comunicación,direccion" />
+                                                                        <label for="sisCommobile">Sistema de Comunicación</label>
+                                                                </div>																					
+
+                                                                <input type="text" name="sisComtextmobile" id="sisComtextmobile" value="" size="35" placeholder="especificar" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                        <div class="form_info cmsms_checkboxes">															
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="botiquinmobile" id="botiquinmobile" value="Botiquín de primeros auxilios,direccion" />
+                                                                    <label for="botiquinmobile">Botiquín de primeros auxilios</label>
+                                                            </div>
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="smamobile" id="smamobile" value="Permiso SMA,direccion" />
+                                                                    <label for="smamobile">Permiso SMA</label>
+                                                            </div>	
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="inspeccionmobile" id="inspeccionmobile" value="Inspección de equipo,direccion" />
+                                                                    <label for="inspeccionmobile">Inspección de equipo</label>
+                                                            </div>
+                                                            <!--div class="check_parent">
+                                                                    <input type="checkbox" name="emergencia1mobile" id="emergencia1mobile" value="em1" />
+                                                                    <label for="emergencia1mobile">Plan de acción en caso de emergencia</label>
+                                                            </div-->																	
+                                                        </div>
+                                                    </div>	
+
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Descripción del trabajo a desarrollar</h3>
+                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                        <div class="form_info cmsms_checkboxes">
+                                                            <div class="check_parent">
+                                                                <input type="checkbox" name="podamobile" id="podamobile" value="Poda,trabajo" />
+                                                                <label for="podamobile">Poda</label>
+                                                            </div>
+                                                            <div class="check_parent">
+                                                                <input type="checkbox" name="remocionmobile" id="remocionmobile" value="Remoción,trabajo" />
+                                                                <label for="remocionmobile">Remoción</label>
+                                                            </div>
+                                                            <div class="check_parent">
+                                                                <input type="checkbox" name="manicordajemobile" id="manicordajemobile" value="Maniobras de cordaje,trabajo" />
+                                                                <label for="manicordajemobile">Maniobras de cordaje</label>
+                                                            </div>																																													
+                                                            <div class="check_parent">
+                                                                <input type="checkbox" name="ctrlPeatonalmobile" id="ctrlPeatonalmobile" value="Control peatonal,trabajo" />
+                                                                <label for="ctrlPeatonalmobile">Control peatonal</label>
+                                                            </div>	
+                                                            <div class="check_parent">
+                                                                <input type="checkbox" name="ctrlTransitomobile" id="ctrlTransitomobile" value="Control de tránsito temporal,trabajo" />
+                                                                <label for="ctrlTransitomobile">Control de tránsito temporal</label>
+                                                            </div>																		
+                                                        </div>
+                                                    </div>
+                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                        <div class="form_info cmsms_checkboxes">															
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="caidalibremobile" id="caidalibremobile" value="Caída libre,trabajo" />
+                                                                    <label for="caidalibremobile">Caída libre</label>
+                                                            </div>
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="desramemobile" id="desramemobile" value="Desrame/ Troceado,trabajo" />
+                                                                    <label for="desramemobile">Desrame/ Troceado</label>
+                                                            </div>	
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="destoconadomobile" id="destoconadomobile" value="Destoconado,trabajo" />
+                                                                    <label for="destoconadomobile">Destoconado</label>
+                                                            </div>
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="remocionArbmobile" id="remocionArbmobile" value="Remoción de arbustos,trabajo" />
+                                                                    <label for="remocionArbmobile">Remoción de arbustos</label>
+                                                            </div>	
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="astilladomobile" id="astilladomobile" value="Astillado/Triturado,trabajo" />
+                                                                    <label for="astilladomobile">Astillado/Triturado</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>	
+
+                                                    <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                        <div class="form_info cmsms_checkboxes">
+
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="plagasmobile" id="plagasmobile" value="Tratamiento de plagas o suelo,trabajo" />
+                                                                    <label for="plagasmobile">Tratamiento de plagas o suelo</label>
+                                                            </div>
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="dostrepamobile" id="dostrepamobile" value="Trepa,trabajo" />
+                                                                    <label for="dostrepamobile">Trepa</label>
+                                                            </div>																																													
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="materialCortadomobile" id="materialCortadomobile" value="Retiro de material cortado,trabajo" />
+                                                                    <label for="materialCortadomobile">Retiro de material cortado</label>
+                                                            </div>
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="equipoEspmobile" id="equipoEspmobile" value="Equipo especializado,trabajo" />
+                                                                    <label for="equipoEspmobile">Equipo especializado</label>
+                                                            </div>	
+                                                            <div class="check_parent">
+                                                                    <input type="checkbox" name="otrosDescripmobile" id="otrosDescripmobile" value="Otros,trabajo" />
+                                                                    <label for="otrosDescripmobile">Otros</label>
+                                                            </div>	
+                                                            <input type="text" name="otrosDescriptextmobile" id="otrosDescriptextmobile" size="35" placeholder="especificar" />
+													
+                                                        </div>
+                                                    </div>	
+
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Peligros específicos del área de trabajo</h3>
+                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                            <div class="form_info cmsms_checkboxes">
+
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="arbolContactomobile" id="arbolContactomobile" value="" />
+                                                                            <label for="arbolContactomobile">Árbol en contacto</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="dmamobile" id="dmamobile" value="" />
+                                                                            <label for="dmamobile">Árbol/Rama en DMA</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="defEstructmobile" id="defEstructmobile" value="" />
+                                                                            <label for="defEstructmobile">Defecto estructural</label>
+                                                                    </div>																																													
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="climamobile" id="climamobile" value="" />
+                                                                            <label for="climamobile">Clima</label>
+                                                                    </div>	
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="quimicosmobile" id="quimicosmobile" value="" />
+                                                                            <label for="quimicosmobile">Manejo de químicos</label>
+                                                                    </div>	
+                                                                    <div class="form_field_wrap">
+                                                                        <div class="check_parent">
+                                                                            <input type="checkbox" name="electricidadmobile" id="electricidadmobile" value="" />
+                                                                            <label for="electricidadmobile">Electricidad</label>
+                                                                        </div>																					
+                                                                        <input type="text" name="electricidadfielmobile" id="electricidadfielmobile" value="" size="35" placeholder="especificar" />
+                                                                    </div>																		
 
 
-                                                    <div class="cl"></div>
+                                                            </div>
+                                                    </div>
+                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                            <div class="form_info cmsms_checkboxes">	
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="arbolSecomobile" id="arbolSecomobile" value="" />
+                                                                            <label for="arbolSecomobile">Árbol seco</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="ramasMuertasmobile" id="ramasMuertasmobile" value="" />
+                                                                            <label for="ramasMuertasmobile">Ramas muertas o colgantes</label>
+                                                                    </div>																	
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="arbolDescortezadomobile" id="arbolDescortezadomobile" value="" />
+                                                                            <label for="arbolDescortezadomobile">Árbol descortezado</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="maderaBajomobile" id="maderaBajomobile" value="" />
+                                                                            <label for="maderaBajomobile">Madera bajo tensión</label>
+                                                                    </div>	
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="silvestre" id="silvestre" value="" />
+                                                                            <label for="silvestre">Vida silvestre</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="pudricionmobile" id="pudricionmobile" value="em1" />
+                                                                            <label for="pudricionmobile">Pudrición</label>
+                                                                    </div>	
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="cavidadesmobile" id="cavidadesmobile" value="" />
+                                                                            <label for="cavidadesmobile">Cavidades</label>
+                                                                    </div>	
+
+                                                            </div>																		
+                                                            </div>
+
+
+                                                    <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                            <div class="form_info cmsms_checkboxes">
+
+                                                                    <div class="check_parent">																		
+                                                                            <label for="plagas">Obstaculos</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="bardasmobile" id="bardasmobile" value="" />
+                                                                            <label for="bardasmobile">Cercas o bardas</label>
+                                                                    </div>																																													
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="peatonesmobile" id="peatonesmobile" value="" />
+                                                                            <label for="peatonesmobile">Peatones</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="mascotasmobile" id="mascotasmobile" value="" />
+                                                                            <label for="mascotasmobile">Perros/Mascotas</label>
+                                                                    </div>		
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="jardineriamobile" id="jardineriamobile" value="" />
+                                                                            <label for="jardineriamobile">Jardinería</label>
+                                                                    </div>	
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="estructurasmobile" id="estructurasmobile" value="" />
+                                                                            <label for="estructurasmobile">Estructuras<label>
+                                                                    </div>
+                                                                    <div class="form_field_wrap">
+                                                                                                    <div class="check_parent">
+                                                                                                            <input type="checkbox" name="otrosPeligrosmobile" id="otrosPeligrosmobile" value="" />
+                                                                                                            <label for="otrosPeligrosmobile">Otro</label>
+                                                                                                    </div>																																									
+                                                                                                    <input type="text" name="peligrosTrabmobile" id="peligrosTrabmobile" value="" size="35" placeholder="especificar" />
+                                                                    </div>																		
+                                                            </div>
+                                                    </div>															
+
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Plan de mitigación de peligros</h3>
+                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                            <div class="form_info cmsms_checkboxes">
+
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="equipProtmobile" id="equipProtmobile" value="" />
+                                                                            <label for="equipProtmobile">Equipo de protección personal</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="rcpmobile" id="rcpmobile" value="" />
+                                                                            <label for="rcpmobile">Primeros auxilios/RCP</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="supFuegomobile" id="supFuegomobile" value="" />
+                                                                            <label for="supFuegomobile">Plan de supresión de fuego</label>
+                                                                    </div>																																													
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="juntaTrabmobile" id="juntaTrabmobile" value="" />
+                                                                            <label for="juntaTrabmobile">Junta de trabajo</label>
+                                                                    </div>	
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="inspArbolmobile" id="inspArbolmobile" value="" />
+                                                                            <label for="inspArbolmobile">Inspección de árbol(es)</label>
+                                                                    </div>					
+                                                            </div>
+                                                    </div>
+                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                            <div class="form_info cmsms_checkboxes">	
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="inspEquipomobile" id="inspEquipomobile" value="" />
+                                                                            <label for="inspEquipomobile">Inspección equipo de protección contra caídas</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="inspMotosierrasmobile" id="inspMotosierrasmobile" value="" />
+                                                                            <label for="inspMotosierrasmobile">Inspección de motosierras y herramientas</label>
+                                                                    </div>																	
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="equipoCordajemobile" id="equipoCordajemobile" value="" />
+                                                                            <label for="equipoCordajemobile">Uso de equipo de cordaje</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="acordonamientomobile" id="acordonamientomobile" value="" />
+                                                                            <label for="acordonamientomobile">Acordonamiento del área</label>
+                                                                    </div>	
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="comunicacionmobile" id="comunicacionmobile" value="" />
+                                                                            <label for="comunicacionmobile">Comunicación</label>
+                                                                    </div>
+
+                                                            </div>																		
+                                                            </div>
+
+
+                                                    <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                            <div class="form_info cmsms_checkboxes">
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="supSitiomobile" id="supSitiomobile" value="" />
+                                                                            <label for="supSitiomobile">Supervisión en sitio</label>
+                                                                    </div>																																													
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="caidamobile" id="caidamobile" value="" />
+                                                                            <label for="caidamobile">Zona de caída</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="prevClimamobile" id="prevClimamobile" value="" />
+                                                                            <label for="prevClimamobile">Prevención climática</label>
+                                                                    </div>		
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="dañoExismobile" id="dañoExismobile" value="" />
+                                                                            <label for="dañoExismobile">Daño existente (documentar)</label>
+                                                                    </div>	
+                                                                    <div class="form_field_wrap">
+                                                                                                    <div class="check_parent">
+                                                                                                            <input type="checkbox" name="otrosPlanmobile" id="otrosPlanmobile" value="" />
+                                                                                                            <label for="otrosPlanmobile">Otro</label>
+                                                                                                    </div>																																									
+                                                                                                    <input type="text" name="planmobile" id="planmobile" value="" size="35" placeholder="especificar" />
+                                                                    </div>																		
+                                                            </div>
+                                                    </div>																
+
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Equipo de Protección Personal</h3>
+                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                            <div class="form_info cmsms_checkboxes">
+
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="cascomobile" id="cascomobile" value="" />
+                                                                            <label for="cascomobile">Casco</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="gafasmobile" id="gafasmobile" value="" />
+                                                                            <label for="gafasmobile">Gafas de seguridad</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="chalecomobile" id="chalecomobile" value="" />
+                                                                            <label for="chalecomobile">Chaleco/camiseta reflejante</label>
+                                                                    </div>																																																		
+                                                            </div>
+                                                    </div>
+                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                            <div class="form_info cmsms_checkboxes">	
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="auditivamobile" id="auditivamobile" value="" />
+                                                                            <label for="auditivamobile">Protección auditiva</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="mascaramobile" id="mascaramobile" value="" />
+                                                                            <label for="mascaramobile">Máscara/Protección facial</label>
+                                                                    </div>
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="botasmobile" id="botasmobile" value="" />
+                                                                            <label for="botasmobile">Botas de trabajo</label>
+                                                                    </div>																																												
+                                                            </div>																		
+                                                            </div>
+
+
+                                                    <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                            <div class="form_info cmsms_checkboxes">
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="chaparrerasmobile" id="chaparrerasmobile" value="" />
+                                                                            <label for="chaparrerasmobile">Chaparreras</label>
+                                                                    </div>																																													
+                                                                    <div class="check_parent">
+                                                                            <input type="checkbox" name="guantesmobile" id="guantesmobile" value="" />
+                                                                            <label for="guantesmobile">Guantes</label>
+                                                                    </div>
+                                                                    <div class="form_field_wrap">
+                                                                                                    <div class="check_parent">
+                                                                                                            <input type="checkbox" name="otrosEquiposmobile" id="otrosEquiposmobile" value="" />
+                                                                                                            <label for="otrosEquiposmobile">Otro</label>
+                                                                                                    </div>																																									
+                                                                                                    <input type="text" name="otrosEquiposTextmobile" id="otrosEquiposTextmobile" value="" size="35" placeholder="especificar"  />
+                                                                    </div>																		
+                                                            </div>
+                                                            </div>
+                                                <div class="cl"></div>
                                                     <div class="loading"></div>
 
                                                     <!-- Here you need to set the path to the sendmail file -->
@@ -444,6 +916,12 @@
                                                                     <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn"/>
                                                     </div>
                                                     <div class="cl"></div>
+                                                </div>
+                                            </div>                                                
+                                            <!--fin hoja dos-->
+                                        </div>
+                                        </div>
+                                                    
 
                                             </div>
                                         </div>
