@@ -10,7 +10,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 		<link rel="shortcut icon" href="<?= base_url(); ?>img/favicon-2.jpg" type="image/x-icon" />
 
-		<title>Reportes ADMIN | Senda Vertical</title>
+		<title>Reportes admin | Senda Vertical</title>
 		<link rel='stylesheet' href='<?= base_url(); ?>LayerSlider/css/layerslider.css' type='text/css' media='all' />
 		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin,latin-ext' type='text/css' media='all' />	
 		<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>css/settings.css" media="screen" />
@@ -121,7 +121,7 @@
 					<div class="cmsms_breadcrumbs">
 						<div class="cmsms_breadcrumbs_inner align_right">
 							<span>Estás aquí: </span>
-							<a href="#" class="cms_home">Admin</a>
+							<a href="#" class="cms_home">Supervisor</a>
 							<span class="breadcrumbs_sep"> / </span>
 							<a href="#" class="cms_home">Reportes</a>
 							<span class="breadcrumbs_sep"> / </span>							
@@ -147,20 +147,12 @@
 									<br>
 										<div class="cmsms_row_margin">
 										
-                    <div class="cmsms_column one_half"></div>
+                                                                                    <div class="cmsms_column one_half"></div>
 											<div class="cmsms_column one_half">
 												<ul id="cmsms_icon_list_items_553e49e81f520" class="cmsms_icon_list_items cmsms_icon_list_type_block cmsms_icon_list_pos_left cmsms_color_type_icon">
 													<li id="cmsms_icon_list_item_553e49e81f676" class="cmsms_icon_list_item">
 														<div class="cmsms_icon_list_item_inner">
-															<div class="cmsms_icon_list_icon_wrap">
-																<a href="<?= base_url();?>admin/nuevoReporte"><span class="cmsms_icon_list_icon cmsms-icon-edit-3"></span></a>
-															</div> 
-															<div class="cmsms_icon_list_item_content">
-																<h2 class="cmsms_icon_list_item_title">Crear Nuevo Reporte</h2>
-																 <div class="cmsms_icon_list_item_text">
-																	
-																</div> 
-															</div>
+															
                                                                                                                      
 														</div>
 													</li>
@@ -168,49 +160,49 @@
 											</div>
 											<br>
 											<div class="cmsms_column one_first">
-								<div class="cmsms_row_margin cmsms_1212">
-										<div class="cmsms_column">
-												<ul id="cmsms_icon_list_items_55534c5c711f0" class="cmsms_icon_list_items cmsms_icon_list_type_block cmsms_icon_list_pos_left cmsms_color_type_icon fadeIn animated" data-animation="fadeIn" data-delay="0">
-												<!--Draw data in this div-->
-												<?php 
-														if(isset($reportes)){
-														foreach ($reportes as $value) 
-														{
-												?>
-														<li id="cmsms_icon_list_item_55534c5c712ec" class="cmsms_icon_list_item shortcode_animated">
-																<div class="cmsms_icon_list_item_inner">
-																		<div class="one_third">
-																				<div class="cmsms_icon_list_icon_wrap">
-																						<a href="<?php echo base_url()?>admin/update/<?= $value->id ?>" class="cmsms_icon_list_icon cmsms-icon-info-circled"></a>
-																				</div>
-																				<div class="cmsms_icon_list_item_content">
-																						<div class="one_first">
-																								<h4 class="cmsms_icon_list_item_title"><?= $value->cotizacion; ?></h4>
-																						</div>                                                                                                                                   
-																						<br>
-																						<div class="one_half">
-																								<div class="cmsms_icon_list_item_text">                                                                                                                                      
-																												<p>
-																														<?= $value->nombre_proyecto; ?><br>
-																														<?= $value->cliente; ?>                                                                                                                                                        
-																												</p>                                                                                                                                                
-																								</div>
-																						</div>
-																						<div class="one_half" style="text-align:right;">
-																								<a onclick="eliminarReporte(<?= $value->id ?>)" class="notice_close cmsms-icon-trash"></a>
-																						</div>
-																				</div>
-																		</div>
-																</div>
-														</li>
-																		
-														<?php }} ?>
-														</ul>
-										</div>                                                                                                
-						</div>
-						
-						<div id="cmsms_divider_5551a75f0a5e0" class="cmsms_divider cmsms_divider_width_long cmsms_divider_pos_center"></div>
-</div>											
+                                                                                            <div class="cmsms_row_margin cmsms_1212">
+                                                                                                <div class="cmsms_column">
+                                                                                                    <ul id="cmsms_icon_list_items_55534c5c711f0" class="cmsms_icon_list_items cmsms_icon_list_type_block cmsms_icon_list_pos_left cmsms_color_type_icon fadeIn animated" data-animation="fadeIn" data-delay="0">
+                                                                                                    <!--Draw data in this div-->
+                                                                                                    <?php 
+                                                                                                        if(isset($reportes)){
+                                                                                                        foreach ($reportes as $value) 
+                                                                                                        {
+                                                                                                    ?>
+                                                                                                        <li id="cmsms_icon_list_item_55534c5c712ec" class="cmsms_icon_list_item shortcode_animated">
+                                                                                                            <div class="cmsms_icon_list_item_inner">
+                                                                                                                <div class="one_third">
+                                                                                                                    <div class="cmsms_icon_list_icon_wrap">
+                                                                                                                        <a href="<?php echo base_url()?>admin/verreporte/<?= $value->id ?>" class="cmsms_icon_list_icon cmsms-icon-info-circled"></a>
+                                                                                                                    </div>
+                                                                                                                    <div class="cmsms_icon_list_item_content">
+                                                                                                                        <div class="one_first">
+                                                                                                                            <h4 class="cmsms_icon_list_item_title"><?= $value->cotizacion; ?></h4>
+                                                                                                                        </div>                                                                                                                                   
+                                                                                                                        <br>
+                                                                                                                        <div class="one_half">
+                                                                                                                            <div class="cmsms_icon_list_item_text">                                                                                                                                      
+                                                                                                                                    <p>
+                                                                                                                                        <?= $value->nombre_proyecto; ?><br>
+                                                                                                                                        <?= $value->cliente; ?>                                                                                                                                                        
+                                                                                                                                    </p>                                                                                                                                                
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                        <div class="one_half" style="text-align:right;">
+                                                                                                                            <a onclick="eliminarReporte(<?= $value->id ?>)" class="notice_close cmsms-icon-trash"></a>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </li>
+                                                                                                                
+                                                                                                        <?php }} ?>
+                                                                                                        </ul>
+                                                                                                </div>                                                                                                
+                                                                                        </div>
+                                                                                        
+                                                                                        <div id="cmsms_divider_5551a75f0a5e0" class="cmsms_divider cmsms_divider_width_long cmsms_divider_pos_center"></div>
+											</div>											
 
 										</div>
 									</div>
@@ -250,7 +242,7 @@
                                             location.reload();
                                         }else{
                                              //alert(res);
-                                             window.location.href = "<?= base_url();?>admin/reportes";
+                                             window.location.href = "<?= base_url();?>admin";
                                          }
 
                                         return false;

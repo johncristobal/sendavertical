@@ -7,6 +7,8 @@ class Admin extends CI_Controller {
         parent::__construct();
         $this->load->helper(array('form'));
         $this->load->model('AdminModel');	
+        $this->load->model('SupModel');	
+
         $this->load->model('servicios');
 
     }
@@ -468,10 +470,19 @@ class Admin extends CI_Controller {
         $datos["reportes"] = $this->AdminModel->getReportes();
         $this->load->view('admin/reportes/listareportes',$datos);
     }
-        
-    public function verreporte($id){
+    
+    
+    public function update($id){
+        $datos = $this->SupModel->getDataReporte($id);
+        $this->load->view('admin/reportes/updatereportes',$datos);  
+    }
+            
+    public function nuevoReporte(){
+        $this->load->view('admin/reportes/nuevoreportes');  
+    }
+    
+    /*public function verreporte($id){
         $datos = $this->AdminModel->getDataReporte($id);
         $this->load->view('admin/reportes/reportes',$datos);  
-    }
+    }*/
 }
-
