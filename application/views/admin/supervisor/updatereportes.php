@@ -187,6 +187,22 @@
                                                                                             <input type="hidden" name="tipo" id="tipo" value="mobile">
                                                                                             <input type="hidden" name="idreporte" id="idreporte" value="<?= $reportes[0]->id; ?>">
                                                                                             <div class="cmsms-form-builder">
+                                                                                                
+                                                                                                <div class="cmsms_tabs tabs_mode_tab">
+                                                                                                <ul class="cmsms_tabs_list">
+                                                                                                    <li id="cmsms_tabs_list_item_555469b2e5f20" class="cmsms_tabs_list_item current_tab">
+                                                                                                        <a href="#"><span>Reporte inicio</span></a>
+                                                                                                    </li>
+                                                                                                    <li id="cmsms_tabs_list_item_555469b2e612c" class="cmsms_tabs_list_item">
+                                                                                                        <a href="#"><span>Información de contacto</span></a>
+                                                                                                    </li>                                                
+                                                                                                </ul>
+                                                                                                <div class="cmsms_tabs_wrap">
+                                                                                                <!--Inicia hoja uno-->
+                                                                                                <div id="cmsms_tab_555469b2e5f20" class="cmsms_tab active_tab">
+                                                                                                <div class="cmsms_tab_inner">
+                                                                                                <!--hoja uino data-->
+                                                                                                
                                                                                                 <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Reportes</h3>
                                                                                                 <div class="form_info cmsms_input one_half">
                                                                                                         <label for="numcotizacion">Número de cotizaciòn</label>
@@ -459,19 +475,482 @@
                                                                                                             </div>
                                                                                                         </div>
                                                                                                 </div>
-
-
-
-                                                                                                <div class="cl"></div>
-                                                                                                <div class="loading"></div>
-                                                                                                
-                                                                                                <!-- Here you need to set the path to the sendmail file -->
-                                                                                                <div class="form_info submit_wrap">
-                                                                                                    <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Actualizar informaciòn"/>
+                                                                                                <!--fin uno data-->
+                                                                                                </div>                                                                                                    
                                                                                                 </div>
-                                                                                                <div class="cl"></div>
+                                                                                                <!--****************************fin hoja uno****************************-->
+                                            
+                                                                                                <!--****************************Inicia hoja dos****************************-->
+                                                                                                <div id="cmsms_tab_555469b2e612c" class="cmsms_tab">
+                                                                                                <div class="cmsms_tab_inner">
+                                                                                                <!--fin hoja dos-->
+                                                                                                <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Información Contacto</h3>
+                                                                                                    <div class="form_info cmsms_input one_third">  
+                                                                                                            <label for="cmsms_your_phone_number_is">Proyecto</label>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <label for="cmsms_your_phone_number_is">Lugar</label>
+                                                                                                        <input type="text" name="lugarmobile" id="lugarmobile" value="<?= $reportes_contacto[0]->lugar; ?>" size="35" placeholder="Lugar" />																		
+                                                                                                    </div>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <label for="cmsms_your_phone_number_is">Supervisor</label>
+                                                                                                        <input type="text" name="supervisormobile" id="supervisormobile" value="<?= $reportes_contacto[0]->supervisor; ?>" size="35" placeholder="Supervisor" />																		
+                                                                                                    </div>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <label for="cmsms_your_phone_number_is">Teléfono</label>
+                                                                                                        <input type="text" name="telefonomobile" id="telefonomobile" value="<?= $reportes_contacto[0]->telefono; ?>" size="35" placeholder="Teléfono" />																		
+                                                                                                    </div>																
+                                                                                                    </div>	
 
-                                                                                            </div>
+                                                                                                    <div class="form_info cmsms_input one_third">  
+                                                                                                    <label for="cmsms_your_phone_number_is">Cliente</label>
+                                                                                                    <div class="form_field_wrap">   
+                                                                                                        <label for="cmsms_your_phone_number_is">Fecha</label>
+                                                                                                        <input type="date" name="fechamobile" id="fechamobile" value="<?= $reportes_contacto[0]->fecha; ?>" size="35" />																		
+                                                                                                    </div>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <label for="cmsms_your_phone_number_is">Nombre </label>
+                                                                                                        <input type="text" name="nombreclientemobile" id="nombreclientemobile" value="<?= $reportes_contacto[0]->nombre_cliente; ?>" size="35" placeholder="Nombre del cliente" />																		
+                                                                                                    </div>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                            <label for="cmsms_your_phone_number_is">Email</label>
+                                                                                                            <input type="text" name="emailclientemobile" id="emailclientemobile" value="<?= $reportes_contacto[0]->email_cliente; ?>" size="35" placeholder="Email" />																		
+                                                                                                        </div>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                            <label for="cmsms_your_phone_number_is">Teléfono</label>
+                                                                                                            <input type="text" name="telefonoclientemobile" id="telefonoclientemobile" value="<?= $reportes_contacto[0]->telefono_cliente; ?>" size="35" placeholder="Teléfono de cliente" />																		
+                                                                                                        </div>																
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third">  
+                                                                                                    <label for="cmsms_your_phone_number_is">Hospital</label>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <label for="cmsms_your_phone_number_is">Nombre</label>
+                                                                                                        <input type="text" name="hospitalmobile" id="hospitalmobile" value="<?= $reportes_contacto[0]->hospital; ?>" size="35" placeholder="Nombre del hospital" />																		
+                                                                                                    </div>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <label for="cmsms_your_phone_number_is">Teléfono</label>
+                                                                                                        <input type="text" name="telefonohospitalmobile" id="telefonohospitalmobile" value="<?= $reportes_contacto[0]->telefono_hospital; ?>" size="35" placeholder="Teléfono del hospital" />																		
+                                                                                                    </div>	
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <label for="cmsms_your_phone_number_is">Teléfono de emergencia</label>
+                                                                                                        <input type="text" name="telefonoemermobile" id="telefonoemermobile" value="<?= $reportes_contacto[0]->emergencia_hospital; ?>" size="35" placeholder="Teléfono de emergencia" />																		
+                                                                                                    </div>																
+                                                                                                    </div>			
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Dirección</h3>
+
+                                                                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                                                                    <div class="form_info cmsms_checkboxes">
+                                                                                                        <div class="check_parent">
+                                                                                                                <input type="checkbox" name="emergencia1mobile" id="emergencia1mobile" value="Plan de acción en caso de emergencia,direccion" <?php if (isset($reportes_direccion["emergencia1desktop"]) && $reportes_direccion["emergencia1desktop"] == "1"){echo "checked";}?>/>
+                                                                                                                <label for="emergencia1mobile">Plan de acción en caso de emergencia</label>
+                                                                                                        </div>  		
+                                                                                                        <br><br>
+                                                                                                        <label for="llamadaemermobile">Llamada de emergencia:</label>
+                                                                                                        <input type="text" name="llamadaemermobile" id="llamadaemermobile" <?php if (isset($reportes_direccion["llamadaemerdesktop"]) && $reportes_direccion["llamadaemerdesktop"] != ""){echo "value='".$reportes_direccion["llamadaemerdesktop"]."'";}?> size="35" placeholder="especificar" />
+
+                                                                                                    </div>
+                                                                                                    </div>
+
+                                                                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                                                                    <div class="form_info cmsms_checkboxes">															
+
+                                                                                                        <label for="primerosauxmobile">Primeros auxilios y RCP:</label>
+                                                                                                        <input type="text" name="primerosauxmobile" id="primerosauxmobile" <?php if (isset($reportes_direccion["primerosauxdesktop"]) && $reportes_direccion["primerosauxdesktop"] != ""){echo "value='".$reportes_direccion["primerosauxdesktop"]."'";}?> size="35" placeholder="especificar" />
+
+                                                                                                        <label for="rescatemobile">Rescate aéreo:</label>
+                                                                                                        <input type="text" name="rescatemobile" id="rescatemobile" <?php if (isset($reportes_direccion["rescatedesktop"]) && $reportes_direccion["rescatedesktop"] != ""){echo "value='".$reportes_direccion["rescatedesktop"]."'";}?> size="35" placeholder="especificar" />
+
+                                                                                                    </div>
+                                                                                                    </div>	
+
+                                                                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                                                                        <div class="form_info cmsms_checkboxes">
+                                                                                                            <div class="check_parent">
+                                                                                                                <input type="checkbox" name="aguaPotablemobile" id="aguaPotablemobile" value="Agua potable,direccion" <?php if (isset($reportes_direccion["aguaPotabledesktop"]) && $reportes_direccion["aguaPotabledesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                <label for="aguaPotablemobile">Agua potable</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                <input type="checkbox" name="extinguidormobile" id="extinguidormobile" value="Extinguidor,direccion" <?php if (isset($reportes_direccion["extinguidordesktop"]) && $reportes_direccion["extinguidordesktop"] == "1"){echo "checked";}?> />
+                                                                                                                <label for="extinguidormobile">Extinguidor</label>
+                                                                                                            </div>
+                                                                                                            <div class="form_field_wrap">
+                                                                                                                <div class="check_parent">
+                                                                                                                        <input type="checkbox" name="sisCommobile" id="sisCommobile" value="Sistema de Comunicación,direccion" <?php if (isset($reportes_direccion["sisComdesktop"]) && $reportes_direccion["sisComdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                        <label for="sisCommobile">Sistema de Comunicación</label>
+                                                                                                                </div>																					
+
+                                                                                                                <input type="text" name="sisComtextmobile" id="sisComtextmobile" <?php if (isset($reportes_direccion["sisComtextdesktop"]) && $reportes_direccion["sisComtextdesktop"] != ''){echo "value='".$reportes_direccion["sisComtextdesktop"]."'";}?> size="35" placeholder="especificar" />
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+
+                                                                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                                                                        <div class="form_info cmsms_checkboxes">															
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="botiquinmobile" id="botiquinmobile" value="Botiquín de primeros auxilios,direccion" <?php if (isset($reportes_direccion["botiquindesktop"]) && $reportes_direccion["botiquindesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="botiquinmobile">Botiquín de primeros auxilios</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="smamobile" id="smamobile" value="Permiso SMA,direccion" <?php if (isset($reportes_direccion["smadesktop"]) && $reportes_direccion["smadesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="smamobile">Permiso SMA</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="inspeccionmobile" id="inspeccionmobile" value="Inspección de equipo,direccion" <?php if (isset($reportes_direccion["inspecciondesktop"]) && $reportes_direccion["inspecciondesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="inspeccionmobile">Inspección de equipo</label>
+                                                                                                            </div>
+                                                                                                            <!--div class="check_parent">
+                                                                                                                    <input type="checkbox" name="emergencia1mobile" id="emergencia1mobile" value="em1" />
+                                                                                                                    <label for="emergencia1mobile">Plan de acción en caso de emergencia</label>
+                                                                                                            </div-->																	
+                                                                                                        </div>
+                                                                                                    </div>	
+
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Descripción del trabajo a desarrollar</h3>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                        <div class="form_info cmsms_checkboxes">
+                                                                                                            <div class="check_parent">
+                                                                                                                <input type="checkbox" name="podamobile" id="podamobile" value="Poda,trabajo"value="Poda,trabajo" <?php if (isset($reportes_trabajo["podadesktop"]) && $reportes_trabajo["podadesktop"] == "1"){echo "checked";}?> />
+                                                                                                                <label for="podamobile">Poda</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                <input type="checkbox" name="remocionmobile" id="remocionmobile" value="Remoción,trabajo" <?php if (isset($reportes_trabajo["remociondesktop"]) && $reportes_trabajo["remociondesktop"] == "1"){echo "checked";}?> />
+                                                                                                                <label for="remocionmobile">Remoción</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                <input type="checkbox" name="manicordajemobile" id="manicordajemobile" value="Maniobras de cordaje,trabajo" <?php if (isset($reportes_trabajo["manicordajedesktop"]) && $reportes_trabajo["manicordajedesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                <label for="manicordajemobile">Maniobras de cordaje</label>
+                                                                                                            </div>																																													
+                                                                                                            <div class="check_parent">
+                                                                                                                <input type="checkbox" name="ctrlPeatonalmobile" id="ctrlPeatonalmobile" value="Control peatonal,trabajo" <?php if (isset($reportes_trabajo["ctrlPeatonaldesktop"]) && $reportes_trabajo["ctrlPeatonaldesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                <label for="ctrlPeatonalmobile">Control peatonal</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                <input type="checkbox" name="ctrlTransitomobile" id="ctrlTransitomobile" value="Control de tránsito temporal,trabajo" <?php if (isset($reportes_trabajo["ctrlTransitodesktop"]) && $reportes_trabajo["ctrlTransitodesktop"] == "1"){echo "checked";}?> />
+                                                                                                                <label for="ctrlTransitomobile">Control de tránsito temporal</label>
+                                                                                                            </div>																		
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                        <div class="form_info cmsms_checkboxes">															
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="caidalibremobile" id="caidalibremobile" value="Caída libre,trabajo" <?php if (isset($reportes_trabajo["caidalibredesktop"]) && $reportes_trabajo["caidalibredesktop"] == "1"){echo "checked";}?>  />
+                                                                                                                    <label for="caidalibremobile">Caída libre</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="desramemobile" id="desramemobile" value="Desrame/ Troceado,trabajo" <?php if (isset($reportes_trabajo["desramedesktop"]) && $reportes_trabajo["desramedesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="desramemobile">Desrame/ Troceado</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="destoconadomobile" id="destoconadomobile" value="Destoconado,trabajo"  <?php if (isset($reportes_trabajo["destoconadodesktop"]) && $reportes_trabajo["destoconadodesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="destoconadomobile">Destoconado</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="remocionArbmobile" id="remocionArbmobile" value="Remoción de arbustos,trabajo"  <?php if (isset($reportes_trabajo["remocionArbdesktop"]) && $reportes_trabajo["remocionArbdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="remocionArbmobile">Remoción de arbustos</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="astilladomobile" id="astilladomobile" value="Astillado/Triturado,trabajo" <?php if (isset($reportes_trabajo["astilladodesktop"]) && $reportes_trabajo["astilladodesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="astilladomobile">Astillado/Triturado</label>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>	
+
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                                                                        <div class="form_info cmsms_checkboxes">
+
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="plagasmobile" id="plagasmobile" value="Tratamiento de plagas o suelo,trabajo" <?php if (isset($reportes_trabajo["plagasdesktop"]) && $reportes_trabajo["plagasdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="plagasmobile">Tratamiento de plagas o suelo</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="dostrepamobile" id="dostrepamobile" value="Trepa,trabajo" <?php if (isset($reportes_trabajo["dostrepadesktop"]) && $reportes_trabajo["dostrepadesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="dostrepamobile">Trepa</label>
+                                                                                                            </div>																																													
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="materialCortadomobile" id="materialCortadomobile" value="Retiro de material cortado,trabajo" <?php if (isset($reportes_trabajo["materialCortadodesktop"]) && $reportes_trabajo["materialCortadodesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="materialCortadomobile">Retiro de material cortado</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="equipoEspmobile" id="equipoEspmobile" value="Equipo especializado,trabajo" <?php if (isset($reportes_trabajo["equipoEspdesktop"]) && $reportes_trabajo["equipoEspdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="equipoEspmobile">Equipo especializado</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="otrosDescripmobile" id="otrosDescripmobile" value="Otros,trabajo" <?php if (isset($reportes_trabajo["otrosDescripdesktop"]) && $reportes_trabajo["otrosDescripdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="otrosDescripmobile">Otros</label>
+                                                                                                            </div>	
+                                                                                                            <input type="text" name="otrosDescriptextmobile" id="otrosDescriptextmobile" size="35" placeholder="especificar" <?php if (isset($reportes_trabajo["otrosDescriptextdesktop"]) && $reportes_trabajo["otrosDescriptextdesktop"] != ''){echo "value='".$reportes_trabajo["otrosDescriptextdesktop"]."'";}?>/>
+
+                                                                                                        </div>
+                                                                                                    </div>	
+
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Peligros específicos del área de trabajo</h3>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                            <div class="form_info cmsms_checkboxes">
+
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="arbolContactomobile" id="arbolContactomobile" value="Árbol en contacto,peligros" <?php if (isset($reporte_peligros["arbolContactodesktop"]) && $reporte_peligros["arbolContactodesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="arbolContactomobile">Árbol en contacto</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="dmamobile" id="dmamobile" value="Árbol/Rama en DMA,peligros"   <?php if (isset($reporte_peligros["dmadesktop"]) && $reporte_peligros["dmadesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="dmamobile">Árbol/Rama en DMA</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="defEstructmobile" id="defEstructmobile" value="Defecto estructural,peligros"  <?php if (isset($reporte_peligros["defEstructdesktop"]) && $reporte_peligros["defEstructdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="defEstructmobile">Defecto estructural</label>
+                                                                                                                    </div>																																													
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="climamobile" id="climamobile" value="Clima,peligros"   <?php if (isset($reporte_peligros["climadesktop"]) && $reporte_peligros["climadesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="climamobile">Clima</label>
+                                                                                                                    </div>	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="quimicosmobile" id="quimicosmobile" value="Manejo de químicos,peligros"   <?php if (isset($reporte_peligros["quimicosdesktop"]) && $reporte_peligros["quimicosdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="quimicosmobile">Manejo de químicos</label>
+                                                                                                                    </div>	
+                                                                                                                    <div class="form_field_wrap">
+                                                                                                                        <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="electricidadmobile" id="electricidadmobile" value="Electricidad,peligros"   <?php if (isset($reporte_peligros["electricidaddesktop"]) && $reporte_peligros["electricidaddesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="electricidadmobile">Electricidad</label>
+                                                                                                                        </div>																					
+                                                                                                                        <input type="text" name="electricidadfielmobile" id="electricidadfielmobile"   <?php if (isset($reporte_peligros["electricidadfielddesktop"]) && $reporte_peligros["electricidadfielddesktop"] != ""){echo "value='".$reporte_peligros["electricidadfielddesktop"]."'";}?> size="35" placeholder="especificar" />
+                                                                                                                    </div>																		
+
+
+                                                                                                            </div>
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                            <div class="form_info cmsms_checkboxes">	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="arbolSecomobile" id="arbolSecomobile" value="Árbol seco,peligros"   <?php if (isset($reporte_peligros["arbolSecodesktop"]) && $reporte_peligros["arbolSecodesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="arbolSecomobile">Árbol seco</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="ramasMuertasmobile" id="ramasMuertasmobile" value="Ramas muertas o colgantes,peligros"  <?php if (isset($reporte_peligros["ramasMuertasdesktop"]) && $reporte_peligros["ramasMuertasdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="ramasMuertasmobile">Ramas muertas o colgantes</label>
+                                                                                                                    </div>																	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="arbolDescortezadomobile" id="arbolDescortezadomobile" value="Árbol descortezado,peligros"   <?php if (isset($reporte_peligros["arbolDescortezadodesktop"]) && $reporte_peligros["arbolDescortezadodesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="arbolDescortezadomobile">Árbol descortezado</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="maderaBajomobile" id="maderaBajomobile" value="Madera bajo tensión,peligros"   <?php if (isset($reporte_peligros["maderaBajodesktop"]) && $reporte_peligros["maderaBajodesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="maderaBajomobile">Madera bajo tensión</label>
+                                                                                                                    </div>	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="silvestre" id="silvestre" value="Vida silvestre,peligros"  <?php if (isset($reporte_peligros["silvestredesktop"]) && $reporte_peligros["silvestredesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="silvestre">Vida silvestre</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="pudricionmobile" id="pudricionmobile" value="Pudrición,peligros"  <?php if (isset($reporte_peligros["pudriciondesktop"]) && $reporte_peligros["pudriciondesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="pudricionmobile">Pudrición</label>
+                                                                                                                    </div>	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="cavidadesmobile" id="cavidadesmobile" value="Cavidades,peligros"  <?php if (isset($reporte_peligros["cavidadesdesktop"]) && $reporte_peligros["cavidadesdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="cavidadesmobile">Cavidades</label>
+                                                                                                                    </div>	
+
+                                                                                                            </div>																		
+                                                                                                            </div>
+
+
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                                                                            <div class="form_info cmsms_checkboxes">
+
+                                                                                                                    <div class="check_parent">																		
+                                                                                                                            <label for="plagas">Obstaculos</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="bardasmobile" id="bardasmobile" value="Cercas o bardas,peligros"  <?php if (isset($reporte_peligros["bardasdesktop"]) && $reporte_peligros["bardasdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="bardasmobile">Cercas o bardas</label>
+                                                                                                                    </div>																																													
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="peatonesmobile" id="peatonesmobile" value="Peatones,peligros"  <?php if (isset($reporte_peligros["peatonesdesktop"]) && $reporte_peligros["peatonesdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="peatonesmobile">Peatones</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="mascotasmobile" id="mascotasmobile" value="Perros/Mascotas,peligros"  <?php if (isset($reporte_peligros["mascotasdesktop"]) && $reporte_peligros["mascotasdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="mascotasmobile">Perros/Mascotas</label>
+                                                                                                                    </div>		
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="jardineriamobile" id="jardineriamobile" value="Jardinería,peligros"  <?php if (isset($reporte_peligros["jardineriadesktop"]) && $reporte_peligros["jardineriadesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="jardineriamobile">Jardinería</label>
+                                                                                                                    </div>	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="estructurasmobile" id="estructurasmobile" value="Estructuras,peligros"  <?php if (isset($reporte_peligros["estructurasdesktop"]) && $reporte_peligros["estructurasdesktop"] == "1"){echo "checked";}?> />
+                                                                                                                            <label for="estructurasmobile">Estructuras<label>
+                                                                                                                    </div>
+                                                                                                                    <div class="form_field_wrap">
+                                                                                                                        <div class="check_parent">
+                                                                                                                                <input type="checkbox" name="otrosPeligrosmobile" id="otrosPeligrosmobile" value="Otro,peligros" <?php if (isset($reporte_peligros["otrosPeligrosdesktop"]) && $reporte_peligros["otrosPeligrosdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                                <label for="otrosPeligrosmobile">Otro</label>
+                                                                                                                        </div>																																									
+                                                                                                                        <input type="text" name="otrospeligrosfieldmobile" id="otrospeligrosfieldmobile"  <?php if (isset($reporte_peligros["otrospeligrosfielddesktop"]) && $reporte_peligros["otrospeligrosfielddesktop"] != ""){echo "value='".$reporte_peligros["otrospeligrosfielddesktop"]."'";}?> size="35" placeholder="especificar" />
+                                                                                                                    </div>																		
+                                                                                                            </div>
+                                                                                                    </div>															
+
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Plan de mitigación de peligros</h3>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                        <div class="form_info cmsms_checkboxes">
+
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="equipProtmobile" id="equipProtmobile" value="Equipo de protección personal,mitigacion" <?php if (isset($reporte_mitigacion["equipProtdesktop"]) && $reporte_mitigacion["equipProtdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="equipProtmobile">Equipo de protección personal</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="rcpmobile" id="rcpmobile" value="Primeros auxilios/RCP,mitigacion"  <?php if (isset($reporte_mitigacion["rcpdesktop"]) && $reporte_mitigacion["rcpdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="rcpmobile">Primeros auxilios/RCP</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="supFuegomobile" id="supFuegomobile" value="Plan de supresión de fuego,mitigacion"  <?php if (isset($reporte_mitigacion["supFuegodesktop"]) && $reporte_mitigacion["supFuegodesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="supFuegomobile">Plan de supresión de fuego</label>
+                                                                                                            </div>																																													
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="juntaTrabmobile" id="juntaTrabmobile" value="Junta de trabajo,mitigacion" <?php if (isset($reporte_mitigacion["juntaTrabdesktop"]) && $reporte_mitigacion["juntaTrabdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="juntaTrabmobile">Junta de trabajo</label>
+                                                                                                            </div>	
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="inspArbolmobile" id="inspArbolmobile" value="Inspección de árbol(es),mitigacion"  <?php if (isset($reporte_mitigacion["inspArboldesktop"]) && $reporte_mitigacion["inspArboldesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="inspArbolmobile">Inspección de árbol(es)</label>
+                                                                                                            </div>					
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                            <div class="form_info cmsms_checkboxes">	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="inspEquipomobile" id="inspEquipomobile" value="Inspección equipo de protección contra caídas,mitigacion" <?php if (isset($reporte_mitigacion["inspEquipodesktop"]) && $reporte_mitigacion["inspEquipodesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="inspEquipomobile">Inspección equipo de protección contra caídas</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="inspMotosierrasmobile" id="inspMotosierrasmobile" value="Inspección de motosierras y herramientas,mitigacion" <?php if (isset($reporte_mitigacion["inspMotosierrasdesktop"]) && $reporte_mitigacion["inspMotosierrasdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="inspMotosierrasmobile">Inspección de motosierras y herramientas</label>
+                                                                                                                    </div>																	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="equipoCordajemobile" id="equipoCordajemobile" value="Uso de equipo de cordaje,mitigacion"  <?php if (isset($reporte_mitigacion["equipoCordajedesktop"]) && $reporte_mitigacion["equipoCordajedesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="equipoCordajemobile">Uso de equipo de cordaje</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="acordonamientomobile" id="acordonamientomobile" value="Acordonamiento del área,mitigacion"  <?php if (isset($reporte_mitigacion["acordonamientodesktop"]) && $reporte_mitigacion["acordonamientodesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="acordonamientomobile">Acordonamiento del área</label>
+                                                                                                                    </div>	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="comunicacionmobile" id="comunicacionmobile" value="Comunicación,mitigacion"  <?php if (isset($reporte_mitigacion["comunicaciondesktop"]) && $reporte_mitigacion["comunicaciondesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="comunicacionmobile">Comunicación</label>
+                                                                                                                    </div>
+
+                                                                                                            </div>																		
+                                                                                                            </div>
+
+
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                                                                    <div class="form_info cmsms_checkboxes">
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="supSitiomobile" id="supSitiomobile" value="Supervisión en sitio,mitigacion" <?php if (isset($reporte_mitigacion["supSitiodesktop"]) && $reporte_mitigacion["supSitiodesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="supSitiomobile">Supervisión en sitio</label>
+                                                                                                            </div>																																													
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="caidamobile" id="caidamobile" value="Zona de caída,mitigacion"  <?php if (isset($reporte_mitigacion["caidadesktop"]) && $reporte_mitigacion["caidadesktop"] == "1"){echo "checked";}?> />
+                                                                                                                    <label for="caidamobile">Zona de caída</label>
+                                                                                                            </div>
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="prevClimamobile" id="prevClimamobile" value="Prevención climática,mitigacion"  <?php if (isset($reporte_mitigacion["prevClimadesktop"]) && $reporte_mitigacion["prevClimadesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="prevClimamobile">Prevención climática</label>
+                                                                                                            </div>		
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="dañoExismobile" id="dañoExismobile" value="Daño existente (documentar),mitigacion"  <?php if (isset($reporte_mitigacion["dañoExisdesktop"]) && $reporte_mitigacion["dañoExisdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="dañoExismobile">Daño existente (documentar)</label>
+                                                                                                            </div>	
+                                                                                                            <div class="form_field_wrap">
+                                                                                                                <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="otrosPlanmobile" id="otrosPlanmobile" value="Otro,mitigacion"  <?php if (isset($reporte_mitigacion["otrosPlandesktop"]) && $reporte_mitigacion["otrosPlandesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="otrosPlanmobile">Otro</label>
+                                                                                                                </div>																																									
+                                                                                                                <input type="text" name="otrosplanfieldmobile" id="otrosplanfieldmobile" size="35" placeholder="especificar"  <?php if (isset($reporte_mitigacion["otrosplanfielddesktop"]) && $reporte_mitigacion["otrosplanfielddesktop"] != ""){echo "value='".$reporte_mitigacion["otrosplanfielddesktop"]."'";}?>/>
+                                                                                                            </div>																		
+                                                                                                    </div>
+                                                                                                    </div>																
+
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <div id="cmsms_divider_5550b989a761d" class="cmsms_divider solid"></div>
+                                                                                                    <h3 id="cmsms_heading_5550b989a76d7" class="cmsms_heading">Equipo de Protección Personal</h3>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                            <div class="form_info cmsms_checkboxes">
+
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="cascomobile" id="cascomobile" value="Casco,proteccion"  <?php if (isset($reporte_proteccion["cascodesktop"]) && $reporte_proteccion["cascodesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="cascomobile">Casco</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="gafasmobile" id="gafasmobile" value="Gafas de seguridad,proteccion" <?php if (isset($reporte_proteccion["gafasdesktop"]) && $reporte_proteccion["gafasdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="gafasmobile">Gafas de seguridad</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="chalecomobile" id="chalecomobile" value="Chaleco/camiseta reflejante,proteccion"  <?php if (isset($reporte_proteccion["chalecodesktop"]) && $reporte_proteccion["chalecodesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="chalecomobile">Chaleco/camiseta reflejante</label>
+                                                                                                                    </div>																																																		
+                                                                                                            </div>
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                   
+                                                                                                            <div class="form_info cmsms_checkboxes">	
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="auditivamobile" id="auditivamobile" value="Protección auditiva,proteccion" <?php if (isset($reporte_proteccion["auditivadesktop"]) && $reporte_proteccion["auditivadesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="auditivamobile">Protección auditiva</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="mascaramobile" id="mascaramobile" value="Máscara/Protección facial,proteccion" <?php if (isset($reporte_proteccion["mascaradesktop"]) && $reporte_proteccion["mascaradesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="mascaramobile">Máscara/Protección facial</label>
+                                                                                                                    </div>
+                                                                                                                    <div class="check_parent">
+                                                                                                                            <input type="checkbox" name="botasmobile" id="botasmobile" value="Botas de trabajo,proteccion" <?php if (isset($reporte_proteccion["botasdesktop"]) && $reporte_proteccion["botasdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                            <label for="botasmobile">Botas de trabajo</label>
+                                                                                                                    </div>																																												
+                                                                                                            </div>																		
+                                                                                                            </div>
+
+
+                                                                                                    <div class="form_info cmsms_input one_third">                                                                                                                                 
+                                                                                                    <div class="form_info cmsms_checkboxes">
+                                                                                                        <div class="check_parent">
+                                                                                                                <input type="checkbox" name="chaparrerasmobile" id="chaparrerasmobile" value="Chaparreras,proteccion" <?php if (isset($reporte_proteccion["chaparrerasdesktop"]) && $reporte_proteccion["chaparrerasdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                <label for="chaparrerasmobile">Chaparreras</label>
+                                                                                                        </div>																																													
+                                                                                                        <div class="check_parent">
+                                                                                                                <input type="checkbox" name="guantesmobile" id="guantesmobile" value="Guantes,proteccion"  <?php if (isset($reporte_proteccion["guantesdesktop"]) && $reporte_proteccion["guantesdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                <label for="guantesmobile">Guantes</label>
+                                                                                                        </div>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <div class="check_parent">
+                                                                                                                    <input type="checkbox" name="otrosEquiposmobile" id="otrosEquiposmobile" value="Otro,proteccion"  <?php if (isset($reporte_proteccion["otrosEquiposdesktop"]) && $reporte_proteccion["otrosEquiposdesktop"] == "1"){echo "checked";}?>/>
+                                                                                                                    <label for="otrosEquiposmobile">Otro</label>
+                                                                                                            </div>																																									
+                                                                                                            <input type="text" name="otrosequiposfieldmobile" id="otrosequiposfieldmobile" <?php if (isset($reporte_proteccion["otrosequiposfielddesktop"]) && $reporte_proteccion["otrosequiposfielddesktop"] != ""){echo "value='".$reporte_proteccion["otrosequiposfielddesktop"]."'";}?> size="35" placeholder="especificar"  />
+                                                                                                        </div>																		
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="cl"></div>
+                                                                                                    <div class="loading"></div>
+
+                                                                                                    <!-- Here you need to set the path to the sendmail file -->
+                                                                                                    <div class="form_info submit_wrap">
+                                                                                                        <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn"/>
+                                                                                                    </div>
+                                                                                                    <div class="cl"></div>
+                                                                                                </div>
+                                                                                            </div>                                                
+                                                                                            <!--fin hoja dos-->
+                                                                                        </div>
+                                                                                        </div>
+
+                                                                                        </div>
                                                                                         </div>
                                                                                     </form>
                                                                                     
