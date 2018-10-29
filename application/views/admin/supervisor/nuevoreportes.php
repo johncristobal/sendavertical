@@ -716,8 +716,8 @@
                                                                             <label for="maderaBajomobile">Madera bajo tensión</label>
                                                                     </div>	
                                                                     <div class="check_parent">
-                                                                            <input type="checkbox" name="silvestre" id="silvestre" value="Vida silvestre,peligros" />
-                                                                            <label for="silvestre">Vida silvestre</label>
+                                                                            <input type="checkbox" name="silvestremobile" id="silvestremobile" value="Vida silvestre,peligros" />
+                                                                            <label for="silvestremobile">Vida silvestre</label>
                                                                     </div>
                                                                     <div class="check_parent">
                                                                             <input type="checkbox" name="pudricionmobile" id="pudricionmobile" value="Pudrición,peligros" />

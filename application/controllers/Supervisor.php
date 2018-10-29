@@ -190,11 +190,19 @@ class Supervisor extends CI_Controller {
         $this->SupModel->borrarTablaConId("reporte_proteccion",$idreporte);
 
         foreach ($datos as $key => $value) {
+            //salvamos unicamnete la llave sin mobile o desktop
+            $llave = "";
+            if(strpos($key, 'mobile') !== false){
+                $llave = substr($key,0,-6);
+            }else{
+                $llave = substr($key,0,-7);
+            }
+            
             if (strpos($value, ',direccion') !== false) {
                 $valor = split(",", $value)[0];
                 $arreglodireccion = array(
                     "concepto" => $valor,
-                    "field" => $key,
+                    "field" => $llave,
                     "value" => 1,
                     "id_reporte" => $idreporte
                 );
@@ -203,7 +211,7 @@ class Supervisor extends CI_Controller {
                 $valor = split(",", $value)[0];
                 $arreglodireccion = array(
                     "concepto" => $valor,
-                    "field" => $key,
+                    "field" => $llave,
                     "value" => 1,
                     "id_reporte" => $idreporte
                 );
@@ -212,7 +220,7 @@ class Supervisor extends CI_Controller {
                 $valor = split(",", $value)[0];
                 $arreglodireccion = array(
                     "concepto" => $valor,
-                    "field" => $key,
+                    "field" => $llave,
                     "value" => 1,
                     "id_reporte" => $idreporte
                 );
@@ -221,7 +229,7 @@ class Supervisor extends CI_Controller {
                 $valor = split(",", $value)[0];
                 $arreglodireccion = array(
                     "concepto" => $valor,
-                    "field" => $key,
+                    "field" => $llave,
                     "value" => 1,
                     "id_reporte" => $idreporte
                 );
@@ -230,7 +238,7 @@ class Supervisor extends CI_Controller {
                 $valor = split(",", $value)[0];
                 $arreglodireccion = array(
                     "concepto" => $valor,
-                    "field" => $key,
+                    "field" => $llave,
                     "value" => 1,
                     "id_reporte" => $idreporte
                 );
@@ -238,12 +246,12 @@ class Supervisor extends CI_Controller {
             }
         }
         
-    //ultimos campos para salvar...
+        //ultimos campos para salvar...
         if(isset($datos["llamadaemer".$tipo]) && $datos["llamadaemer".$tipo] != ''){
             $valor = "Llamada de emeergencia";
             $arreglodireccion = array(
                 "concepto" => $valor,
-                "field" => "llamadaemer".$tipo,
+                "field" => "llamadaemer",
                 "value" => $datos["llamadaemer".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -253,7 +261,7 @@ class Supervisor extends CI_Controller {
             $valor = "Primeros auxilios y RCP";
             $arreglodireccion = array(
                 "concepto" => $valor,
-                "field" => "primerosaux".$tipo,
+                "field" => "primerosaux",
                 "value" => $datos["primerosaux".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -263,7 +271,7 @@ class Supervisor extends CI_Controller {
             $valor = "Rescate aereo";
             $arreglodireccion = array(
                 "concepto" => $valor,
-                "field" => "rescate".$tipo,
+                "field" => "rescate",
                 "value" => $datos["rescate".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -273,7 +281,7 @@ class Supervisor extends CI_Controller {
             $valor = "Sistema de Comunicación detalle";
             $arreglodireccion = array(
                 "concepto" => $valor,
-                "field" => "sisComtext".$tipo,
+                "field" => "sisComtext",
                 "value" => $datos["sisComtext".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -283,7 +291,7 @@ class Supervisor extends CI_Controller {
             $valor = "Otro trabajo detalle";
             $arreglod = array(
                 "concepto" => $valor,
-                "field" => "otrosDescriptext".$tipo,
+                "field" => "otrosDescriptext",
                 "value" => $datos["otrosDescriptext".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -293,7 +301,7 @@ class Supervisor extends CI_Controller {
             $valor = "Electricidad detalle";
             $arreglod = array(
                 "concepto" => $valor,
-                "field" => "electricidadfield".$tipo,
+                "field" => "electricidadfield",
                 "value" => $datos["electricidadfield".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -303,7 +311,7 @@ class Supervisor extends CI_Controller {
             $valor = "Mitigacion detalle";
             $arreglod = array(
                 "concepto" => $valor,
-                "field" => "otrosplanfield".$tipo,
+                "field" => "otrosplanfield",
                 "value" => $datos["otrosplanfield".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -312,12 +320,12 @@ class Supervisor extends CI_Controller {
             $valor = "Proteccion detalle";
             $arreglod = array(
                 "concepto" => $valor,
-                "field" => "otrosequiposfield".$tipo,
+                "field" => "otrosequiposfield",
                 "value" => $datos["otrosequiposfield".$tipo],
                 "id_reporte" => $idreporte
             );
             $salver = $this->SupModel->saveData($arreglod,"reporte_proteccion");
-        }        
+        }       
         
         echo "1";
     }
@@ -471,11 +479,19 @@ class Supervisor extends CI_Controller {
         $this->SupModel->saveReporteContacto($arreglocontacto);
         
         foreach ($datos as $key => $value) {
+            //salvamos unicamnete la llave sin mobile o desktop
+            $llave = "";
+            if(strpos($key, 'mobile') !== false){
+                $llave = substr($key,0,-6);
+            }else{
+                $llave = substr($key,0,-7);
+            }
+            
             if (strpos($value, ',direccion') !== false) {
                 $valor = split(",", $value)[0];
                 $arreglodireccion = array(
                     "concepto" => $valor,
-                    "field" => $key,
+                    "field" => $llave,
                     "value" => 1,
                     "id_reporte" => $idreporte
                 );
@@ -484,7 +500,7 @@ class Supervisor extends CI_Controller {
                 $valor = split(",", $value)[0];
                 $arreglodireccion = array(
                     "concepto" => $valor,
-                    "field" => $key,
+                    "field" => $llave,
                     "value" => 1,
                     "id_reporte" => $idreporte
                 );
@@ -493,7 +509,7 @@ class Supervisor extends CI_Controller {
                 $valor = split(",", $value)[0];
                 $arreglodireccion = array(
                     "concepto" => $valor,
-                    "field" => $key,
+                    "field" => $llave,
                     "value" => 1,
                     "id_reporte" => $idreporte
                 );
@@ -502,7 +518,7 @@ class Supervisor extends CI_Controller {
                 $valor = split(",", $value)[0];
                 $arreglodireccion = array(
                     "concepto" => $valor,
-                    "field" => $key,
+                    "field" => $llave,
                     "value" => 1,
                     "id_reporte" => $idreporte
                 );
@@ -511,7 +527,7 @@ class Supervisor extends CI_Controller {
                 $valor = split(",", $value)[0];
                 $arreglodireccion = array(
                     "concepto" => $valor,
-                    "field" => $key,
+                    "field" => $llave,
                     "value" => 1,
                     "id_reporte" => $idreporte
                 );
@@ -524,7 +540,7 @@ class Supervisor extends CI_Controller {
             $valor = "Llamada de emeergencia";
             $arreglodireccion = array(
                 "concepto" => $valor,
-                "field" => "llamadaemer".$tipo,
+                "field" => "llamadaemer",
                 "value" => $datos["llamadaemer".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -534,7 +550,7 @@ class Supervisor extends CI_Controller {
             $valor = "Primeros auxilios y RCP";
             $arreglodireccion = array(
                 "concepto" => $valor,
-                "field" => "primerosaux".$tipo,
+                "field" => "primerosaux",
                 "value" => $datos["primerosaux".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -544,7 +560,7 @@ class Supervisor extends CI_Controller {
             $valor = "Rescate aereo";
             $arreglodireccion = array(
                 "concepto" => $valor,
-                "field" => "rescate".$tipo,
+                "field" => "rescate",
                 "value" => $datos["rescate".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -554,7 +570,7 @@ class Supervisor extends CI_Controller {
             $valor = "Sistema de Comunicación detalle";
             $arreglodireccion = array(
                 "concepto" => $valor,
-                "field" => "sisComtext".$tipo,
+                "field" => "sisComtext",
                 "value" => $datos["sisComtext".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -564,7 +580,7 @@ class Supervisor extends CI_Controller {
             $valor = "Otro trabajo detalle";
             $arreglod = array(
                 "concepto" => $valor,
-                "field" => "otrosDescriptext".$tipo,
+                "field" => "otrosDescriptext",
                 "value" => $datos["otrosDescriptext".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -574,7 +590,7 @@ class Supervisor extends CI_Controller {
             $valor = "Electricidad detalle";
             $arreglod = array(
                 "concepto" => $valor,
-                "field" => "electricidadfield".$tipo,
+                "field" => "electricidadfield",
                 "value" => $datos["electricidadfield".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -584,7 +600,7 @@ class Supervisor extends CI_Controller {
             $valor = "Mitigacion detalle";
             $arreglod = array(
                 "concepto" => $valor,
-                "field" => "otrosplanfield".$tipo,
+                "field" => "otrosplanfield",
                 "value" => $datos["otrosplanfield".$tipo],
                 "id_reporte" => $idreporte
             );
@@ -593,7 +609,7 @@ class Supervisor extends CI_Controller {
             $valor = "Proteccion detalle";
             $arreglod = array(
                 "concepto" => $valor,
-                "field" => "otrosequiposfield".$tipo,
+                "field" => "otrosequiposfield",
                 "value" => $datos["otrosequiposfield".$tipo],
                 "id_reporte" => $idreporte
             );

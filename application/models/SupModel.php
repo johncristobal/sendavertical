@@ -160,7 +160,6 @@ class SupModel extends CI_Model{
         }        
         
 //***************************** hoja 2 *****************************************                
-//
         $this->load->library('Mobile_Detect');
         $detect = new Mobile_Detect();
         //reporte _ contacto
@@ -180,42 +179,28 @@ class SupModel extends CI_Model{
         $dataotros = $this->db->get();
         if($dataotros->num_rows() > 0){
             
-        if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS()) {
             //header("Location: ".$this->config->item('base_url')."/mobile"); exit;
             $fill = [
-                "aguaPotablemobile",
-                "extinguidormobile",
-                "sisCommobile",
-                "sisComtextmobile",
-                "botiquinmobile",
-                "smamobile",
-                "inspeccionmobile",
-                "emergencia1mobile",
-                "llamadaemermobile",
-                "primerosauxmobile",
-                "rescatemobile"
+                "aguaPotable",
+                "extinguidor",
+                "sisCom",
+                "sisComtext",
+                "botiquin",
+                "sma",
+                "inspeccion",
+                "emergencia1",
+                "llamadaemer",
+                "primerosaux",
+                "rescate"
             ];
-        }else{
-            $fill = [
-                "aguaPotabledesktop",
-                "extinguidordesktop",
-                "sisComdesktop",
-                "sisComtextdesktop",
-                "botiquindesktop",
-                "smadesktop",
-                "inspecciondesktop",
-                "emergencia1desktop",
-                "llamadaemerdesktop",
-                "primerosauxdesktop",
-                "rescatedesktop"
-            ];
-        }
             
             foreach ($dataotros->result() as $valueres) {
                 if(in_array($valueres->field, $fill)){
-                    $datos["reportes_direccion"][$valueres->field] = $valueres->value;
+                    $datos["reportes_direccion"][$valueres->field."mobile"] = $valueres->value;
+                    $datos["reportes_direccion"][$valueres->field."desktop"] = $valueres->value;
                 }else{
-                    $datos["reportes_direccion"][$valueres->field] = "0";
+                    $datos["reportes_direccion"][$valueres->field."mobile"] = "0";
+                    $datos["reportes_direccion"][$valueres->field."desktop"] = "0";
                 }
             }
             
@@ -228,27 +213,27 @@ class SupModel extends CI_Model{
         $this->db->where("rp.id_reporte",$id);
         $data = $this->db->get();
         if($data->num_rows() > 0){
-            if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS()) {
+            //if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS()) {
         
             $fill = [
-                "podamobile",
-                "remocionmobile",
-                "manicordajemobile",
-                "ctrlPeatonalmobile",
-                "ctrlTransitomobile",
-                "caidalibremobile",
-                "desramemobile",
-                "destoconadomobile",
-                "remocionArbmobile",
-                "astilladomobile",
-                "plagasmobile",
-                "dostrepamobile",
-                "materialCortadomobile",
-                "equipoEspmobile",
-                "otrosDescripmobile",
-                "otrosDescriptextmobile"
+                "poda",
+                "remocion",
+                "manicordaje",
+                "ctrlPeatonal",
+                "ctrlTransito",
+                "caidalibre",
+                "desrame",
+                "destoconado",
+                "remocionArb",
+                "astillado",
+                "plagas",
+                "dostrepa",
+                "materialCortado",
+                "equipoEsp",
+                "otrosDescrip",
+                "otrosDescriptext"
             ];
-            }else{
+            /*}else{
             
             $fill = [
                 "podadesktop",
@@ -268,13 +253,15 @@ class SupModel extends CI_Model{
                 "otrosDescripdesktop",
                 "otrosDescriptextdesktop"
             ];
-        }
+        }*/
             
             foreach ($data->result() as $valueres) {
                 if(in_array($valueres->field, $fill)){
-                    $datos["reportes_trabajo"][$valueres->field] = $valueres->value;
+                    $datos["reportes_trabajo"][$valueres->field."mobile"] = $valueres->value;
+                    $datos["reportes_trabajo"][$valueres->field."desktop"] = $valueres->value;
                 }else{
-                    $datos["reportes_trabajo"][$valueres->field] = "0";
+                    $datos["reportes_trabajo"][$valueres->field."mobile"] = $valueres->value;
+                    $datos["reportes_trabajo"][$valueres->field."desktop"] = "0";
                 }
             }
             //$datos["reportes_trabajo"] = $data->result();            
@@ -288,32 +275,32 @@ class SupModel extends CI_Model{
         $dataotros = $this->db->get();
         if($dataotros->num_rows() > 0){
             
-            if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS()) {
+            //if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS()) {
         
             $fill = [
-                "arbolContactomobile",
-                "dmamobile",
-                "defEstructmobile",
-                "climamobile",
-                "quimicosmobile",
-                "electricidadmobile",
-                "electricidadfieldmobile",
-                "arbolSecomobile",
-                "ramasMuertasmobile",
-                "arbolDescortezadomobile",
-                "maderaBajomobile",
-                "silvestremobile",
-                "pudricionmobile",
-                "cavidadesmobile",
-                "bardasmobile",
-                "peatonesmobile",
-                "mascotasmobile",
-                "jardineriamobile",
-                "estructurasmobile",
-                "otrosPeligrosmobile",
-                "otrospeligrosfieldmobile"                
+                "arbolContacto",
+                "dma",
+                "defEstruct",
+                "clima",
+                "quimicos",
+                "electricidad",
+                "electricidadfield",
+                "arbolSeco",
+                "ramasMuertas",
+                "arbolDescortezado",
+                "maderaBajo",
+                "silvestre",
+                "pudricion",
+                "cavidades",
+                "bardas",
+                "peatones",
+                "mascotas",
+                "jardineria",
+                "estructuras",
+                "otrosPeligros",
+                "otrospeligrosfield"                
             ];
-            }else{
+            /*}else{
             $fill = [
                 "arbolContactodesktop",
                 "dmadesktop",
@@ -337,12 +324,14 @@ class SupModel extends CI_Model{
                 "otrosPeligrosdesktop",
                 "otrospeligrosfielddesktop"                
             ];
-            }
+            }*/
             foreach ($dataotros->result() as $valueres) {
                 if(in_array($valueres->field, $fill)){
-                    $datos["reporte_peligros"][$valueres->field] = $valueres->value;
+                    $datos["reporte_peligros"][$valueres->field."mobile"] = $valueres->value;
+                    $datos["reporte_peligros"][$valueres->field."desktop"] = $valueres->value;
                 }else{
-                    $datos["reporte_peligros"][$valueres->field] = "0";
+                    $datos["reporte_peligros"][$valueres->field."mobile"] = $valueres->value;
+                    $datos["reporte_peligros"][$valueres->field."desktop"] = "0";
                 }
             }
             //$datos["reportes_peligros"] = $dataotros->result();            
@@ -355,27 +344,27 @@ class SupModel extends CI_Model{
         $this->db->where("rp.id_reporte",$id);
         $data = $this->db->get();
         if($data->num_rows() > 0){
-            if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS()) {
+            //if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS()) {
             
             $fill = [
-                "equipProtmobile",
-                "rcpmobile",
-                "supFuegomobile",
-                "juntaTrabmobile",
-                "inspArbolmobile",
-                "inspEquipomobile",
-                "inspMotosierrasmobile",
-                "equipoCordajemobile",
-                "acordonamientomobile",
-                "comunicacionmobile",
-                "supSitiomobile",
-                "caidamobile",
-                "prevClimamobile",
-                "dañoExismobile",
-                "otrosPlanmobile",
-                "otrosplanfieldmobile"
+                "equipProt",
+                "rcp",
+                "supFuego",
+                "juntaTrab",
+                "inspArbol",
+                "inspEquipo",
+                "inspMotosierras",
+                "equipoCordaje",
+                "acordonamiento",
+                "comunicacion",
+                "supSitio",
+                "caida",
+                "prevClima",
+                "dañoExis",
+                "otrosPlan",
+                "otrosplanfield"
             ];
-            }else{
+            /*}else{
             $fill = [
                 "equipProtdesktop",
                 "rcpdesktop",
@@ -394,12 +383,14 @@ class SupModel extends CI_Model{
                 "otrosPlandesktop",
                 "otrosplanfielddesktop"
             ];
-            }
+            }*/
             foreach ($data->result() as $valueres) {
                 if(in_array($valueres->field, $fill)){
-                    $datos["reporte_mitigacion"][$valueres->field] = $valueres->value;
+                    $datos["reporte_mitigacion"][$valueres->field."mobile"] = $valueres->value;
+                    $datos["reporte_mitigacion"][$valueres->field."desktop"] = $valueres->value;
                 }else{
-                    $datos["reporte_mitigacion"][$valueres->field] = "0";
+                    $datos["reporte_mitigacion"][$valueres->field."mobile"] = "0";
+                    $datos["reporte_mitigacion"][$valueres->field."desktop"] = "0";
                 }
             }
             //$datos["reporte_mitigacion"] = $data->result();            
@@ -412,21 +403,21 @@ class SupModel extends CI_Model{
         $this->db->where("ro.id_reporte",$id);
         $dataotros = $this->db->get();
         if($dataotros->num_rows() > 0){
-            if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS()) {
+            //if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS()) {
 
             $fill = [
-                "cascomobile",
-                "gafasmobile",
-                "chalecomobile",
-                "auditivamobile",
-                "mascaramobile",
-                "botasmobile",
-                "chaparrerasmobile",
-                "guantesmobile",
-                "otrosEquiposmobile",
-                "otrosequiposfieldmobile"
+                "casco",
+                "gafas",
+                "chaleco",
+                "auditiva",
+                "mascara",
+                "botas",
+                "chaparreras",
+                "guantes",
+                "otrosEquipos",
+                "otrosequiposfield"
             ];
-            }else{
+            /*}else{
             $fill = [
                 "cascodesktop",
                 "gafasdesktop",
@@ -439,12 +430,14 @@ class SupModel extends CI_Model{
                 "otrosEquiposdesktop",
                 "otrosequiposfielddesktop"
             ];
-            }
+            }*/
             foreach ($dataotros->result() as $valueres) {
                 if(in_array($valueres->field, $fill)){
-                    $datos["reporte_proteccion"][$valueres->field] = $valueres->value;
+                    $datos["reporte_proteccion"][$valueres->field."mobile"] = $valueres->value;
+                    $datos["reporte_proteccion"][$valueres->field."desktop"] = $valueres->value;
                 }else{
-                    $datos["reporte_proteccion"][$valueres->field] = "0";
+                    $datos["reporte_proteccion"][$valueres->field."mobile"] = "0";
+                    $datos["reporte_proteccion"][$valueres->field."desktop"] = $valueres->value;
                 }
             }
             //$datos["reporte_proteccion"] = $dataotros->result();            
