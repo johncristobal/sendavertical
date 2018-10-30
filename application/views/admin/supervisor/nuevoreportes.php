@@ -102,6 +102,10 @@
 			.cmsms_icon_list_items.cmsms_color_type_icon #cmsms_icon_list_item_553e49e81f7b9:hover .cmsms_icon_list_icon:before { 
 				color:inherit; 
 			} 
+                        #cmsms_tabs_list_item_555469b2e631b a:hover,#cmsms_tabs_list_item_555469b2e631b.current_tab a { 
+                            background-color:#7fe092; 
+                            border-color:#7fe092; 
+			} 
                         
                         .cmsms_heading{
                             margin-left: 5px !important;
@@ -193,7 +197,10 @@
                                             </li>
                                             <li id="cmsms_tabs_list_item_555469b2e612c" class="cmsms_tabs_list_item">
                                                 <a href="#"><span>Información de contacto</span></a>
-                                            </li>                                                
+                                            </li> 
+                                            <li id="cmsms_tabs_list_item_555469b2e631b" class="cmsms_tabs_list_item">
+                                                <a href="#"><span>Firmas</span></a>
+                                            </li>
                                         </ul>
                                         <div class="cmsms_tabs_wrap">    
                                             <!--Inicia hoja uno-->
@@ -446,10 +453,9 @@
                                                                                                     </div>
                                                                                     </div>
                                                     </div>
-
                                                     <!--fin uno data-->
-                                                    </div>
                                                 </div>
+                                            </div>
                                             <!--****************************fin hoja uno****************************-->
                                             
                                             <!--****************************Inicia hoja dos****************************-->
@@ -907,23 +913,94 @@
                                                             <input type="text" name="otrosequiposfieldmobile" id="otrosequiposfieldmobile" value="" size="35" placeholder="especificar"  />
                                                         </div>																		
                                                     </div>
+                                                    </div>                                                    
+                                                </div>
+                                            </div>                                                
+                                            <!--fin hoja dos-->
+                                            
+                                            <!--===================FRIMAS==================-->
+                                            <div id="cmsms_tab_555469b2e631b" class="cmsms_tab">
+						<div class="cmsms_tab_inner">
+                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre1mobile" id="nombre1mobile" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma1mobile" id="firma1mobile" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
                                                     </div>
+                                                        <br>
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre2mobile" id="nombre2mobile" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma2mobile" id="firma2mobile" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                        <br>
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre3mobile" id="nombre3mobile" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma3mobile" id="firma3mobile" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                        <br>
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre4mobile" id="nombre4mobile" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma4mobile" id="firma4mobile" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre5mobile" id="nombre5mobile" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma5mobile" id="firma5mobile" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                        <br>
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre6mobile" id="nombre6mobile" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma6mobile" id="firma6mobile" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                        <br>
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre7mobile" id="nombre7mobile" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma7mobile" id="firma7mobile" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                        <br>
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre8mobile" id="nombre8mobile" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma8mobile" id="firma8mobile" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                </div>
                                                     <div class="cl"></div>
                                                     <div class="loading"></div>
 
                                                     <!-- Here you need to set the path to the sendmail file -->
-                                                    <div class="form_info submit_wrap">
+                                                    <div class="form_info submit_wrap" style="text-align: center;">
                                                         <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn"/>
                                                     </div>
                                                     <div class="cl"></div>
                                                 </div>
-                                            </div>                                                
-                                            <!--fin hoja dos-->
-                                        </div>
-                                        </div>
-                                                    
-
                                             </div>
+                                            <!--===================fin FRIMAS==================-->
+                                        </div>
+                                        </div>                                                   
+                                        </div>
                                         </div>
                                         </form>
 
@@ -939,7 +1016,10 @@
                                             </li>
                                             <li id="cmsms_tabs_list_item_555469b2e612c" class="cmsms_tabs_list_item">
                                                 <a href="#"><span>Información de contacto</span></a>
-                                            </li>                                                
+                                            </li>                
+                                            <li id="cmsms_tabs_list_item_555469b2e631b" class="cmsms_tabs_list_item">
+                                                    <a href="#"><span>Firmas</span></a>
+                                            </li>
                                         </ul>
                                         <div class="cmsms_tabs_wrap">
                                             <!--Inicia hoja uno-->
@@ -1573,18 +1653,94 @@
                                                 </div>
                                                 <div class="form_info cmsms_input one_third"></div>
                                                 <div class="form_info cmsms_input one_third"></div>
-                                                <div class="form_info cmsms_input one_third">  
-                                                <div id="cmsms_button_555444cd12761" class="button_wrap">
-                                                    <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn"/>
-                                                    <!--a href="#" class="cmsms_button">Click Me</a-->
-                                                </div>
-                                                </div>
+                                                
                                                 <!--    <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn"/>
                                                 </div-->
                                                 <!--fin hoja dos-->
                                                 </div>
                                             </div>                                                
                                             <!--fin hoja dos-->
+                                            <!--===================FRIMAS==================-->
+                                            <div id="cmsms_tab_555469b2e631b" class="cmsms_tab">
+						<div class="cmsms_tab_inner">
+                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre1desktop" id="nombre1desktop" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma1desktop" id="firma1desktop" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                        <br>
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre2desktop" id="nombre2desktop" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma2desktop" id="firma2desktop" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                        <br>
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre3desktop" id="nombre3desktop" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma3desktop" id="firma3desktop" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                        <br>
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre4desktop" id="nombre4desktop" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma4desktop" id="firma4desktop" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre5desktop" id="nombre5desktop" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma5desktop" id="firma5desktop" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                        <br>
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre6desktop" id="nombre6desktop" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma6desktop" id="firma6desktop" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                        <br>
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre7desktop" id="nombre7desktop" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma7desktop" id="firma7desktop" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                        <br>
+                                                    <div class="form_field_wrap">
+                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                        <input type="text" name="nombre8desktop" id="nombre8desktop" value="" size="35" placeholder="Nombre">
+                                                        <div class="form_field_wrap">
+                                                            <input type="text" name="firma8desktop" id="firma8desktop" value="" size="35" placeholder="Firma electrónica">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                    <br>
+                                                    <div class="form_info cmsms_input one_third">  </div>
+                                                    <div class="form_info cmsms_input one_third">  </div>
+                                                <div class="form_info cmsms_input one_third">  
+                                                <div id="cmsms_button_555444cd12761" class="button_wrap">
+                                                    <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn"/>
+                                                    <!--a href="#" class="cmsms_button">Click Me</a-->
+                                                </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <!--===================fin FRIMAS==================-->
                                         </div>
                                         </div>
                                         </div>
