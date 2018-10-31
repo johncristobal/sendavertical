@@ -490,7 +490,8 @@ class Supervisor extends CI_Controller {
         $this->SupModel->borrarTablaConId("reporte_peligros",$idreporte);
         $this->SupModel->borrarTablaConId("reporte_mitigacion",$idreporte);
         $this->SupModel->borrarTablaConId("reporte_proteccion",$idreporte);
-
+        $this->SupModel->borrarTablaConId("reporte_firmas",$idreporte);
+        
         foreach ($datos as $key => $value) {
             //salvamos unicamnete la llave sin mobile o desktop
             $llave = "";
@@ -629,6 +630,18 @@ class Supervisor extends CI_Controller {
             $salver = $this->SupModel->saveData($arreglod,"reporte_proteccion");
         }       
         
+        //=========== firmas ========================
+        for($i=1;$i<=8;$i++){
+            //save gasto nomina
+            if(isset($datos["nombre".$i.$tipo]) && $datos["nombre".$i.$tipo] != ''){
+                $savedatos = array(
+                    "nombre" => $datos["nombre".$i.$tipo],
+                    "firma" => $datos["firma".$i.$tipo],
+                    "id_reporte" => $idreporte
+                );
+                $idtemp = $this->SupModel->saveData($savedatos,"reporte_firmas");
+            }
+        }
         echo "1";
     }    
 }
