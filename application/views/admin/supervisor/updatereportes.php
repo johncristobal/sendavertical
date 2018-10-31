@@ -195,7 +195,10 @@
                                                                                                     </li>
                                                                                                     <li id="cmsms_tabs_list_item_555469b2e612c" class="cmsms_tabs_list_item">
                                                                                                         <a href="#"><span>Información de contacto</span></a>
-                                                                                                    </li>                                                
+                                                                                                    </li>
+                                                                                                    <li id="cmsms_tabs_list_item_555469b2e631b" class="cmsms_tabs_list_item">
+                                                                                                        <a href="#"><span>Firmas</span></a>
+                                                                                                    </li>
                                                                                                 </ul>
                                                                                                 <div class="cmsms_tabs_wrap">
                                                                                                 <!--Inicia hoja uno-->
@@ -939,14 +942,90 @@
                                                                                                     <div class="cl"></div>
                                                                                                     <div class="loading"></div>
 
+                                                                                                    
+                                                                                                </div>
+                                                                                            </div>                                                
+                                                                                            <!--fin hoja dos-->
+                                                                                            <!--===================FRIMAS==================-->
+                                                                                            <div id="cmsms_tab_555469b2e631b" class="cmsms_tab">
+                                                                                                <div class="cmsms_tab_inner">
+                                                                                                <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                        <input type="text" name="nombre1mobile" id="nombre1mobile" size="35" placeholder="Nombre" <?php if(isset($firmas[0]->nombre) && $firmas[0]->nombre != ""){echo "value='".$firmas[0]->nombre."'";}?>>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <input type="text" name="firma1mobile" id="firma1mobile" <?php if(isset($firmas[0]->firma) && $firmas[0]->firma != ""){echo "value='".$firmas[0]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                        <br>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                        <input type="text" name="nombre2mobile" id="nombre2mobile" <?php if(isset($firmas[1]->nombre) && $firmas[1]->nombre != ""){echo "value='".$firmas[1]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <input type="text" name="firma2mobile" id="firma2mobile" <?php if(isset($firmas[1]->firma) && $firmas[1]->firma != ""){echo "value='".$firmas[1]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                        <br>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                        <input type="text" name="nombre3mobile" id="nombre3mobile" <?php if(isset($firmas[2]->nombre) && $firmas[2]->nombre != ""){echo "value='".$firmas[2]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <input type="text" name="firma3mobile" id="firma3mobile" <?php if(isset($firmas[2]->firma) && $firmas[2]->firma != ""){echo "value='".$firmas[2]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                        <br>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                        <input type="text" name="nombre4mobile" id="nombre4mobile" <?php if(isset($firmas[3]->nombre) && $firmas[3]->nombre != ""){echo "value='".$firmas[3]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <input type="text" name="firma4mobile" id="firma4mobile" <?php if(isset($firmas[3]->firma) && $firmas[3]->firma != ""){echo "value='".$firmas[3]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                        <input type="text" name="nombre5mobile" id="nombre5mobile" <?php if(isset($firmas[4]->nombre) && $firmas[4]->nombre != ""){echo "value='".$firmas[4]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <input type="text" name="firma5mobile" id="firma5mobile" <?php if(isset($firmas[4]->firma) && $firmas[4]->firma != ""){echo "value='".$firmas[4]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                        <br>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                        <input type="text" name="nombre6mobile" id="nombre6mobile" <?php if(isset($firmas[5]->nombre) && $firmas[5]->nombre != ""){echo "value='".$firmas[5]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <input type="text" name="firma6mobile" id="firma6mobile" <?php if(isset($firmas[5]->firma) && $firmas[5]->firma != ""){echo "value='".$firmas[5]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                        <br>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                        <input type="text" name="nombre7mobile" id="nombre7mobile" <?php if(isset($firmas[6]->nombre) && $firmas[6]->nombre != ""){echo "value='".$firmas[6]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <input type="text" name="firma7mobile" id="firma7mobile" <?php if(isset($firmas[6]->firma) && $firmas[6]->firma != ""){echo "value='".$firmas[6]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                        <br>
+                                                                                                    <div class="form_field_wrap">
+                                                                                                        <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                        <input type="text" name="nombre8mobile" id="nombre8mobile" <?php if(isset($firmas[7]->nombre) && $firmas[7]->nombre != ""){echo "value='".$firmas[7]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <input type="text" name="firma8mobile" id="firma8mobile" <?php if(isset($firmas[7]->firma) && $firmas[7]->firma != ""){echo "value='".$firmas[7]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                    <div class="cl"></div>
+                                                                                                    <div class="loading"></div>
+
                                                                                                     <!-- Here you need to set the path to the sendmail file -->
-                                                                                                    <div class="form_info submit_wrap">
+                                                                                                    <div class="form_info submit_wrap" style="text-align: center;">
                                                                                                         <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Actualizar informaciòn"/>
                                                                                                     </div>
                                                                                                     <div class="cl"></div>
                                                                                                 </div>
-                                                                                            </div>                                                
-                                                                                            <!--fin hoja dos-->
+                                                                                            </div>
+                                                                                            <!--===================fin FRIMAS==================-->
                                                                                         </div>
                                                                                         </div>
 
@@ -967,7 +1046,10 @@
                                                                                                     </li>
                                                                                                     <li id="cmsms_tabs_list_item_555469b2e612c" class="cmsms_tabs_list_item">
                                                                                                         <a href="#"><span>Información de contacto</span></a>
-                                                                                                    </li>                                                
+                                                                                                    </li>          
+                                                                                                    <li id="cmsms_tabs_list_item_555469b2e631b" class="cmsms_tabs_list_item">
+                                                                                                        <a href="#"><span>Firmas</span></a>
+                                                                                                    </li>
                                                                                                 </ul>
                                                                                                 <div class="cmsms_tabs_wrap">
                                                                                                 <!--Inicia hoja uno-->
@@ -1722,10 +1804,7 @@
                                                                                                     <div class="form_info cmsms_input one_third"></div>
                                                                                                     <div class="form_info cmsms_input one_third"></div>
                                                                                                     <div class="form_info cmsms_input one_third">  
-                                                                                                    <div id="cmsms_button_555444cd12761" class="button_wrap">
-                                                                                                        <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Actualizar informaciòn"/>
-                                                                                                        <!--a href="#" class="cmsms_button">Click Me</a-->
-                                                                                                    </div>
+                                                                                                    
                                                                                                     </div>
                                                                                                     <!--    <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Enviar informaciòn"/>
                                                                                                     </div-->
@@ -1733,6 +1812,86 @@
                                                                                                     </div>
                                                                                                 </div>                                                
                                                                                                 <!--fin hoja dos-->
+                                                                                                <!--===================FRIMAS==================-->
+                                                                                                <div id="cmsms_tab_555469b2e631b" class="cmsms_tab">
+                                                                                                    <div class="cmsms_tab_inner">
+                                                                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                            <input type="text" name="nombre1desktop" id="nombre1desktop" size="35" placeholder="Nombre" <?php if(isset($firmas[0]->nombre) && $firmas[0]->nombre != ""){echo "value='".$firmas[0]->nombre."'";}?>>
+                                                                                                            <div class="form_field_wrap">
+                                                                                                                <input type="text" name="firma1desktop" id="firma1desktop" <?php if(isset($firmas[0]->firma) && $firmas[0]->firma != ""){echo "value='".$firmas[0]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                            <br>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                            <input type="text" name="nombre2desktop" id="nombre2desktop" <?php if(isset($firmas[1]->nombre) && $firmas[1]->nombre != ""){echo "value='".$firmas[1]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                            <div class="form_field_wrap">
+                                                                                                                <input type="text" name="firma2desktop" id="firma2desktop" <?php if(isset($firmas[1]->firma) && $firmas[1]->firma != ""){echo "value='".$firmas[1]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                            <br>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                            <input type="text" name="nombre3desktop" id="nombre3desktop" <?php if(isset($firmas[2]->nombre) && $firmas[2]->nombre != ""){echo "value='".$firmas[2]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                            <div class="form_field_wrap">
+                                                                                                                <input type="text" name="firma3desktop" id="firma3desktop" <?php if(isset($firmas[2]->firma) && $firmas[2]->firma != ""){echo "value='".$firmas[2]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                            <br>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                            <input type="text" name="nombre4desktop" id="nombre4desktop" <?php if(isset($firmas[3]->nombre) && $firmas[3]->nombre != ""){echo "value='".$firmas[3]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                            <div class="form_field_wrap">
+                                                                                                                <input type="text" name="firma4desktop" id="firma4desktop" <?php if(isset($firmas[3]->firma) && $firmas[3]->firma != ""){echo "value='".$firmas[3]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="form_info cmsms_input one_half">                                                                                                                                   
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                            <input type="text" name="nombre5desktop" id="nombre5desktop" <?php if(isset($firmas[4]->nombre) && $firmas[4]->nombre != ""){echo "value='".$firmas[4]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                            <div class="form_field_wrap">
+                                                                                                                <input type="text" name="firma5desktop" id="firma5desktop" <?php if(isset($firmas[4]->firma) && $firmas[4]->firma != ""){echo "value='".$firmas[4]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                            <br>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                            <input type="text" name="nombre6desktop" id="nombre6desktop" <?php if(isset($firmas[5]->nombre) && $firmas[5]->nombre != ""){echo "value='".$firmas[5]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                            <div class="form_field_wrap">
+                                                                                                                <input type="text" name="firma6desktop" id="firma6desktop" <?php if(isset($firmas[5]->firma) && $firmas[5]->firma != ""){echo "value='".$firmas[5]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                            <br>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                            <input type="text" name="nombre7desktop" id="nombre7desktop" <?php if(isset($firmas[6]->nombre) && $firmas[6]->nombre != ""){echo "value='".$firmas[6]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                            <div class="form_field_wrap">
+                                                                                                                <input type="text" name="firma7desktop" id="firma7desktop" <?php if(isset($firmas[6]->firma) && $firmas[6]->firma != ""){echo "value='".$firmas[6]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                            <br>
+                                                                                                        <div class="form_field_wrap">
+                                                                                                            <!--label for="cmsms_your_phone_number_is">Otro</label-->
+                                                                                                            <input type="text" name="nombre8desktop" id="nombre8desktop" <?php if(isset($firmas[7]->nombre) && $firmas[7]->nombre != ""){echo "value='".$firmas[7]->nombre."'";}?> size="35" placeholder="Nombre">
+                                                                                                            <div class="form_field_wrap">
+                                                                                                                <input type="text" name="firma8desktop" id="firma8desktop" <?php if(isset($firmas[7]->firma) && $firmas[7]->firma != ""){echo "value='".$firmas[7]->firma."'";}?> size="35" placeholder="Firma electrónica">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                        <div class="cl"></div>
+                                                                                                        <div class="loading"></div>
+
+                                                                                                        <!-- Here you need to set the path to the sendmail file -->
+                                                                                                        <div class="form_info submit_wrap" style="text-align: center;">
+                                                                                                            <input type="submit" id="contact_form_2_formsend" class="cmsms_button" value="Actualizar informaciòn"/>
+                                                                                                        </div>
+                                                                                                        <div class="cl"></div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <!--===================fin FRIMAS==================-->
 
                                                                                                 </div>
                                                                                                 </div>

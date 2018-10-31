@@ -233,27 +233,6 @@ class SupModel extends CI_Model{
                 "otrosDescrip",
                 "otrosDescriptext"
             ];
-            /*}else{
-            
-            $fill = [
-                "podadesktop",
-                "remociondesktop",
-                "manicordajedesktop",
-                "ctrlPeatonaldesktop",
-                "ctrlTransitodesktop",
-                "caidalibredesktop",
-                "desramedesktop",
-                "destoconadodesktop",
-                "remocionArbdesktop",
-                "astilladodesktop",
-                "plagasdesktop",
-                "dostrepadesktop",
-                "materialCortadodesktop",
-                "equipoEspdesktop",
-                "otrosDescripdesktop",
-                "otrosDescriptextdesktop"
-            ];
-        }*/
             
             foreach ($data->result() as $valueres) {
                 if(in_array($valueres->field, $fill)){
@@ -300,31 +279,7 @@ class SupModel extends CI_Model{
                 "otrosPeligros",
                 "otrospeligrosfield"                
             ];
-            /*}else{
-            $fill = [
-                "arbolContactodesktop",
-                "dmadesktop",
-                "defEstructdesktop",
-                "climadesktop",
-                "quimicosdesktop",
-                "electricidaddesktop",
-                "electricidadfielddesktop",
-                "arbolSecodesktop",
-                "ramasMuertasdesktop",
-                "arbolDescortezadodesktop",
-                "maderaBajodesktop",
-                "silvestredesktop",
-                "pudriciondesktop",
-                "cavidadesdesktop",
-                "bardasdesktop",
-                "peatonesdesktop",
-                "mascotasdesktop",
-                "jardineriadesktop",
-                "estructurasdesktop",
-                "otrosPeligrosdesktop",
-                "otrospeligrosfielddesktop"                
-            ];
-            }*/
+
             foreach ($dataotros->result() as $valueres) {
                 if(in_array($valueres->field, $fill)){
                     $datos["reporte_peligros"][$valueres->field."mobile"] = $valueres->value;
@@ -364,26 +319,7 @@ class SupModel extends CI_Model{
                 "otrosPlan",
                 "otrosplanfield"
             ];
-            /*}else{
-            $fill = [
-                "equipProtdesktop",
-                "rcpdesktop",
-                "supFuegodesktop",
-                "juntaTrabdesktop",
-                "inspArboldesktop",
-                "inspEquipodesktop",
-                "inspMotosierrasdesktop",
-                "equipoCordajedesktop",
-                "acordonamientodesktop",
-                "comunicaciondesktop",
-                "supSitiodesktop",
-                "caidadesktop",
-                "prevClimadesktop",
-                "dañoExisdesktop",
-                "otrosPlandesktop",
-                "otrosplanfielddesktop"
-            ];
-            }*/
+
             foreach ($data->result() as $valueres) {
                 if(in_array($valueres->field, $fill)){
                     $datos["reporte_mitigacion"][$valueres->field."mobile"] = $valueres->value;
@@ -417,20 +353,7 @@ class SupModel extends CI_Model{
                 "otrosEquipos",
                 "otrosequiposfield"
             ];
-            /*}else{
-            $fill = [
-                "cascodesktop",
-                "gafasdesktop",
-                "chalecodesktop",
-                "auditivadesktop",
-                "mascaradesktop",
-                "botasdesktop",
-                "chaparrerasdesktop",
-                "guantesdesktop",
-                "otrosEquiposdesktop",
-                "otrosequiposfielddesktop"
-            ];
-            }*/
+
             foreach ($dataotros->result() as $valueres) {
                 if(in_array($valueres->field, $fill)){
                     $datos["reporte_proteccion"][$valueres->field."mobile"] = $valueres->value;
@@ -444,6 +367,16 @@ class SupModel extends CI_Model{
         }else{
             $datos["reporte_proteccion"] = '';  
         }  
+        
+        $this->db->select("*");
+        $this->db->from("reporte_firmas fi");
+        $this->db->where("fi.id_reporte",$id);
+        $datagastos = $this->db->get();
+        if($datagastos->num_rows() > 0){
+            $datos["firmas"] = $datagastos->result();            
+        }else{
+            $datos["firmas"] = '';     
+        }
         
         return $datos;
     }
