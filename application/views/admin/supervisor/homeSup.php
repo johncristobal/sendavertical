@@ -135,13 +135,14 @@
 													<li id="cmsms_icon_list_item_553e49e81f676" class="cmsms_icon_list_item">
 														<div class="cmsms_icon_list_item_inner">
 															<div class="cmsms_icon_list_icon_wrap">
-															<a href="<?= base_url();?>supervisor/reportes"><span class="cmsms_icon_list_icon cmsms-icon-edit-3"></span></a>
+															<!--a href="<?= base_url();?>supervisor/reportes"><span class="cmsms_icon_list_icon cmsms-icon-edit-3"></span></a-->
+															<a href="<?= base_url();?>supervisor/nuevoReporte"><span class="cmsms_icon_list_icon cmsms-icon-edit-3"></span></a>
 																
 															</div>
 															<div class="cmsms_icon_list_item_content">
 																<h2 class="cmsms_icon_list_item_title">Reportes</h2>
 																<div class="cmsms_icon_list_item_text">
-																	<p>Revisa los reportes que has llevado a cabo.</p>
+																	<p>Crea un nuevo reporte.</p>
 																</div>
 															</div>
 														</div>

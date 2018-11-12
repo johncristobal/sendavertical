@@ -1794,7 +1794,7 @@
                            type: "post",
                            success: function(res){
                                //alert(res);
-                               window.location.href = "<?= base_url() ?>supervisor/reportes"
+                               window.location.href = "<?= base_url() ?>admin"
                                return false;
                            }
                        });
@@ -1810,7 +1810,7 @@
                            type: "post",
                            success: function(res){
                                //alert(res);
-                                window.location.href = "<?= base_url() ?>supervisor/reportes"
+                                window.location.href = "<?= base_url() ?>admin"
                                return false;
                            }
                        });
