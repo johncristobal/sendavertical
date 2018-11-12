@@ -46,7 +46,8 @@ class Supervisor extends CI_Controller {
     }
     
     public function nuevoReporte(){
-        $this->load->view('admin/supervisor/nuevoreportes');  
+        $datos["users"] = $this->SupModel->getUsuariosCombo();
+        $this->load->view('admin/supervisor/nuevoreportes',$datos);  
     }
     
     public function saveReporte(){
@@ -328,7 +329,7 @@ class Supervisor extends CI_Controller {
 //=========== firmas ========================
         for($i=1;$i<=8;$i++){
             //save gasto nomina
-            if(isset($datos["nombre".$i.$tipo]) && $datos["nombre".$i.$tipo] != ''){
+            if(isset($datos["firma".$i.$tipo]) && $datos["firma".$i.$tipo] != ''){
                 $savedatos = array(
                     "nombre" => $datos["nombre".$i.$tipo],
                     "firma" => $datos["firma".$i.$tipo],
@@ -633,7 +634,7 @@ class Supervisor extends CI_Controller {
         //=========== firmas ========================
         for($i=1;$i<=8;$i++){
             //save gasto nomina
-            if(isset($datos["nombre".$i.$tipo]) && $datos["nombre".$i.$tipo] != ''){
+            if(isset($datos["firma".$i.$tipo]) && $datos["firma".$i.$tipo] != ''){
                 $savedatos = array(
                     "nombre" => $datos["nombre".$i.$tipo],
                     "firma" => $datos["firma".$i.$tipo],

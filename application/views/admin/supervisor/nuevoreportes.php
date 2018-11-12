@@ -924,66 +924,66 @@
                                                     <div class="form_info cmsms_input one_half">                                                                                                                                   
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre1mobile" id="nombre1mobile" value="" size="35" placeholder="Nombre">
+                                                        <?php echo form_dropdown('nombre1mobile',$users) ?> 
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma1mobile" id="firma1mobile" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma1mobile" id="firma1mobile" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                         <br>
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre2mobile" id="nombre2mobile" value="" size="35" placeholder="Nombre">
+                                                        <?php echo form_dropdown('nombre2mobile',$users) ?>
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma2mobile" id="firma2mobile" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma2mobile" id="firma2mobile" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                         <br>
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre3mobile" id="nombre3mobile" value="" size="35" placeholder="Nombre">
+                                                        <?php echo form_dropdown('nombre3mobile',$users) ?>
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma3mobile" id="firma3mobile" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma3mobile" id="firma3mobile" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                         <br>
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre4mobile" id="nombre4mobile" value="" size="35" placeholder="Nombre">
+                                                        <?php echo form_dropdown('nombre4mobile',$users) ?>
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma4mobile" id="firma4mobile" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma4mobile" id="firma4mobile" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="form_info cmsms_input one_half">                                                                                                                                   
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre5mobile" id="nombre5mobile" value="" size="35" placeholder="Nombre">
+                                                        <?php echo form_dropdown('nombre5mobile',$users) ?>
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma5mobile" id="firma5mobile" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma5mobile" id="firma5mobile" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                         <br>
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre6mobile" id="nombre6mobile" value="" size="35" placeholder="Nombre">
+                                                        <?php echo form_dropdown('nombre6mobile',$users) ?>
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma6mobile" id="firma6mobile" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma6mobile" id="firma6mobile" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                         <br>
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre7mobile" id="nombre7mobile" value="" size="35" placeholder="Nombre">
+                                                        <?php echo form_dropdown('nombre7mobile',$users) ?>
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma7mobile" id="firma7mobile" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma7mobile" id="firma7mobile" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                         <br>
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre8mobile" id="nombre8mobile" value="" size="35" placeholder="Nombre">
+                                                        <?php echo form_dropdown('nombre8mobile',$users) ?>
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma8mobile" id="firma8mobile" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma8mobile" id="firma8mobile" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1666,66 +1666,74 @@
                                                     <div class="form_info cmsms_input one_half">                                                                                                                                   
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre1desktop" id="nombre1desktop" value="" size="35" placeholder="Nombre">
+                                                        <!--input type="text" name="nombre1desktop" id="nombre1desktop" value="" size="35" placeholder="Nombre"-->
+                                                        <?php echo form_dropdown('nombre1desktop',$users) ?>              
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma1desktop" id="firma1desktop" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma1desktop" id="firma1desktop" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                         <br>
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre2desktop" id="nombre2desktop" value="" size="35" placeholder="Nombre">
+                                                        <!--input type="text" name="nombre2desktop" id="nombre2desktop" value="" size="35" placeholder="Nombre"-->
+                                                        <?php echo form_dropdown('nombre2desktop',$users) ?> 
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma2desktop" id="firma2desktop" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma2desktop" id="firma2desktop" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                         <br>
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre3desktop" id="nombre3desktop" value="" size="35" placeholder="Nombre">
+                                                        <!--input type="text" name="nombre3desktop" id="nombre3desktop" value="" size="35" placeholder="Nombre"-->
+                                                        <?php echo form_dropdown('nombre3desktop',$users) ?> 
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma3desktop" id="firma3desktop" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma3desktop" id="firma3desktop" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                         <br>
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre4desktop" id="nombre4desktop" value="" size="35" placeholder="Nombre">
+                                                        <!--input type="text" name="nombre4desktop" id="nombre4desktop" value="" size="35" placeholder="Nombre"-->
+                                                        <?php echo form_dropdown('nombre4desktop',$users) ?> 
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma4desktop" id="firma4desktop" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma4desktop" id="firma4desktop" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="form_info cmsms_input one_half">                                                                                                                                   
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre5desktop" id="nombre5desktop" value="" size="35" placeholder="Nombre">
+                                                        <!--input type="text" name="nombre5desktop" id="nombre5desktop" value="" size="35" placeholder="Nombre"-->
+                                                        <?php echo form_dropdown('nombre5desktop',$users) ?> 
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma5desktop" id="firma5desktop" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma5desktop" id="firma5desktop" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                         <br>
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre6desktop" id="nombre6desktop" value="" size="35" placeholder="Nombre">
+                                                        <!--input type="text" name="nombre6desktop" id="nombre6desktop" value="" size="35" placeholder="Nombre"-->
+                                                        <?php echo form_dropdown('nombre6desktop',$users) ?> 
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma6desktop" id="firma6desktop" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma6desktop" id="firma6desktop" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                         <br>
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre7desktop" id="nombre7desktop" value="" size="35" placeholder="Nombre">
+                                                        <!--input type="text" name="nombre7desktop" id="nombre7desktop" value="" size="35" placeholder="Nombre"-->
+                                                        <?php echo form_dropdown('nombre7desktop',$users) ?> 
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma7desktop" id="firma7desktop" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma7desktop" id="firma7desktop" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                         <br>
                                                     <div class="form_field_wrap">
                                                         <!--label for="cmsms_your_phone_number_is">Otro</label-->
-                                                        <input type="text" name="nombre8desktop" id="nombre8desktop" value="" size="35" placeholder="Nombre">
+                                                        <!--input type="text" name="nombre8desktop" id="nombre8desktop" value="" size="35" placeholder="Nombre"-->
+                                                        <?php echo form_dropdown('nombre8desktop',$users) ?> 
                                                         <div class="form_field_wrap">
-                                                            <input type="text" name="firma8desktop" id="firma8desktop" value="" size="35" placeholder="Firma electrónica">
+                                                            <input type="password" name="firma8desktop" id="firma8desktop" value="" size="35" placeholder="Firma electrónica">
                                                         </div>
                                                     </div>
                                                 </div>

@@ -368,17 +368,40 @@ class SupModel extends CI_Model{
             $datos["reporte_proteccion"] = '';  
         }  
         
+        //get data from user to fill combos firmas
+        $this->db->select("*");
+        $this->db->from("usuarios us");
+        $datausers = $this->db->get();
+        $usuarios = array();
+        foreach ($datausers->result() as $value) {
+            $usuarios[$value->id] = $value->Nombre;
+        }
+        
+        $datos["users"] = $usuarios;
+        
         $this->db->select("*");
         $this->db->from("reporte_firmas fi");
         $this->db->where("fi.id_reporte",$id);
         $datagastos = $this->db->get();
         if($datagastos->num_rows() > 0){
-            $datos["firmas"] = $datagastos->result();            
+            $datos["firmas"] = $datagastos->result();
         }else{
             $datos["firmas"] = '';     
+        }                
+        return $datos;
+    }
+    
+    function getUsuariosCombo(){
+        //get data from user to fill combos firmas
+        $this->db->select("*");
+        $this->db->from("usuarios us");
+        $datausers = $this->db->get();
+        $usuarios = array();
+        foreach ($datausers->result() as $value) {
+            $usuarios[$value->id] = $value->Nombre;
         }
         
-        return $datos;
+        return $usuarios;
     }
 }
 

@@ -37,7 +37,7 @@ class Admin extends CI_Controller {
         if ($this->form_validation->run() == FALSE)
         {
             $this->load->view('admin/login');
-        }else{									
+        }else{
             $back = $this->AdminModel->login($correo,$pass);
             if($back== "0"){
                 $datao["error"] = "Datos incorrectos, favor de verificar";
@@ -54,6 +54,7 @@ class Admin extends CI_Controller {
                         echo "error fatal";
                     }
                 }
+                
                 $sessionData=array('login'=>true,
                     'idUser'=>$tipoUser->id_key,
                     'tipoUsuario'=>$user,
@@ -470,8 +471,7 @@ class Admin extends CI_Controller {
         $datos["reportes"] = $this->AdminModel->getReportes();
         $this->load->view('admin/reportes/listareportes',$datos);
     }
-    
-    
+        
     public function update($id){
         $datos = $this->SupModel->getDataReporte($id);
         $this->load->view('admin/reportes/updatereportes',$datos);  
