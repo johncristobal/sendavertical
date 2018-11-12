@@ -371,6 +371,7 @@ class SupModel extends CI_Model{
         //get data from user to fill combos firmas
         $this->db->select("*");
         $this->db->from("usuarios us");
+        $this->db->where("us.estatus",1);
         $datausers = $this->db->get();
         $usuarios = array();
         foreach ($datausers->result() as $value) {
@@ -395,6 +396,7 @@ class SupModel extends CI_Model{
         //get data from user to fill combos firmas
         $this->db->select("*");
         $this->db->from("usuarios us");
+        $this->db->where("us.estatus",1);
         $datausers = $this->db->get();
         $usuarios = array();
         foreach ($datausers->result() as $value) {

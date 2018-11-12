@@ -478,7 +478,8 @@ class Admin extends CI_Controller {
     }
             
     public function nuevoReporte(){
-        $this->load->view('admin/reportes/nuevoreportes');  
+        $datos["users"] = $this->SupModel->getUsuariosCombo();
+        $this->load->view('admin/reportes/nuevoreportes',$datos);  
     }
     
     /*public function verreporte($id){
